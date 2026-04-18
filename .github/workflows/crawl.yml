@@ -1,5 +1,6 @@
 name: 灵感大王-抖音热点抓取
-
+permissions:
+  contents: write
 on:
   schedule:
     # 每20分钟执行一次（UTC时间）
