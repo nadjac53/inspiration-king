@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html class="light" lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>我的灵感库</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-tint": "#8f4d24",
+                        "on-primary-container": "#fffbff",
+                        "secondary-fixed-dim": "#ecbda5",
+                        "primary-fixed": "#ffdbca",
+                        "on-surface-variant": "#53433b",
+                        "outline": "#86736a",
+                        "inverse-surface": "#372f2b",
+                        "on-error-container": "#93000a",
+                        "primary-container": "#aa6238",
+                        "outline-variant": "#d9c2b7",
+                        "on-background": "#211a17",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-container": "#fecdb5",
+                        "secondary-fixed": "#ffdbca",
+                        "surface": "#fff8f6",
+                        "on-secondary-fixed": "#2e1507",
+                        "on-secondary-container": "#795542",
+                        "tertiary-fixed-dim": "#76d5d8",
+                        "on-surface": "#211a17",
+                        "surface-bright": "#fff8f6",
+                        "on-primary-fixed": "#331200",
+                        "on-tertiary-fixed-variant": "#004f51",
+                        "surface-container-highest": "#eee0d9",
+                        "tertiary-container": "#0d8487",
+                        "secondary": "#7a5643",
+                        "surface-container-low": "#fff1eb",
+                        "inverse-on-surface": "#fdeee7",
+                        "on-tertiary-fixed": "#002021",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "primary": "#8c4b22",
+                        "background": "#fff8f6",
+                        "error": "#ba1a1a",
+                        "primary-fixed-dim": "#ffb68e",
+                        "on-tertiary-container": "#000607",
+                        "surface-container-high": "#f4e5df",
+                        "on-secondary-fixed-variant": "#603f2e",
+                        "on-secondary": "#ffffff",
+                        "tertiary": "#00696c",
+                        "tertiary-fixed": "#93f2f5",
+                        "surface-variant": "#eee0d9",
+                        "surface-container": "#faebe5",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#ffb68e",
+                        "surface-dim": "#e5d7d1",
+                        "on-primary-fixed-variant": "#72360e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background: linear-gradient(to bottom, #fff1eb, #ffffff);
+            min-height: 100vh;
+        }
+        .glass-card {
+            background-color: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(217, 194, 183, 0.15); /* outline-variant at 15% */
+            box-shadow: 0 6px 15px rgba(33, 26, 23, 0.08); /* on-surface at 8% */
+        }
+        .floating-icon {
+            opacity: 0.06;
+            position: absolute;
+            z-index: 0;
+            pointer-events: none;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-body text-on-surface antialiased overflow-x-hidden pb-24">
+<!-- Atmospheric Icons -->
+<span class="material-symbols-outlined floating-icon text-[120px] top-20 -left-10 text-primary transform rotate-12">auto_awesome</span>
+<span class="material-symbols-outlined floating-icon text-[80px] top-1/3 -right-5 text-tertiary">lightbulb</span>
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full flex justify-between items-center px-6 h-16 bg-white/70 dark:bg-stone-900/70 backdrop-blur-md text-orange-800 dark:text-orange-200 font-['Plus_Jakarta_Sans'] font-bold text-2xl tracking-tight docked full-width top-0 z-50 tonal-shift bg-stone-100/50 shadow-[0_6px_15px_rgba(140,75,34,0.08)]">
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high transition-colors text-primary scale-95 active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<h1 class="text-primary font-headline text-2xl tracking-tight">灵感大王</h1>
+<button class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high transition-colors text-primary scale-95 active:scale-90 transition-transform duration-200">
+<span class="material-symbols-outlined">history</span>
+</button>
+</header>
+<!-- Main Content -->
+<main class="pt-24 px-6 relative z-10 max-w-2xl mx-auto">
+<h2 class="font-headline text-4xl font-bold text-on-surface mb-8">我的灵感库</h2>
+<!-- Timeline List -->
+<div class="relative">
+<!-- Continuous Timeline Line (Background) -->
+<div class="absolute left-[11px] top-4 bottom-8 w-0.5 bg-outline-variant/30 z-0"></div>
+<!-- Group: Today -->
+<div class="mb-10 relative z-10">
+<div class="flex items-center mb-4">
+<div class="w-6 h-6 rounded-full bg-primary flex items-center justify-center border-4 border-surface shadow-sm z-10 shrink-0">
+<div class="w-2 h-2 rounded-full bg-on-primary"></div>
+</div>
+<h3 class="font-headline text-lg font-bold text-primary ml-3">今天</h3>
+</div>
+<div class="pl-10 space-y-5">
+<!-- Item 1 -->
+<div class="glass-card rounded-lg p-5 flex justify-between items-start group hover:-translate-y-1 transition-transform duration-300">
+<div class="flex-1 pr-4">
+<p class="text-on-surface text-base font-medium leading-relaxed">
+                                拍一只猫从窗台跳下去的瞬间，用逆光剪影的形式，背景是城市落日余晖。
+                            </p>
+<div class="mt-3 flex items-center gap-2">
+<span class="px-2 py-1 bg-surface-container-high text-on-surface-variant text-xs rounded-md font-label">摄影</span>
+<span class="px-2 py-1 bg-surface-container-high text-on-surface-variant text-xs rounded-md font-label">剪影</span>
+</div>
+</div>
+<button class="text-outline hover:text-error transition-colors p-2 rounded-full hover:bg-error-container shrink-0">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+<!-- Item 2 -->
+<div class="glass-card rounded-lg p-5 flex justify-between items-start group hover:-translate-y-1 transition-transform duration-300">
+<div class="flex-1 pr-4">
+<p class="text-on-surface text-base font-medium leading-relaxed">
+                                设计一个咖啡杯，杯身带有温度感应变色涂层，倒入热咖啡时显现出隐藏的插画。
+                            </p>
+<div class="mt-3 flex items-center gap-2">
+<span class="px-2 py-1 bg-surface-container-high text-on-surface-variant text-xs rounded-md font-label">产品设计</span>
+</div>
+</div>
+<button class="text-outline hover:text-error transition-colors p-2 rounded-full hover:bg-error-container shrink-0">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Group: Yesterday -->
+<div class="mb-10 relative z-10">
+<div class="flex items-center mb-4">
+<div class="w-6 h-6 rounded-full bg-outline-variant flex items-center justify-center border-4 border-surface shadow-sm z-10 shrink-0">
+<div class="w-2 h-2 rounded-full bg-on-surface-variant"></div>
+</div>
+<h3 class="font-headline text-lg font-bold text-on-surface-variant ml-3">昨天</h3>
+</div>
+<div class="pl-10 space-y-5">
+<!-- Item 3 -->
+<div class="glass-card rounded-lg p-5 flex justify-between items-start group hover:-translate-y-1 transition-transform duration-300">
+<div class="flex-1 pr-4">
+<p class="text-on-surface-variant text-base leading-relaxed">
+                                写一首关于午夜便利店的诗，强调霓虹灯的冷色调与收银员的疲惫感形成对比。
+                            </p>
+</div>
+<button class="text-outline hover:text-error transition-colors p-2 rounded-full hover:bg-error-container shrink-0">
+<span class="material-symbols-outlined">delete</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pt-3 pb-safe-offset-2 bg-white/70 dark:bg-stone-900/70 backdrop-blur-xl docked full-width bottom-0 rounded-t-[32px] no-border shadow-[0_-8px_20px_rgba(0,0,0,0.05)] md:hidden">
+<!-- Inactive Tab 1 -->
+<a class="flex flex-col items-center text-stone-400 dark:text-stone-500 hover:text-teal-600 transition-colors tap-highlight-none transition-all duration-300 ease-out w-20" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1">local_fire_department</span>
+<span class="font-['Plus_Jakarta_Sans'] font-semibold text-[10px]">灵感热浪</span>
+</a>
+<!-- Inactive Tab 2 -->
+<a class="flex flex-col items-center text-stone-400 dark:text-stone-500 hover:text-teal-600 transition-colors tap-highlight-none transition-all duration-300 ease-out w-20" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1">auto_awesome</span>
+<span class="font-['Plus_Jakarta_Sans'] font-semibold text-[10px]">灵机一动</span>
+</a>
+<!-- Active Tab 3 -->
+<a class="flex flex-col items-center text-orange-800 dark:text-orange-200 after:content-[''] after:w-6 after:h-1 after:bg-orange-800 after:rounded-full after:mt-1 hover:text-teal-600 transition-colors tap-highlight-none transition-all duration-300 ease-out w-20" href="#">
+<span class="material-symbols-outlined text-[24px] mb-1" style="font-variation-settings: 'FILL' 1;">auto_stories</span>
+<span class="font-['Plus_Jakarta_Sans'] font-semibold text-[10px]">我的库</span>
+</a>
+</nav>
+<!-- Web Navigation (Hidden on Mobile) -->
+<div class="hidden md:flex fixed top-0 right-6 h-16 items-center gap-6 z-50">
+<a class="text-stone-500 hover:text-teal-600 transition-colors font-headline font-semibold text-sm" href="#">灵感热浪</a>
+<a class="text-stone-500 hover:text-teal-600 transition-colors font-headline font-semibold text-sm" href="#">灵机一动</a>
+<a class="text-teal-600 font-headline font-bold text-sm relative after:content-[''] after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:w-4 after:h-1 after:bg-teal-600 after:rounded-full" href="#">我的库</a>
+</div>
+</body></html>

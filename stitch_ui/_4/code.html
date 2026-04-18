@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html class="light" lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>灵感热浪</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-tint": "#8f4d24",
+                        "on-primary-container": "#fffbff",
+                        "secondary-fixed-dim": "#ecbda5",
+                        "primary-fixed": "#ffdbca",
+                        "on-surface-variant": "#53433b",
+                        "outline": "#86736a",
+                        "inverse-surface": "#372f2b",
+                        "on-error-container": "#93000a",
+                        "primary-container": "#aa6238",
+                        "outline-variant": "#d9c2b7",
+                        "on-background": "#211a17",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-container": "#fecdb5",
+                        "secondary-fixed": "#ffdbca",
+                        "surface": "#fff8f6",
+                        "on-secondary-fixed": "#2e1507",
+                        "on-secondary-container": "#795542",
+                        "tertiary-fixed-dim": "#76d5d8",
+                        "on-surface": "#211a17",
+                        "surface-bright": "#fff8f6",
+                        "on-primary-fixed": "#331200",
+                        "on-tertiary-fixed-variant": "#004f51",
+                        "surface-container-highest": "#eee0d9",
+                        "tertiary-container": "#0d8487",
+                        "secondary": "#7a5643",
+                        "surface-container-low": "#fff1eb",
+                        "inverse-on-surface": "#fdeee7",
+                        "on-tertiary-fixed": "#002021",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "primary": "#8c4b22",
+                        "background": "#fff8f6",
+                        "error": "#ba1a1a",
+                        "primary-fixed-dim": "#ffb68e",
+                        "on-tertiary-container": "#000607",
+                        "surface-container-high": "#f4e5df",
+                        "on-secondary-fixed-variant": "#603f2e",
+                        "on-secondary": "#ffffff",
+                        "tertiary": "#00696c",
+                        "tertiary-fixed": "#93f2f5",
+                        "surface-variant": "#eee0d9",
+                        "surface-container": "#faebe5",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#ffb68e",
+                        "surface-dim": "#e5d7d1",
+                        "on-primary-fixed-variant": "#72360e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {},
+                    "fontFamily": {
+                        "headline": [
+                            "Plus Jakarta Sans"
+                        ],
+                        "body": [
+                            "Inter"
+                        ],
+                        "label": [
+                            "Inter"
+                        ]
+                    }
+                },
+            },
+        }
+    </script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        body {
+            font-family: 'Inter', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .font-headline {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen relative overflow-hidden">
+<!-- Blurred Background (simulating "灵感热浪" page beneath) -->
+<div class="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&amp;w=2564&amp;auto=format&amp;fit=crop')] bg-cover bg-center blur-xl opacity-40 scale-110" data-alt="abstract warm ethereal creative background with soft orange and brown gradient tones like a digital gallery"></div>
+<div class="absolute inset-0 z-0 bg-gradient-to-b from-surface-container-low/60 to-surface-container-lowest/80"></div>
+<!-- Main Content Canvas (Mocking some underlying content) -->
+<main class="relative z-10 pt-24 px-6 pb-32">
+<h1 class="font-headline font-bold text-4xl text-primary mb-6">灵感热浪</h1>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Mock Content Cards -->
+<div class="bg-white/70 backdrop-blur-md rounded-lg p-6 shadow-[0_6px_15px_rgba(140,75,34,0.08)] border border-outline-variant/15">
+<div class="h-40 bg-surface-container-high rounded-md mb-4 overflow-hidden">
+<img alt="creative workspace" class="w-full h-full object-cover" data-alt="creative minimal workspace with laptop, coffee, and warm sunlight casting soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6GjAyh1epiFSgf3ZgQ3OR61ohkdamduveJE6fLeiG_l1jDO1OCThhdKZ91xl155gvihGvXmoM-NKQxEf0N6wN8X50mT-8ZEaN5L51GWHDy_M0NJ0EnQNmgO30ROuk-crwH-kDpRGg78Xf1j6EGJPj591J_XEUPNYr5paIwouOFDuu-tqCGn0ZUkVJcARUw-ZhB4S0iOevMGvBV5pw8d_UZwcKD1rCPVO9DvY093DHgRuBf12EuwGLats3FXugqrXjMVRY8JVTR10"/>
+</div>
+<h2 class="font-headline font-bold text-xl text-on-surface mb-2">打工人精神状态研究</h2>
+<p class="text-body text-on-surface-variant text-sm">探索当代职场人的心理边界与创意爆发点...</p>
+</div>
+<div class="bg-white/70 backdrop-blur-md rounded-lg p-6 shadow-[0_6px_15px_rgba(140,75,34,0.08)] border border-outline-variant/15">
+<div class="h-40 bg-surface-container-high rounded-md mb-4 overflow-hidden">
+<img alt="desk elements" class="w-full h-full object-cover" data-alt="aesthetic arrangement of notebooks, pens, and a small plant on a modern desk with earthy tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAN_tc1ch6C93EXqQSx3a4HRWs75VPk7C-9-t4wWqwGpsipuki9YnqQpITlw09nlmXv5TZw6C06srl0VKeb1t9lTjm9nuZUvrQArqhAmd439esMHjhKwo9z_h5I4YBck03FuNsiqD8B9VmaFZKoHME_n8J8ZqfDdYB7D2Etti-EzQ_6kG95vDmhv6daZE2_AgQf_CyYaIIJf0WRJ1wyYgKIn2Usw-mxGJQRa3STZRJrnmw5lz-IAOzAysDiCfnajx4EhWHqkHZTs4U"/>
+</div>
+<h2 class="font-headline font-bold text-xl text-on-surface mb-2">咖啡因与脑洞</h2>
+<p class="text-body text-on-surface-variant text-sm">如何通过适量咖啡因摄入达到最佳灵感状态...</p>
+</div>
+</div>
+</main>
+<!-- Overlay / Modal Layer (抖音跳转确认浮层) -->
+<div class="fixed inset-0 z-50 flex items-end sm:items-center justify-center">
+<!-- 半透明黑色遮罩 -->
+<div class="absolute inset-0 bg-black/50 backdrop-blur-sm transition-opacity"></div>
+<!-- 底部白色圆角卡片 -->
+<div class="relative w-full max-w-md bg-surface-container-lowest rounded-t-[32px] sm:rounded-xl p-6 sm:p-8 shadow-[0_-8px_20px_rgba(0,0,0,0.1)] transform transition-transform">
+<!-- Handle for mobile swipe (visual cue) -->
+<div class="w-12 h-1.5 bg-surface-variant rounded-full mx-auto mb-6 sm:hidden"></div>
+<!-- Header/Icon -->
+<div class="flex items-center justify-center w-16 h-16 rounded-full bg-surface-container-low mb-6 mx-auto">
+<span class="material-symbols-outlined text-3xl text-primary" style="font-variation-settings: 'FILL' 1;">music_note</span>
+</div>
+<!-- Text Content -->
+<div class="text-center mb-8">
+<h3 class="font-headline font-bold text-2xl text-on-surface mb-3">🎵 即将打开抖音</h3>
+<p class="text-body text-on-surface-variant text-base bg-surface-container px-4 py-2 rounded-md inline-block">
+                    搜索 <span class="font-semibold text-primary">#打工人精神状态</span>
+</p>
+</div>
+<!-- Action Buttons -->
+<div class="flex flex-row gap-4">
+<!-- 取消按钮 -->
+<button class="flex-1 py-4 px-6 rounded-full border border-outline-variant bg-surface text-on-surface-variant font-headline font-semibold text-base tracking-wide hover:bg-surface-variant transition-colors">
+                    取消
+                </button>
+<!-- 立即跳转按钮 -->
+<button class="flex-1 py-4 px-6 rounded-full bg-gradient-to-r from-primary to-secondary text-on-primary font-headline font-semibold text-base tracking-wide shadow-[0_4px_12px_rgba(140,75,34,0.3)] hover:opacity-90 transition-opacity">
+                    立即跳转
+                </button>
+</div>
+</div>
+</div>
+</body></html>

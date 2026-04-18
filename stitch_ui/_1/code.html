@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html class="light" lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>灵感热浪</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-tint": "#8f4d24",
+                        "on-primary-container": "#fffbff",
+                        "secondary-fixed-dim": "#ecbda5",
+                        "primary-fixed": "#ffdbca",
+                        "on-surface-variant": "#53433b",
+                        "outline": "#86736a",
+                        "inverse-surface": "#372f2b",
+                        "on-error-container": "#93000a",
+                        "primary-container": "#aa6238",
+                        "outline-variant": "#d9c2b7",
+                        "on-background": "#211a17",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-container": "#fecdb5",
+                        "secondary-fixed": "#ffdbca",
+                        "surface": "#fff8f6",
+                        "on-secondary-fixed": "#2e1507",
+                        "on-secondary-container": "#795542",
+                        "tertiary-fixed-dim": "#76d5d8",
+                        "on-surface": "#211a17",
+                        "surface-bright": "#fff8f6",
+                        "on-primary-fixed": "#331200",
+                        "on-tertiary-fixed-variant": "#004f51",
+                        "surface-container-highest": "#eee0d9",
+                        "tertiary-container": "#0d8487",
+                        "secondary": "#7a5643",
+                        "surface-container-low": "#fff1eb",
+                        "inverse-on-surface": "#fdeee7",
+                        "on-tertiary-fixed": "#002021",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "primary": "#8c4b22",
+                        "background": "#fff8f6",
+                        "error": "#ba1a1a",
+                        "primary-fixed-dim": "#ffb68e",
+                        "on-tertiary-container": "#000607",
+                        "surface-container-high": "#f4e5df",
+                        "on-secondary-fixed-variant": "#603f2e",
+                        "on-secondary": "#ffffff",
+                        "tertiary": "#00696c",
+                        "tertiary-fixed": "#93f2f5",
+                        "surface-variant": "#eee0d9",
+                        "surface-container": "#faebe5",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#ffb68e",
+                        "surface-dim": "#e5d7d1",
+                        "on-primary-fixed-variant": "#72360e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "safe-offset-2": "env(safe-area-inset-bottom, 1rem)"
+                    },
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, .font-headline { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background text-on-background min-h-screen relative overflow-x-hidden pb-32">
+<!-- Top AppBar (from JSON) -->
+<header class="fixed top-0 w-full flex justify-between items-center px-6 h-16 bg-white/70 dark:bg-stone-900/70 backdrop-blur-md full-width z-50 tonal-shift bg-stone-100/50 shadow-[0_6px_15px_rgba(140,75,34,0.08)]">
+<button class="scale-95 active:scale-90 transition-transform duration-200 text-stone-500 dark:text-stone-400 hover:opacity-80 transition-opacity flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+<h1 class="font-['Plus_Jakarta_Sans'] font-bold text-2xl tracking-tight text-orange-800 dark:text-orange-200 font-bold italic">
+            灵感大王
+        </h1>
+<button class="scale-95 active:scale-90 transition-transform duration-200 text-stone-500 dark:text-stone-400 hover:opacity-80 transition-opacity flex items-center justify-center">
+<span class="material-symbols-outlined" data-icon="history">history</span>
+</button>
+</header>
+<!-- Main Content Canvas -->
+<main class="pt-24 px-6 md:px-8 max-w-4xl mx-auto relative z-10">
+<!-- Blurred Gradient Aura (Atmospheric background) -->
+<div class="absolute top-0 right-0 w-96 h-96 bg-primary/20 blur-[100px] rounded-full pointer-events-none -z-10 translate-x-1/3 -translate-y-1/3"></div>
+<div class="absolute top-40 left-0 w-80 h-80 bg-secondary/10 blur-[80px] rounded-full pointer-events-none -z-10 -translate-x-1/2"></div>
+<!-- Page Header -->
+<div class="mb-10 mt-6 relative">
+<div class="flex items-center gap-3 mb-4">
+<h2 class="font-headline font-extrabold text-[28px] tracking-tight text-on-background">灵感热浪</h2>
+<span class="text-3xl">🔥</span>
+</div>
+<!-- Dynamic StatusBar -->
+<div class="inline-flex items-center gap-2 bg-surface-container-low px-4 py-2 rounded-full shadow-[0_4px_10px_rgba(140,75,34,0.05)] border border-outline-variant/30 backdrop-blur-sm">
+<span class="animate-pulse">📡</span>
+<span class="font-label text-sm font-medium text-primary tracking-wide">正在捕捉全网的爆款信号...</span>
+</div>
+</div>
+<!-- Floating Atmospheric Icon -->
+<span class="material-symbols-outlined absolute top-32 right-10 text-[120px] text-primary opacity-[0.03] -rotate-12 pointer-events-none z-0 select-none">local_fire_department</span>
+<!-- Bento Grid / Cards Section -->
+<div class="flex flex-col gap-6 relative z-10">
+<!-- Card 1 -->
+<article class="relative bg-white/70 backdrop-blur-[10px] rounded-xl shadow-[0_6px_15px_rgba(33,26,23,0.08)] overflow-hidden transition-all hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(33,26,23,0.12)]">
+<!-- Top Gradient Line -->
+<div class="h-1 w-full bg-gradient-to-r from-[#AD653A] to-[#956E5A]"></div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div class="bg-[#F6EDE8] px-3 py-1.5 rounded-md">
+<span class="font-label text-xs font-semibold text-primary">#打工人精神状态</span>
+</div>
+<button class="bg-surface-container-highest hover:bg-surface-dim transition-colors px-4 py-2 rounded-full flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">play_circle</span>
+<span class="font-label text-xs font-medium text-on-surface-variant">观看</span>
+</button>
+</div>
+<h3 class="font-body text-base text-on-background leading-relaxed font-medium">
+                        拍电脑屏幕反射出的你的脸，配上疲惫的BGM，最后屏幕一黑显示「周五了」。
+                    </h3>
+<!-- Decorative Elements -->
+<div class="mt-6 flex items-center justify-between text-on-surface-variant/60">
+<div class="flex items-center gap-4 text-xs font-label">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">visibility</span> 12.4w</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">favorite</span> 8.2k</span>
+</div>
+<span class="material-symbols-outlined text-tertiary/40">auto_awesome</span>
+</div>
+</div>
+</article>
+<!-- Card 2 -->
+<article class="relative bg-white/70 backdrop-blur-[10px] rounded-xl shadow-[0_6px_15px_rgba(33,26,23,0.08)] overflow-hidden transition-all hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(33,26,23,0.12)] ml-0 md:ml-8">
+<!-- Top Gradient Line -->
+<div class="h-1 w-full bg-gradient-to-r from-primary to-secondary"></div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-4">
+<div class="bg-primary-container/20 px-3 py-1.5 rounded-md">
+<span class="font-label text-xs font-semibold text-primary">#极简主义生活</span>
+</div>
+<button class="bg-surface-container-highest hover:bg-surface-dim transition-colors px-4 py-2 rounded-full flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">description</span>
+<span class="font-label text-xs font-medium text-on-surface-variant">阅读</span>
+</button>
+</div>
+<h3 class="font-body text-base text-on-background leading-relaxed font-medium">
+                        如何在一个周末清理掉家里50%不需要的物品？实用指南与心理建设。
+                    </h3>
+<!-- Decorative Elements -->
+<div class="mt-6 flex items-center justify-between text-on-surface-variant/60">
+<div class="flex items-center gap-4 text-xs font-label">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">visibility</span> 8.9w</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">favorite</span> 4.5k</span>
+</div>
+</div>
+</div>
+</article>
+</div>
+</main>
+<!-- Bottom Nav Bar (from JSON) -->
+<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pt-3 pb-safe-offset-2 bg-white/70 dark:bg-stone-900/70 backdrop-blur-xl docked full-width bottom-0 rounded-t-[32px] no-border shadow-2xl md:hidden">
+<!-- Active Tab: 灵感热浪 -->
+<button class="flex flex-col items-center text-orange-800 dark:text-orange-200 after:content-[''] after:w-6 after:h-1 after:bg-orange-800 after:rounded-full after:mt-1 tap-highlight-none transition-all duration-300 ease-out hover:text-teal-600 transition-colors w-1/3">
+<span class="material-symbols-outlined mb-1" data-icon="local_fire_department">local_fire_department</span>
+<span class="font-['Plus_Jakarta_Sans'] font-semibold text-[10px]">灵感热浪</span>
+</button>
+<!-- Inactive Tab: 灵机一动 -->
+<button class="flex flex-col items-center text-stone-400 dark:text-stone-500 tap-highlight-none transition-all duration-300 ease-out hover:text-teal-600 transition-colors w-1/3">
+<span class="material-symbols-outlined mb-1" data-icon="auto_awesome">auto_awesome</span>
+<span class="font-['Plus_Jakarta_Sans'] font-semibold text-[10px]">灵机一动</span>
+</button>
+<!-- Inactive Tab: 我的库 -->
+<button class="flex flex-col items-center text-stone-400 dark:text-stone-500 tap-highlight-none transition-all duration-300 ease-out hover:text-teal-600 transition-colors w-1/3">
+<span class="material-symbols-outlined mb-1" data-icon="auto_stories">auto_stories</span>
+<span class="font-['Plus_Jakarta_Sans'] font-semibold text-[10px]">我的库</span>
+</button>
+</nav>
+<!-- Desktop Side Nav Spacer (Hidden on mobile, empty for now but standard practice for responsive design) -->
+<div class="hidden md:block fixed left-0 top-0 h-full w-20 lg:w-64 bg-surface-container-low border-r border-outline-variant/20 -z-20"></div>
+</body></html>

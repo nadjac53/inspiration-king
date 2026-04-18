@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html class="light" lang="zh-CN"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<title>灵机一动 - 灵感大王</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-tint": "#8f4d24",
+                        "on-primary-container": "#fffbff",
+                        "secondary-fixed-dim": "#ecbda5",
+                        "primary-fixed": "#ffdbca",
+                        "on-surface-variant": "#53433b",
+                        "outline": "#86736a",
+                        "inverse-surface": "#372f2b",
+                        "on-error-container": "#93000a",
+                        "primary-container": "#aa6238",
+                        "outline-variant": "#d9c2b7",
+                        "on-background": "#211a17",
+                        "on-tertiary": "#ffffff",
+                        "on-error": "#ffffff",
+                        "secondary-container": "#fecdb5",
+                        "secondary-fixed": "#ffdbca",
+                        "surface": "#fff8f6",
+                        "on-secondary-fixed": "#2e1507",
+                        "on-secondary-container": "#795542",
+                        "tertiary-fixed-dim": "#76d5d8",
+                        "on-surface": "#211a17",
+                        "surface-bright": "#fff8f6",
+                        "on-primary-fixed": "#331200",
+                        "on-tertiary-fixed-variant": "#004f51",
+                        "surface-container-highest": "#eee0d9",
+                        "tertiary-container": "#0d8487",
+                        "secondary": "#7a5643",
+                        "surface-container-low": "#fff1eb",
+                        "inverse-on-surface": "#fdeee7",
+                        "on-tertiary-fixed": "#002021",
+                        "error-container": "#ffdad6",
+                        "surface-container-lowest": "#ffffff",
+                        "primary": "#8c4b22",
+                        "background": "#fff8f6",
+                        "error": "#ba1a1a",
+                        "primary-fixed-dim": "#ffb68e",
+                        "on-tertiary-container": "#000607",
+                        "surface-container-high": "#f4e5df",
+                        "on-secondary-fixed-variant": "#603f2e",
+                        "on-secondary": "#ffffff",
+                        "tertiary": "#00696c",
+                        "tertiary-fixed": "#93f2f5",
+                        "surface-variant": "#eee0d9",
+                        "surface-container": "#faebe5",
+                        "on-primary": "#ffffff",
+                        "inverse-primary": "#ffb68e",
+                        "surface-dim": "#e5d7d1",
+                        "on-primary-fixed-variant": "#72360e"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
+                    "fontFamily": {
+                        "headline": ["Plus Jakarta Sans"],
+                        "body": ["Inter"],
+                        "label": ["Inter"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background: linear-gradient(to bottom, #fff1eb, #ffffff);
+            min-height: 100vh;
+            overflow-x: hidden;
+            font-family: 'Inter', sans-serif;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .pb-safe-offset-2 {
+            padding-bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px));
+        }
+        .shadow-ambient {
+            box-shadow: 0 6px 15px rgba(33, 26, 23, 0.08);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="text-on-surface antialiased flex flex-col relative pb-28">
+<!-- Ambient Floating Icons -->
+<div class="fixed top-20 right-4 opacity-[0.06] text-6xl pointer-events-none select-none z-0">✨</div>
+<div class="fixed top-1/3 left-[-20px] opacity-[0.06] text-8xl pointer-events-none select-none z-0">💡</div>
+<div class="fixed bottom-40 right-[-10px] opacity-[0.06] text-7xl pointer-events-none select-none z-0">⚡</div>
+<!-- Header Section -->
+<header class="relative w-full pt-12 pb-6 px-6 z-10 flex justify-between items-center">
+<div class="w-12"></div> <!-- Spacer for centering -->
+<h1 class="font-headline font-bold text-3xl tracking-tight text-primary text-center">灵机一动</h1>
+<button class="w-12 h-12 rounded-full glass-panel shadow-ambient flex items-center justify-center text-primary hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined" data-icon="content_paste">content_paste</span>
+</button>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-1 px-6 z-10 flex flex-col items-center max-w-md mx-auto w-full gap-10">
+<!-- Quick Record Bar -->
+<div class="w-full bg-surface-container-lowest rounded-full shadow-ambient py-3 px-5 flex items-center justify-between gap-4">
+<div class="w-3 h-3 rounded-full bg-primary animate-pulse shadow-[0_0_10px_rgba(140,75,34,0.5)]"></div>
+<input class="flex-1 bg-transparent border-none text-body font-body text-on-surface focus:ring-0 placeholder:text-on-surface-variant p-0" placeholder="闪念一瞬..." type="text"/>
+<button class="text-tertiary hover:opacity-80 transition-opacity">
+<span class="material-symbols-outlined" data-icon="auto_awesome">auto_awesome</span>
+</button>
+</div>
+<!-- Giant Trigger Container -->
+<div class="flex flex-col items-center justify-center mt-4">
+<div class="relative w-48 h-48 rounded-full flex items-center justify-center p-1 mb-6 cursor-pointer hover:scale-105 active:scale-95 transition-transform duration-300 shadow-ambient" style="background: linear-gradient(135deg, #8c4b22, #00696c);">
+<div class="w-full h-full bg-surface-container-low rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-6xl text-primary" data-icon="lightbulb" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+</div>
+</div>
+<p class="font-headline font-semibold text-lg text-secondary tracking-wide">摇一摇 · 灵感降临</p>
+</div>
+<!-- Inspiration Card -->
+<div class="w-full glass-panel rounded-lg p-8 flex flex-col items-center justify-center gap-6 shadow-ambient relative overflow-hidden group">
+<!-- Ghost border -->
+<div class="absolute inset-0 rounded-lg border border-outline-variant opacity-15 pointer-events-none"></div>
+<div class="text-7xl mb-2">😏</div>
+<p class="font-body text-on-surface text-center leading-relaxed text-lg">
+                与其纠结如何完美收场，<br/>不如庆幸这出戏足够荒唐。
+            </p>
+<div class="bg-primary-container/20 text-primary font-label text-sm px-4 py-1.5 rounded-full font-medium">
+                情绪：窃喜
+            </div>
+</div>
+<!-- Action Buttons -->
+<div class="w-full flex gap-4 mt-2">
+<button class="flex-1 rounded-full py-4 px-6 flex items-center justify-center gap-2 shadow-ambient hover:opacity-90 active:scale-95 transition-all text-on-primary font-headline font-bold text-base" style="background: linear-gradient(to right, #8c4b22, #00696c);">
+<span class="text-xl">🎲</span> 换一个
+            </button>
+<button class="flex-1 glass-panel rounded-full py-4 px-6 flex items-center justify-center gap-2 shadow-ambient hover:bg-surface-container-lowest active:scale-95 transition-all text-primary font-headline font-bold text-base border border-outline-variant/20">
+<span class="material-symbols-outlined text-[20px]" data-icon="content_copy">content_copy</span> 复制文案
+            </button>
+</div>
+</main>
+<!-- BottomNavBar -->
+<nav class="bg-white/70 dark:bg-stone-900/70 backdrop-blur-xl hidden md:hidden font-['Plus_Jakarta_Sans'] font-semibold text-[10px] rounded-t-[32px] no-border shadow-[0_-8px_20px_rgba(0,0,0,0.05)] tap-highlight-none transition-all duration-300 ease-out fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-4 pt-3 pb-safe-offset-2">
+<a class="flex flex-col items-center text-stone-400 dark:text-stone-500 hover:text-teal-600 transition-colors" href="#">
+<span class="material-symbols-outlined text-2xl mb-1" data-icon="local_fire_department">local_fire_department</span>
+<span>灵感热浪</span>
+</a>
+<a class="flex flex-col items-center text-orange-800 dark:text-orange-200 after:content-[''] after:w-6 after:h-1 after:bg-orange-800 after:rounded-full after:mt-1 hover:text-teal-600 transition-colors" href="#">
+<span class="material-symbols-outlined text-2xl mb-1" data-icon="auto_awesome" data-weight="fill" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<span>灵机一动</span>
+</a>
+<a class="flex flex-col items-center text-stone-400 dark:text-stone-500 hover:text-teal-600 transition-colors" href="#">
+<span class="material-symbols-outlined text-2xl mb-1" data-icon="auto_stories">auto_stories</span>
+<span>我的库</span>
+</a>
+</nav>
+</body></html>

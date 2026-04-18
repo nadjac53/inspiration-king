@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html class="light" lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <title>灵感大王</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#8c4b22",
+                        secondary: "#7a5643",
+                        tertiary: "#00696c",
+                        background: "#fff1eb",
+                        "surface-container-low": "#fff1eb",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-high": "#f4e5df",
+                        "surface-container-highest": "#eee0d9",
+                        "on-surface": "#211a17",
+                        "on-surface-variant": "#53433b",
+                        "on-primary": "#ffffff",
+                        "outline-variant": "#d9c2b7",
+                        "primary-container": "#aa6238",
+                        error: "#ba1a1a",
+                        "error-container": "#ffdad6"
+                    },
+                    borderRadius: {
+                        DEFAULT: "1rem",
+                        lg: "2rem",
+                        xl: "3rem",
+                        full: "9999px"
+                    },
+                    fontFamily: {
+                        headline: ["Plus Jakarta Sans"],
+                        body: ["Inter"],
+                        label: ["Inter"]
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to bottom, #fff1eb, #ffffff);
+            min-height: 100vh;
+            -webkit-tap-highlight-color: transparent;
+        }
+        h1, h2, h3, .font-headline { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .glass-card {
+            background: rgba(255,255,255,0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .glass-nav {
+            background: rgba(255,255,255,0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .shadow-ambient {
+            box-shadow: 0 6px 15px rgba(33, 26, 23, 0.08);
+        }
+        .floating-icon {
+            opacity: 0.06;
+            position: absolute;
+            z-index: 0;
+            pointer-events: none;
+        }
+        .animate-pulse-dot {
+            animation: pulse-dot 2s ease-in-out infinite;
+        }
+        @keyframes pulse-dot {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(0.8); }
+        }
+        .shake-animation {
+            animation: shake 0.5s ease-in-out;
+        }
+        @keyframes shake {
+            0%, 100% { transform: translateX(0) rotate(0); }
+            25% { transform: translateX(-10px) rotate(-5deg); }
+            75% { transform: translateX(10px) rotate(5deg); }
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+        .toast {
+            animation: toast-in 0.3s ease-out, toast-out 0.3s ease-in 1.7s forwards;
+        }
+        @keyframes toast-in {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes toast-out {
+            from { opacity: 1; transform: translateY(0); }
+            to { opacity: 0; transform: translateY(-20px); }
+        }
+        .recorded-flash {
+            animation: flash-green 1.5s ease-out;
+        }
+        @keyframes flash-green {
+            0% { color: #22c55e; }
+            100% { color: #211a17; }
+        }
+        .gradient-ring {
+            background: linear-gradient(135deg, #8c4b22, #00696c);
+        }
+        .nav-item { transition: all 0.3s ease-out; }
+        .nav-item.active { color: #8c4b22; }
+        .nav-item.active .nav-indicator {
+            width: 24px;
+            height: 4px;
+            background: #8c4b22;
+            border-radius: 9999px;
+            margin-top: 4px;
+        }
+        .modal-overlay {
+            transition: opacity 0.3s ease-out;
+        }
+        .modal-content {
+            transition: transform 0.3s ease-out;
+        }
+        .hidden-input { display: none; }
+        .hidden-input.show { display: flex; }
+        .quick-record-bar { transition: all 0.3s ease-out; }
+        .quick-record-bar.expanded {
+            flex-direction: column;
+            align-items: stretch;
+            padding: 16px;
+            border-radius: 24px;
+        }
+        .quick-record-bar.expanded .record-dot,
+        .quick-record-bar.expanded .record-placeholder,
+        .quick-record-bar.expanded .record-icon { display: none; }
+    </style>
+</head>
+<body class="text-on-surface antialiased overflow-x-hidden pb-24">
+    <!-- 氛围图标 -->
+    <span class="material-symbols-outlined floating-icon text-[120px] top-20 -left-10 text-primary transform rotate-12">auto_awesome</span>
+    <span class="material-symbols-outlined floating-icon text-[80px] top-1/3 -right-5 text-tertiary">lightbulb</span>
+    <span class="floating-icon text-[60px] top-40 right-10 text-primary">✨</span>
+    <span class="floating-icon text-[50px] bottom-40 left-5 text-tertiary">💡</span>
+    <span class="floating-icon text-[40px] bottom-60 right-20 text-secondary">⚡</span>
+
+    <!-- 顶部 AppBar -->
+    <header class="fixed top-0 w-full flex justify-between items-center px-6 h-16 glass-nav shadow-ambient z-50">
+        <button id="menuBtn" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high transition-colors text-primary scale-95 active:scale-90 transition-transform duration-200">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <h1 class="font-headline font-bold text-2xl tracking-tight text-primary italic">灵感大王</h1>
+        <button id="historyBtn" class="w-10 h-10 flex items-center justify-center rounded-full hover:bg-surface-container-high transition-colors text-primary scale-95 active:scale-90 transition-transform duration-200">
+            <span class="material-symbols-outlined">history</span>
+        </button>
+    </header>
+
+    <!-- 主内容区域 -->
+    <main class="pt-20 px-6 relative z-10 max-w-2xl mx-auto">
+        <!-- ========== 灵感热浪页面 ========== -->
+        <div id="tab-hot" class="tab-content active">
+            <div class="mb-8 mt-4 relative">
+                <div class="flex items-center gap-3 mb-4">
+                    <h2 class="font-headline font-extrabold text-[28px] tracking-tight text-on-surface">灵感热浪</h2>
+                    <span class="text-3xl">🔥</span>
+                </div>
+                <div class="inline-flex items-center gap-2 bg-surface-container-low px-4 py-2 rounded-full shadow-ambient border border-outline-variant/30">
+                    <span class="animate-pulse-dot">📡</span>
+                    <span class="font-label text-sm font-medium text-primary tracking-wide">正在捕捉全网的爆款信号...</span>
+                </div>
+            </div>
+            <span class="material-symbols-outlined absolute top-28 right-8 text-[100px] text-primary opacity-[0.03] -rotate-12 pointer-events-none z-0">local_fire_department</span>
+            <div id="hotList" class="flex flex-col gap-6 relative z-10"></div>
+        </div>
+
+        <!-- ========== 灵机一动页面 ========== -->
+        <div id="tab-idea" class="tab-content">
+            <header class="relative w-full pt-4 pb-6 z-10 flex justify-between items-center">
+                <div class="w-12"></div>
+                <h1 class="font-headline font-bold text-3xl tracking-tight text-primary text-center">灵机一动</h1>
+                <button id="toLibraryBtn" class="w-12 h-12 rounded-full glass-card shadow-ambient flex items-center justify-center text-primary hover:opacity-80 transition-opacity">
+                    <span class="material-symbols-outlined">content_paste</span>
+                </button>
+            </header>
+            
+            <!-- 快速记录条 -->
+            <div id="quickRecordBar" class="quick-record-bar w-full bg-surface-container-lowest rounded-full shadow-ambient py-3 px-5 flex items-center justify-between gap-4 cursor-pointer" onclick="toggleInputCard()">
+                <div class="record-dot w-3 h-3 rounded-full bg-primary animate-pulse-dot shadow-[0_0_8px_rgba(140,75,34,0.4)]"></div>
+                <span class="record-placeholder flex-1 bg-transparent text-on-surface-variant">闪念一瞬...</span>
+                <button id="recordIconBtn" class="text-tertiary hover:opacity-80 transition-opacity" onclick="event.stopPropagation(); toggleInputCard();">
+                    <span class="material-symbols-outlined">auto_awesome</span>
+                </button>
+            </div>
+
+            <!-- 输入卡片 -->
+            <div id="inputCard" class="hidden-input flex-col gap-4 mt-4 glass-card rounded-2xl p-6 shadow-ambient">
+                <textarea id="inspirationInput" class="w-full min-h-[120px] bg-surface-container-low rounded-xl p-4 text-on-surface placeholder:text-on-surface-variant resize-none border-none outline-none font-body" placeholder="记录你的灵感..."></textarea>
+                <div class="flex gap-3">
+                    <button id="cancelBtn" class="flex-1 py-3 px-4 rounded-full border border-outline-variant bg-surface text-on-surface-variant font-headline font-semibold text-sm hover:bg-surface-variant transition-colors" onclick="hideInputCard()">取消</button>
+                    <button id="saveBtn" class="flex-1 py-3 px-4 rounded-full bg-gradient-to-r from-primary to-secondary text-on-primary font-headline font-semibold text-sm shadow-[0_4px_12px_rgba(140,75,34,0.3)] hover:opacity-90 transition-opacity" onclick="saveInspiration()">存为灵感</button>
+                </div>
+            </div>
+
+            <!-- 巨型触发器 -->
+            <div class="flex flex-col items-center justify-center mt-8 mb-6">
+                <div id="triggerCircle" class="relative w-44 h-44 rounded-full flex items-center justify-center p-1 cursor-pointer hover:scale-105 active:scale-95 transition-transform duration-300 shadow-ambient gradient-ring" onclick="getRandomInspiration()">
+                    <div class="w-full h-full bg-surface-container-low rounded-full flex items-center justify-center">
+                        <span class="material-symbols-outlined text-6xl text-primary" style="font-variation-settings: 'FILL' 1;">lightbulb</span>
+                    </div>
+                </div>
+                <p class="font-headline font-semibold text-base text-secondary tracking-wide mt-4">摇一摇 · 灵感降临</p>
+                <button id="shakeAuthBtn" class="mt-2 text-xs text-tertiary underline opacity-70">授权摇一摇</button>
+            </div>
+
+            <!-- 灵感卡片区 -->
+            <div id="inspirationCard" class="w-full glass-card rounded-xl p-8 flex flex-col items-center justify-center gap-4 shadow-ambient relative overflow-hidden">
+                <div class="absolute inset-0 rounded-xl border border-outline-variant opacity-10 pointer-events-none"></div>
+                <div id="cardEmoji" class="text-6xl mb-2"></div>
+                <p id="cardContent" class="font-body text-on-surface text-center leading-relaxed text-base"></p>
+                <div id="cardTag" class="bg-primary-container/20 text-primary font-label text-sm px-4 py-1.5 rounded-full font-medium"></div>
+            </div>
+
+            <!-- 操作按钮 -->
+            <div class="w-full flex gap-4 mt-6 mb-4">
+                <button id="refreshBtn" class="flex-1 rounded-full py-4 px-6 flex items-center justify-center gap-2 shadow-ambient hover:opacity-90 active:scale-95 transition-all text-on-primary font-headline font-bold text-sm" style="background: linear-gradient(to right, #8c4b22, #00696c);" onclick="getRandomInspiration()">
+                    <span class="text-xl">🎲</span> 换一个
+                </button>
+                <button id="copyBtn" class="flex-1 glass-card rounded-full py-4 px-6 flex items-center justify-center gap-2 shadow-ambient hover:bg-surface-container-lowest active:scale-95 transition-all text-primary font-headline font-bold text-sm border border-outline-variant/20" onclick="copyCurrentCard()">
+                    <span class="material-symbols-outlined text-[18px]">content_copy</span> 复制文案
+                </button>
+            </div>
+        </div>
+
+        <!-- ========== 我的库页面 ========== -->
+        <div id="tab-library" class="tab-content">
+            <h2 class="font-headline text-4xl font-bold text-on-surface mb-8 mt-4">我的灵感库</h2>
+            <div id="libraryList" class="relative"></div>
+            <!-- 空状态 -->
+            <div id="emptyState" class="hidden flex flex-col items-center justify-center py-16">
+                <span class="text-6xl mb-4">📝</span>
+                <p class="font-headline text-lg text-on-surface-variant text-center">还没有记录，快去写第一条吧～</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- 底部导航栏 -->
+    <nav class="fixed bottom-0 left-0 w-full z-50 glass-nav rounded-t-[32px] shadow-[0_-8px_20px_rgba(0,0,0,0.05)] md:hidden" style="padding-bottom: env(safe-area-inset-bottom, 0px);">
+        <div class="flex justify-around items-center px-4 pt-3 pb-3">
+            <button class="nav-item flex flex-col items-center active w-1/3 py-2" data-tab="hot" onclick="switchTab('hot')">
+                <span class="material-symbols-outlined mb-1 text-2xl" data-icon="local_fire_department">local_fire_department</span>
+                <span class="font-headline font-semibold text-[10px]">灵感热浪</span>
+                <div class="nav-indicator mt-1"></div>
+            </button>
+            <button class="nav-item flex flex-col items-center text-stone-400 w-1/3 py-2" data-tab="idea" onclick="switchTab('idea')">
+                <span class="material-symbols-outlined mb-1 text-2xl" data-icon="auto_awesome">auto_awesome</span>
+                <span class="font-headline font-semibold text-[10px]">灵机一动</span>
+                <div class="nav-indicator mt-1" style="width: 0; height: 0;"></div>
+            </button>
+            <button class="nav-item flex flex-col items-center text-stone-400 w-1/3 py-2" data-tab="library" onclick="switchTab('library')">
+                <span class="material-symbols-outlined mb-1 text-2xl" data-icon="auto_stories">auto_stories</span>
+                <span class="font-headline font-semibold text-[10px]">我的库</span>
+                <div class="nav-indicator mt-1" style="width: 0; height: 0;"></div>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 抖音跳转浮层 -->
+    <div id="douyinModal" class="fixed inset-0 z-50 flex items-end sm:items-center justify-center hidden">
+        <div class="modal-overlay absolute inset-0 bg-black/50 backdrop-blur-sm" onclick="closeDouyinModal()"></div>
+        <div class="modal-content relative w-full max-w-md bg-surface-container-lowest rounded-t-[32px] sm:rounded-2xl p-6 sm:p-8 shadow-[0_-8px_20px_rgba(0,0,0,0.1)]">
+            <div class="w-12 h-1.5 bg-surface-variant rounded-full mx-auto mb-6 sm:hidden"></div>
+            <div class="flex items-center justify-center w-16 h-16 rounded-full bg-surface-container-low mb-6 mx-auto">
+                <span class="material-symbols-outlined text-3xl text-primary" style="font-variation-settings: 'FILL' 1;">music_note</span>
+            </div>
+            <div class="text-center mb-8">
+                <h3 class="font-headline font-bold text-2xl text-on-surface mb-3">🎵 即将打开抖音</h3>
+                <p class="text-body text-on-surface-variant text-base bg-surface-container px-4 py-2 rounded-lg inline-block">
+                    搜索 <span id="searchKeyword" class="font-semibold text-primary"></span>
+                </p>
+            </div>
+            <div class="flex flex-row gap-4">
+                <button class="flex-1 py-4 px-6 rounded-full border border-outline-variant bg-surface text-on-surface-variant font-headline font-semibold text-sm tracking-wide hover:bg-surface-variant transition-colors" onclick="closeDouyinModal()">取消</button>
+                <button id="jumpBtn" class="flex-1 py-4 px-6 rounded-full bg-gradient-to-r from-primary to-secondary text-on-primary font-headline font-semibold text-sm tracking-wide shadow-[0_4px_12px_rgba(140,75,34,0.3)] hover:opacity-90 transition-opacity">立即跳转</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast 提示 -->
+    <div id="toast" class="fixed bottom-28 left-1/2 transform -translate-x-1/2 z-50 glass-card rounded-full px-6 py-3 shadow-ambient hidden">
+        <span id="toastText" class="font-body text-sm font-medium text-on-surface"></span>
+    </div>
+
+    <script>
+        // ========== 全局数据和状态 ==========
+        const STORAGE_KEY = 'user_inspirations';
+        let currentTab = 'hot';
+        let currentKeyword = '';
+        let currentCardIndex = 0;
+
+        // =============================================
+        // 重要：请将下面的 URL 替换为你实际的 GitHub 仓库地址
+        // 格式：https://raw.githubusercontent.com/用户名/仓库名/main/hot.json
+        // =============================================
+        const HOT_DATA_URL = 'https://raw.githubusercontent.com/你的用户名/你的仓库名/main/hot.json';
+
+        // 预设灵感卡片库
+        const inspirationCards = [
+            { type: 'collision', emoji: '😏', tag: '情绪：窃喜', content: '与其纠结如何完美收场，不如庆幸这出戏足够荒唐。' },
+            { type: 'collision', emoji: '🤔', tag: '情绪：顿悟', content: '原来我一直在用「忙碌」来逃避真正重要的事。' },
+            { type: 'quote', emoji: '💭', tag: '灵感碎片', content: '便利店冰柜的白光，和凌晨三点睡不着觉最配。' },
+            { type: 'collision', emoji: '😅', tag: '情绪：释然', content: '承认自己不行的那一刻，好像什么都行了。' },
+            { type: 'quote', emoji: '✨', tag: '灵感碎片', content: '雨滴落在车窗上划出斜线，像时间在快进。' },
+            { type: 'collision', emoji: '🙃', tag: '情绪：自嘲', content: '我以为我在思考人生，其实只是在发呆。' },
+            { type: 'quote', emoji: '🌙', tag: '灵感碎片', content: '深夜的灵感最诚实，因为白天的面具摘下来了。' },
+            { type: 'collision', emoji: '💡', tag: '情绪：惊喜', content: '突然想通一件事的感觉，就像WiFi突然满格。' }
+        ];
+
+        // ========== 页面初始化 ==========
+        document.addEventListener('DOMContentLoaded', function() {
+            loadHotData(); // 加载热点数据
+            renderLibrary();
+            getRandomInspiration();
+            
+            // 授权摇一摇按钮
+            document.getElementById('shakeAuthBtn').addEventListener('click', requestShakePermission);
+            
+            // 任意点击触发摇一摇权限请求（iOS要求）
+            document.body.addEventListener('click', function() {
+                if (typeof DeviceMotionEvent !== 'undefined' && typeof DeviceMotionEvent.requestPermission === 'function') {
+                    // iOS设备，权限已在用户手势中请求
+                }
+            }, { once: true });
+        });
+
+        // ========== Tab 切换 ==========
+        function switchTab(tab) {
+            currentTab = tab;
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.getElementById('tab-' + tab).classList.add('active');
+            
+            document.querySelectorAll('.nav-item').forEach(el => {
+                el.classList.remove('active');
+                el.classList.add('text-stone-400');
+                el.querySelector('.nav-indicator').style.width = '0';
+                el.querySelector('.nav-indicator').style.height = '0';
+            });
+            
+            const activeNav = document.querySelector(`.nav-item[data-tab="${tab}"]`);
+            activeNav.classList.add('active');
+            activeNav.classList.remove('text-stone-400');
+            activeNav.querySelector('.nav-indicator').style.width = '24px';
+            activeNav.querySelector('.nav-indicator').style.height = '4px';
+            
+            if (tab === 'library') {
+                renderLibrary();
+            }
+        }
+
+        // 历史按钮跳转
+        document.getElementById('historyBtn').addEventListener('click', function() {
+            switchTab('library');
+        });
+
+        // 灵感库图标跳转
+        document.getElementById('toLibraryBtn').addEventListener('click', function() {
+            switchTab('library');
+        });
+
+        // ========== 灵感热浪 ==========
+
+        /**
+         * 从 GitHub 加载热点数据
+         * 成功时动态渲染热点卡片，失败时显示占位提示
+         */
+        async function loadHotData() {
+            try {
+                const response = await fetch(HOT_DATA_URL);
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                const data = await response.json();
+                renderHotList(data.hotspots || []);
+            } catch (error) {
+                console.error('加载热点数据失败:', error);
+                renderHotListError();
+            }
+        }
+
+        /**
+         * 渲染热点卡片列表
+         * @param {Array} hotspots - 热点数据数组
+         */
+        function renderHotList(hotspots) {
+            const container = document.getElementById('hotList');
+
+            if (!hotspots || hotspots.length === 0) {
+                container.innerHTML = `
+                    <div class="text-center py-12 text-on-surface-variant">
+                        <span class="text-4xl mb-4 block">📡</span>
+                        <p class="font-body">暂无热点数据</p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = hotspots.map((item, index) => `
+                <article class="relative bg-white/70 backdrop-blur-[10px] rounded-xl shadow-ambient overflow-hidden transition-all hover:-translate-y-1 hover:shadow-[0_12px_24px_rgba(33,26,23,0.12)]">
+                    <div class="h-1 w-full bg-gradient-to-r from-[#8c4b22] to-[#7a5643]"></div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <div class="bg-[#F6EDE8] px-3 py-1.5 rounded-md cursor-pointer hover:bg-[#F0E4DB] transition-colors" onclick="openDouyinModal('${escapeHtml(item.title)}')">
+                                <span class="font-label text-xs font-semibold text-primary">#${escapeHtml(item.title)}</span>
+                            </div>
+                            <button class="bg-surface-container-highest hover:bg-surface-dim transition-colors px-4 py-2 rounded-full flex items-center gap-2" onclick="openDouyinModal('${escapeHtml(item.title)}')">
+                                <span class="material-symbols-outlined text-[18px] text-on-surface-variant">play_circle</span>
+                                <span class="font-label text-xs font-medium text-on-surface-variant">观看</span>
+                            </button>
+                        </div>
+                        <h3 class="font-body text-base text-on-surface leading-relaxed font-medium">${escapeHtml(item.title)}</h3>
+                        <div class="mt-6 flex items-center justify-between text-on-surface-variant/60">
+                            <div class="flex items-center gap-4 text-xs font-label">
+                                <span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">local_fire_department</span> ${escapeHtml(item.hot_value)}</span>
+                            </div>
+                            <span class="material-symbols-outlined text-tertiary/40">auto_awesome</span>
+                        </div>
+                    </div>
+                </article>
+            `).join('');
+        }
+
+        /**
+         * HTML 转义，防止 XSS
+         * @param {string} str - 原始字符串
+         * @returns {string} 转义后的字符串
+         */
+        function escapeHtml(str) {
+            if (!str) return '';
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        /**
+         * 渲染加载失败时的占位提示
+         */
+        function renderHotListError() {
+            const container = document.getElementById('hotList');
+            container.innerHTML = `
+                <div class="text-center py-12 text-on-surface-variant">
+                    <span class="text-4xl mb-4 block">🔄</span>
+                    <p class="font-body mb-2">热点更新中，请稍后刷新</p>
+                    <p class="text-xs">数据加载失败，请检查网络连接</p>
+                </div>
+            `;
+        }
+
+        // ========== 抖音跳转浮层 ==========
+        function openDouyinModal(keyword) {
+            currentKeyword = keyword;
+            document.getElementById('searchKeyword').textContent = '#' + keyword;
+            document.getElementById('douyinModal').classList.remove('hidden');
+            document.getElementById('douyinModal').querySelector('.modal-overlay').style.opacity = '1';
+        }
+
+        function closeDouyinModal() {
+            const modal = document.getElementById('douyinModal');
+            modal.querySelector('.modal-overlay').style.opacity = '0';
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300);
+        }
+
+        // 立即跳转按钮
+        document.getElementById('jumpBtn').addEventListener('click', function() {
+            const encodedKeyword = encodeURIComponent(currentKeyword);
+            const appScheme = `snssdk1128://search?keyword=${encodedKeyword}`;
+            const webUrl = `https://www.douyin.com/search/${encodedKeyword}`;
+            
+            // 尝试打开App
+            window.location.href = appScheme;
+            
+            // 2秒后降级到网页版
+            setTimeout(function() {
+                window.open(webUrl, '_blank');
+            }, 2000);
+            
+            closeDouyinModal();
+        });
+
+        // ========== 灵机一动 ==========
+        function toggleInputCard() {
+            const inputCard = document.getElementById('inputCard');
+            const quickBar = document.getElementById('quickRecordBar');
+            
+            if (inputCard.classList.contains('hidden')) {
+                inputCard.classList.remove('hidden');
+                inputCard.classList.add('flex');
+                quickBar.classList.add('expanded');
+                document.getElementById('inspirationInput').focus();
+            } else {
+                hideInputCard();
+            }
+        }
+
+        function hideInputCard() {
+            const inputCard = document.getElementById('inputCard');
+            const quickBar = document.getElementById('quickRecordBar');
+            inputCard.classList.add('hidden');
+            inputCard.classList.remove('flex');
+            quickBar.classList.remove('expanded');
+            document.getElementById('inspirationInput').value = '';
+        }
+
+        function saveInspiration() {
+            const content = document.getElementById('inspirationInput').value.trim();
+            if (!content) {
+                showToast('请输入内容');
+                return;
+            }
+            
+            const inspirations = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+            inspirations.unshift({
+                id: Date.now(),
+                content: content,
+                createdAt: new Date().toISOString(),
+                type: 'user'
+            });
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(inspirations));
+            
+            hideInputCard();
+            showToast('✓ 已记录');
+            
+            // 快速记录条短暂显示绿色勾
+            const placeholder = document.querySelector('.record-placeholder');
+            placeholder.textContent = '✓ 已记录';
+            placeholder.classList.add('recorded-flash');
+            placeholder.style.color = '#22c55e';
+            setTimeout(() => {
+                placeholder.textContent = '闪念一瞬...';
+                placeholder.classList.remove('recorded-flash');
+                placeholder.style.color = '';
+            }, 1500);
+        }
+
+        function getRandomInspiration() {
+            const trigger = document.getElementById('triggerCircle');
+            trigger.classList.add('shake-animation');
+            setTimeout(() => trigger.classList.remove('shake-animation'), 500);
+            
+            currentCardIndex = Math.floor(Math.random() * inspirationCards.length);
+            const card = inspirationCards[currentCardIndex];
+            
+            document.getElementById('cardEmoji').textContent = card.emoji;
+            document.getElementById('cardContent').textContent = card.content;
+            document.getElementById('cardTag').textContent = card.tag;
+        }
+
+        function copyCurrentCard() {
+            const content = document.getElementById('cardContent').textContent;
+            navigator.clipboard.writeText(content).then(() => {
+                showToast('已复制');
+            }).catch(() => {
+                showToast('复制失败');
+            });
+        }
+
+        // ========== 摇一摇功能 ==========
+        let shakeThreshold = 15;
+        let lastShakeTime = 0;
+        let lastX, lastY, lastZ;
+
+        function requestShakePermission() {
+            if (typeof DeviceMotionEvent !== 'undefined' && typeof DeviceMotionEvent.requestPermission === 'function') {
+                DeviceMotionEvent.requestPermission()
+                    .then(response => {
+                        if (response === 'granted') {
+                            window.addEventListener('devicemotion', handleShake);
+                            showToast('摇一摇已授权');
+                        } else {
+                            showToast('摇一摇授权被拒绝');
+                        }
+                    })
+                    .catch(console.error);
+            } else {
+                window.addEventListener('devicemotion', handleShake);
+                showToast('摇一摇功能已启用');
+            }
+        }
+
+        function handleShake(event) {
+            const currentTime = Date.now();
+            if (currentTime - lastShakeTime < 300) return;
+            
+            const acceleration = event.accelerationIncludingGravity;
+            if (!acceleration) return;
+            
+            const x = acceleration.x;
+            const y = acceleration.y;
+            const z = acceleration.z;
+            
+            if (!lastX) {
+                lastX = x; lastY = y; lastZ = z;
+                return;
+            }
+            
+            const deltaX = Math.abs(x - lastX);
+            const deltaY = Math.abs(y - lastY);
+            const deltaZ = Math.abs(z - lastZ);
+            
+            if ((deltaX > shakeThreshold && deltaY > shakeThreshold) ||
+                (deltaX > shakeThreshold && deltaZ > shakeThreshold) ||
+                (deltaY > shakeThreshold && deltaZ > shakeThreshold)) {
+                lastShakeTime = currentTime;
+                getRandomInspiration();
+            }
+            
+            lastX = x; lastY = y; lastZ = z;
+        }
+
+        // ========== 我的库 ==========
+        function renderLibrary() {
+            const inspirations = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+            const container = document.getElementById('libraryList');
+            const emptyState = document.getElementById('emptyState');
+            
+            if (inspirations.length === 0) {
+                container.innerHTML = '';
+                emptyState.classList.remove('hidden');
+                emptyState.classList.add('flex');
+                return;
+            }
+            
+            emptyState.classList.add('hidden');
+            emptyState.classList.remove('flex');
+            
+            // 分组
+            const now = new Date();
+            const today = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
+            const yesterday = today - 86400000;
+            
+            const groups = {
+                today: [],
+                yesterday: [],
+                earlier: []
+            };
+            
+            inspirations.forEach(item => {
+                const itemDate = new Date(item.createdAt).getTime();
+                if (itemDate >= today) {
+                    groups.today.push(item);
+                } else if (itemDate >= yesterday) {
+                    groups.yesterday.push(item);
+                } else {
+                    groups.earlier.push(item);
+                }
+            });
+            
+            let html = '<div class="relative">';
+            html += '<div class="absolute left-[11px] top-4 bottom-8 w-0.5 bg-outline-variant/30 z-0"></div>';
+            
+            if (groups.today.length > 0) {
+                html += renderGroup('今天', groups.today, true);
+            }
+            if (groups.yesterday.length > 0) {
+                html += renderGroup('昨天', groups.yesterday, false);
+            }
+            if (groups.earlier.length > 0) {
+                html += renderGroup('更早', groups.earlier, false);
+            }
+            
+            html += '</div>';
+            container.innerHTML = html;
+        }
+
+        function renderGroup(title, items, isToday) {
+            const dotColor = isToday ? 'bg-primary' : 'bg-outline-variant';
+            const titleColor = isToday ? 'text-primary' : 'text-on-surface-variant';
+            const dotInner = isToday ? 'bg-on-primary' : 'bg-on-surface-variant';
+            
+            let html = `
+                <div class="mb-8 relative z-10">
+                    <div class="flex items-center mb-4">
+                        <div class="w-6 h-6 rounded-full ${dotColor} flex items-center justify-center border-4 border-surface shadow-sm z-10 shrink-0">
+                            <div class="w-2 h-2 rounded-full ${dotInner}"></div>
+                        </div>
+                        <h3 class="font-headline text-lg font-bold ${titleColor} ml-3">${title}</h3>
+                    </div>
+                    <div class="pl-10 space-y-4">
+            `;
+            
+            items.forEach(item => {
+                html += `
+                    <div class="glass-card rounded-lg p-5 flex justify-between items-start group hover:-translate-y-1 transition-transform duration-300">
+                        <div class="flex-1 pr-4">
+                            <p class="text-on-surface text-base font-medium leading-relaxed">${item.content}</p>
+                            <p class="mt-2 text-xs text-on-surface-variant">${formatTime(item.createdAt)}</p>
+                        </div>
+                        <button class="text-outline hover:text-error transition-colors p-2 rounded-full hover:bg-error-container shrink-0" onclick="deleteInspiration(${item.id})">
+                            <span class="material-symbols-outlined">delete</span>
+                        </button>
+                    </div>
+                `;
+            });
+            
+            html += '</div></div>';
+            return html;
+        }
+
+        function formatTime(isoString) {
+            const date = new Date(isoString);
+            const hours = date.getHours().toString().padStart(2, '0');
+            const minutes = date.getMinutes().toString().padStart(2, '0');
+            return `${hours}:${minutes}`;
+        }
+
+        function deleteInspiration(id) {
+            let inspirations = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
+            inspirations = inspirations.filter(item => item.id !== id);
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(inspirations));
+            renderLibrary();
+            showToast('已删除');
+        }
+
+        // ========== Toast ==========
+        function showToast(text) {
+            const toast = document.getElementById('toast');
+            const toastText = document.getElementById('toastText');
+            toastText.textContent = text;
+            toast.classList.remove('hidden');
+            toast.classList.add('toast');
+            
+            setTimeout(() => {
+                toast.classList.add('hidden');
+                toast.classList.remove('toast');
+            }, 2000);
+        }
+    </script>
+</body>
+</html>
