@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-05-20T16:16:04.408613+00:00",
+  "update_time": "2026-05-20T18:36:06.392070+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "普京结束访华",
-      "hot_value": "1190.4万",
+      "hot_value": "1186.7万",
       "url": "https://www.douyin.com/search/%E6%99%AE%E4%BA%AC%E7%BB%93%E6%9D%9F%E8%AE%BF%E5%8D%8E"
     },
     {
       "title": "普京见到了他曾抱过的中国男孩",
-      "hot_value": "1168万",
+      "hot_value": "1124万",
       "url": "https://www.douyin.com/search/%E6%99%AE%E4%BA%AC%E8%A7%81%E5%88%B0%E4%BA%86%E4%BB%96%E6%9B%BE%E6%8A%B1%E8%BF%87%E7%9A%84%E4%B8%AD%E5%9B%BD%E7%94%B7%E5%AD%A9"
     },
     {
       "title": "关键之年的关键会晤",
-      "hot_value": "1148.1万",
+      "hot_value": "1109.1万",
       "url": "https://www.douyin.com/search/%E5%85%B3%E9%94%AE%E4%B9%8B%E5%B9%B4%E7%9A%84%E5%85%B3%E9%94%AE%E4%BC%9A%E6%99%A4"
     },
     {
       "title": "武契奇将于5月24日至28日访华",
-      "hot_value": "1143.5万",
+      "hot_value": "1099.3万",
       "url": "https://www.douyin.com/search/%E6%AD%A6%E5%A5%91%E5%A5%87%E5%B0%86%E4%BA%8E5%E6%9C%8824%E6%97%A5%E8%87%B328%E6%97%A5%E8%AE%BF%E5%8D%8E"
     },
     {
+      "title": "中俄签署并发表联合声明有何深意",
+      "hot_value": "1043.1万",
+      "url": "https://www.douyin.com/search/%E4%B8%AD%E4%BF%84%E7%AD%BE%E7%BD%B2%E5%B9%B6%E5%8F%91%E8%A1%A8%E8%81%94%E5%90%88%E5%A3%B0%E6%98%8E%E6%9C%89%E4%BD%95%E6%B7%B1%E6%84%8F"
+    },
+    {
+      "title": "上海男篮客胜北京夺赛点",
+      "hot_value": "1037.6万",
+      "url": "https://www.douyin.com/search/%E4%B8%8A%E6%B5%B7%E7%94%B7%E7%AF%AE%E5%AE%A2%E8%83%9C%E5%8C%97%E4%BA%AC%E5%A4%BA%E8%B5%9B%E7%82%B9"
+    },
+    {
       "title": "爱的100种语言",
-      "hot_value": "1060.4万",
+      "hot_value": "919.8万",
       "url": "https://www.douyin.com/search/%E7%88%B1%E7%9A%84100%E7%A7%8D%E8%AF%AD%E8%A8%80"
     },
     {
       "title": "这蛋糕暖到心坎里了",
-      "hot_value": "1058万",
+      "hot_value": "919.2万",
       "url": "https://www.douyin.com/search/%E8%BF%99%E8%9B%8B%E7%B3%95%E6%9A%96%E5%88%B0%E5%BF%83%E5%9D%8E%E9%87%8C%E4%BA%86"
     },
     {
-      "title": "抖音全民写作大赛开赛",
-      "hot_value": "928.1万",
-      "url": "https://www.douyin.com/search/%E6%8A%96%E9%9F%B3%E5%85%A8%E6%B0%91%E5%86%99%E4%BD%9C%E5%A4%A7%E8%B5%9B%E5%BC%80%E8%B5%9B"
-    },
-    {
-      "title": "论配饰对穿搭的重要性",
-      "hot_value": "918.9万",
-      "url": "https://www.douyin.com/search/%E8%AE%BA%E9%85%8D%E9%A5%B0%E5%AF%B9%E7%A9%BF%E6%90%AD%E7%9A%84%E9%87%8D%E8%A6%81%E6%80%A7"
-    },
-    {
       "title": "万物皆可粉彩系",
-      "hot_value": "917.4万",
+      "hot_value": "917.6万",
       "url": "https://www.douyin.com/search/%E4%B8%87%E7%89%A9%E7%9A%86%E5%8F%AF%E7%B2%89%E5%BD%A9%E7%B3%BB"
     },
     {
-      "title": "上海男篮客胜北京夺赛点",
-      "hot_value": "914.9万",
-      "url": "https://www.douyin.com/search/%E4%B8%8A%E6%B5%B7%E7%94%B7%E7%AF%AE%E5%AE%A2%E8%83%9C%E5%8C%97%E4%BA%AC%E5%A4%BA%E8%B5%9B%E7%82%B9"
+      "title": "抖音全民写作大赛开赛",
+      "hot_value": "913.7万",
+      "url": "https://www.douyin.com/search/%E6%8A%96%E9%9F%B3%E5%85%A8%E6%B0%91%E5%86%99%E4%BD%9C%E5%A4%A7%E8%B5%9B%E5%BC%80%E8%B5%9B"
     }
   ]
 }
