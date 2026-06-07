@@ -1,56 +1,6 @@
 {
-  "update_time": "2026-06-07T10:55:10.699708+00:00",
+  "update_time": "2026-06-07T12:22:32.371710+00:00",
   "source": "抖音热榜",
-  "hotspots": [
-    {
-      "title": "直击高考首日",
-      "hot_value": "1180.8万",
-      "url": "https://www.douyin.com/search/%E7%9B%B4%E5%87%BB%E9%AB%98%E8%80%83%E9%A6%96%E6%97%A5"
-    },
-    {
-      "title": "高考数学",
-      "hot_value": "1117万",
-      "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E6%95%B0%E5%AD%A6"
-    },
-    {
-      "title": "全国麦收近六成",
-      "hot_value": "1079.4万",
-      "url": "https://www.douyin.com/search/%E5%85%A8%E5%9B%BD%E9%BA%A6%E6%94%B6%E8%BF%91%E5%85%AD%E6%88%90"
-    },
-    {
-      "title": "高考作文",
-      "hot_value": "1078.2万",
-      "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E4%BD%9C%E6%96%87"
-    },
-    {
-      "title": "高考语文",
-      "hot_value": "976.7万",
-      "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E8%AF%AD%E6%96%87"
-    },
-    {
-      "title": "高考数学难不难",
-      "hot_value": "879.9万",
-      "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E6%95%B0%E5%AD%A6%E9%9A%BE%E4%B8%8D%E9%9A%BE"
-    },
-    {
-      "title": "全抖音为2026高考加油",
-      "hot_value": "783.4万",
-      "url": "https://www.douyin.com/search/%E5%85%A8%E6%8A%96%E9%9F%B3%E4%B8%BA2026%E9%AB%98%E8%80%83%E5%8A%A0%E6%B2%B9"
-    },
-    {
-      "title": "黑熊NPC把漂流玩成了整活局",
-      "hot_value": "780.9万",
-      "url": "https://www.douyin.com/search/%E9%BB%91%E7%86%8ANPC%E6%8A%8A%E6%BC%82%E6%B5%81%E7%8E%A9%E6%88%90%E4%BA%86%E6%95%B4%E6%B4%BB%E5%B1%80"
-    },
-    {
-      "title": "成何体统2现代婚礼夯爆了",
-      "hot_value": "779.6万",
-      "url": "https://www.douyin.com/search/%E6%88%90%E4%BD%95%E4%BD%93%E7%BB%9F2%E7%8E%B0%E4%BB%A3%E5%A9%9A%E7%A4%BC%E5%A4%AF%E7%88%86%E4%BA%86"
-    },
-    {
-      "title": "一起为高考静音 ​",
-      "hot_value": "778.8万",
-      "url": "https://www.douyin.com/search/%E4%B8%80%E8%B5%B7%E4%B8%BA%E9%AB%98%E8%80%83%E9%9D%99%E9%9F%B3+%E2%80%8B"
-    }
-  ]
+  "hotspots": [],
+  "error": "数据获取失败，请稍后重试"
 }
