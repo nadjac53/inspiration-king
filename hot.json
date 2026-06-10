@@ -1,6 +1,56 @@
 {
-  "update_time": "2026-06-10T19:57:58.429628+00:00",
+  "update_time": "2026-06-10T22:14:07.798690+00:00",
   "source": "抖音热榜",
-  "hotspots": [],
-  "error": "数据获取失败，请稍后重试"
+  "hotspots": [
+    {
+      "title": "2026世界杯小组赛赛程",
+      "hot_value": "1141.9万",
+      "url": "https://www.douyin.com/search/2026%E4%B8%96%E7%95%8C%E6%9D%AF%E5%B0%8F%E7%BB%84%E8%B5%9B%E8%B5%9B%E7%A8%8B"
+    },
+    {
+      "title": "上海市副市长陈宇剑被查",
+      "hot_value": "1127.2万",
+      "url": "https://www.douyin.com/search/%E4%B8%8A%E6%B5%B7%E5%B8%82%E5%89%AF%E5%B8%82%E9%95%BF%E9%99%88%E5%AE%87%E5%89%91%E8%A2%AB%E6%9F%A5"
+    },
+    {
+      "title": "5月新能源汽车产销量同比增长",
+      "hot_value": "1117.9万",
+      "url": "https://www.douyin.com/search/5%E6%9C%88%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E4%BA%A7%E9%94%80%E9%87%8F%E5%90%8C%E6%AF%94%E5%A2%9E%E9%95%BF"
+    },
+    {
+      "title": "美国5月CPI同比上涨4.2%",
+      "hot_value": "1112.1万",
+      "url": "https://www.douyin.com/search/%E7%BE%8E%E5%9B%BD5%E6%9C%88CPI%E5%90%8C%E6%AF%94%E4%B8%8A%E6%B6%A84.2%25"
+    },
+    {
+      "title": "印度出生率首次跌破更替水平",
+      "hot_value": "1045.4万",
+      "url": "https://www.douyin.com/search/%E5%8D%B0%E5%BA%A6%E5%87%BA%E7%94%9F%E7%8E%87%E9%A6%96%E6%AC%A1%E8%B7%8C%E7%A0%B4%E6%9B%B4%E6%9B%BF%E6%B0%B4%E5%B9%B3"
+    },
+    {
+      "title": "天热了就化这个降温妆",
+      "hot_value": "1035.9万",
+      "url": "https://www.douyin.com/search/%E5%A4%A9%E7%83%AD%E4%BA%86%E5%B0%B1%E5%8C%96%E8%BF%99%E4%B8%AA%E9%99%8D%E6%B8%A9%E5%A6%86"
+    },
+    {
+      "title": "花旗继续唱空金价",
+      "hot_value": "925.8万",
+      "url": "https://www.douyin.com/search/%E8%8A%B1%E6%97%97%E7%BB%A7%E7%BB%AD%E5%94%B1%E7%A9%BA%E9%87%91%E4%BB%B7"
+    },
+    {
+      "title": "世界杯你的唐梓回来了",
+      "hot_value": "923.6万",
+      "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E6%9D%AF%E4%BD%A0%E7%9A%84%E5%94%90%E6%A2%93%E5%9B%9E%E6%9D%A5%E4%BA%86"
+    },
+    {
+      "title": "所有零食立刻打入冷宫",
+      "hot_value": "919.1万",
+      "url": "https://www.douyin.com/search/%E6%89%80%E6%9C%89%E9%9B%B6%E9%A3%9F%E7%AB%8B%E5%88%BB%E6%89%93%E5%85%A5%E5%86%B7%E5%AE%AB"
+    },
+    {
+      "title": "西瓜原来可以当成豆腐切",
+      "hot_value": "903.2万",
+      "url": "https://www.douyin.com/search/%E8%A5%BF%E7%93%9C%E5%8E%9F%E6%9D%A5%E5%8F%AF%E4%BB%A5%E5%BD%93%E6%88%90%E8%B1%86%E8%85%90%E5%88%87"
+    }
+  ]
 }
