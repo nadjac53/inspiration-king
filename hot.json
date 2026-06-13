@@ -1,6 +1,56 @@
 {
-  "update_time": "2026-06-13T05:09:05.601280+00:00",
+  "update_time": "2026-06-13T08:33:33.054870+00:00",
   "source": "抖音热榜",
-  "hotspots": [],
-  "error": "数据获取失败，请稍后重试"
+  "hotspots": [
+    {
+      "title": "美国4:1巴拉圭",
+      "hot_value": "1170.3万",
+      "url": "https://www.douyin.com/search/%E7%BE%8E%E5%9B%BD4%3A1%E5%B7%B4%E6%8B%89%E5%9C%AD"
+    },
+    {
+      "title": "美加墨世界杯美国开幕式",
+      "hot_value": "1159.2万",
+      "url": "https://www.douyin.com/search/%E7%BE%8E%E5%8A%A0%E5%A2%A8%E4%B8%96%E7%95%8C%E6%9D%AF%E7%BE%8E%E5%9B%BD%E5%BC%80%E5%B9%95%E5%BC%8F"
+    },
+    {
+      "title": "今天是文化和自然遗产日",
+      "hot_value": "1104.1万",
+      "url": "https://www.douyin.com/search/%E4%BB%8A%E5%A4%A9%E6%98%AF%E6%96%87%E5%8C%96%E5%92%8C%E8%87%AA%E7%84%B6%E9%81%97%E4%BA%A7%E6%97%A5"
+    },
+    {
+      "title": "现场观战美国队揭幕战",
+      "hot_value": "1098.6万",
+      "url": "https://www.douyin.com/search/%E7%8E%B0%E5%9C%BA%E8%A7%82%E6%88%98%E7%BE%8E%E5%9B%BD%E9%98%9F%E6%8F%AD%E5%B9%95%E6%88%98"
+    },
+    {
+      "title": "世界杯新单曲IN MY HAND",
+      "hot_value": "1038.7万",
+      "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E6%9D%AF%E6%96%B0%E5%8D%95%E6%9B%B2IN+MY+HAND"
+    },
+    {
+      "title": "哈兰德把挪威的森林焊死在抖音",
+      "hot_value": "1026.9万",
+      "url": "https://www.douyin.com/search/%E5%93%88%E5%85%B0%E5%BE%B7%E6%8A%8A%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97%E7%84%8A%E6%AD%BB%E5%9C%A8%E6%8A%96%E9%9F%B3"
+    },
+    {
+      "title": "夏天用这个方法切西瓜",
+      "hot_value": "918.7万",
+      "url": "https://www.douyin.com/search/%E5%A4%8F%E5%A4%A9%E7%94%A8%E8%BF%99%E4%B8%AA%E6%96%B9%E6%B3%95%E5%88%87%E8%A5%BF%E7%93%9C"
+    },
+    {
+      "title": "世界杯AI视频绿茵恩仇录火了",
+      "hot_value": "917.2万",
+      "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E6%9D%AFAI%E8%A7%86%E9%A2%91%E7%BB%BF%E8%8C%B5%E6%81%A9%E4%BB%87%E5%BD%95%E7%81%AB%E4%BA%86"
+    },
+    {
+      "title": "原来成语缝在汉服里",
+      "hot_value": "911.9万",
+      "url": "https://www.douyin.com/search/%E5%8E%9F%E6%9D%A5%E6%88%90%E8%AF%AD%E7%BC%9D%E5%9C%A8%E6%B1%89%E6%9C%8D%E9%87%8C"
+    },
+    {
+      "title": "各地特色早餐和看球的适配度",
+      "hot_value": "872.9万",
+      "url": "https://www.douyin.com/search/%E5%90%84%E5%9C%B0%E7%89%B9%E8%89%B2%E6%97%A9%E9%A4%90%E5%92%8C%E7%9C%8B%E7%90%83%E7%9A%84%E9%80%82%E9%85%8D%E5%BA%A6"
+    }
+  ]
 }
