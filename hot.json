@@ -1,6 +1,56 @@
 {
-  "update_time": "2026-06-19T02:21:03.126345+00:00",
+  "update_time": "2026-06-19T08:18:18.957677+00:00",
   "source": "抖音热榜",
-  "hotspots": [],
-  "error": "数据获取失败，请稍后重试"
+  "hotspots": [
+    {
+      "title": "端午节一桌封神挑战",
+      "hot_value": "1212.5万",
+      "url": "https://www.douyin.com/search/%E7%AB%AF%E5%8D%88%E8%8A%82%E4%B8%80%E6%A1%8C%E5%B0%81%E7%A5%9E%E6%8C%91%E6%88%98"
+    },
+    {
+      "title": "瑞士外交部证实美伊会谈取消",
+      "hot_value": "1185.2万",
+      "url": "https://www.douyin.com/search/%E7%91%9E%E5%A3%AB%E5%A4%96%E4%BA%A4%E9%83%A8%E8%AF%81%E5%AE%9E%E7%BE%8E%E4%BC%8A%E4%BC%9A%E8%B0%88%E5%8F%96%E6%B6%88"
+    },
+    {
+      "title": "古人的端午",
+      "hot_value": "1156.2万",
+      "url": "https://www.douyin.com/search/%E5%8F%A4%E4%BA%BA%E7%9A%84%E7%AB%AF%E5%8D%88"
+    },
+    {
+      "title": "苏州端午大场面正在蓄力中",
+      "hot_value": "1151.4万",
+      "url": "https://www.douyin.com/search/%E8%8B%8F%E5%B7%9E%E7%AB%AF%E5%8D%88%E5%A4%A7%E5%9C%BA%E9%9D%A2%E6%AD%A3%E5%9C%A8%E8%93%84%E5%8A%9B%E4%B8%AD"
+    },
+    {
+      "title": "超轻粘土也能仿大卫石膏像",
+      "hot_value": "1086.9万",
+      "url": "https://www.douyin.com/search/%E8%B6%85%E8%BD%BB%E7%B2%98%E5%9C%9F%E4%B9%9F%E8%83%BD%E4%BB%BF%E5%A4%A7%E5%8D%AB%E7%9F%B3%E8%86%8F%E5%83%8F"
+    },
+    {
+      "title": "蛋仔心愿征集企划上线",
+      "hot_value": "1079.6万",
+      "url": "https://www.douyin.com/search/%E8%9B%8B%E4%BB%94%E5%BF%83%E6%84%BF%E5%BE%81%E9%9B%86%E4%BC%81%E5%88%92%E4%B8%8A%E7%BA%BF"
+    },
+    {
+      "title": "广东龙舟赛民俗新玩法夯爆了",
+      "hot_value": "965.7万",
+      "url": "https://www.douyin.com/search/%E5%B9%BF%E4%B8%9C%E9%BE%99%E8%88%9F%E8%B5%9B%E6%B0%91%E4%BF%97%E6%96%B0%E7%8E%A9%E6%B3%95%E5%A4%AF%E7%88%86%E4%BA%86"
+    },
+    {
+      "title": "大主宰2清衍静霸气登场",
+      "hot_value": "945.7万",
+      "url": "https://www.douyin.com/search/%E5%A4%A7%E4%B8%BB%E5%AE%B02%E6%B8%85%E8%A1%8D%E9%9D%99%E9%9C%B8%E6%B0%94%E7%99%BB%E5%9C%BA"
+    },
+    {
+      "title": "“龙舟”竞渡有亿点硬核",
+      "hot_value": "940.8万",
+      "url": "https://www.douyin.com/search/%E2%80%9C%E9%BE%99%E8%88%9F%E2%80%9D%E7%AB%9E%E6%B8%A1%E6%9C%89%E4%BA%BF%E7%82%B9%E7%A1%AC%E6%A0%B8"
+    },
+    {
+      "title": "俄警告北约国家",
+      "hot_value": "935.4万",
+      "url": "https://www.douyin.com/search/%E4%BF%84%E8%AD%A6%E5%91%8A%E5%8C%97%E7%BA%A6%E5%9B%BD%E5%AE%B6"
+    }
+  ]
 }
