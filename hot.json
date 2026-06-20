@@ -1,6 +1,56 @@
 {
-  "update_time": "2026-06-20T04:07:15.053724+00:00",
+  "update_time": "2026-06-20T07:59:48.010962+00:00",
   "source": "抖音热榜",
-  "hotspots": [],
-  "error": "数据获取失败，请稍后重试"
+  "hotspots": [
+    {
+      "title": "龙舟赛最强阿婆啦啦队",
+      "hot_value": "1210.6万",
+      "url": "https://www.douyin.com/search/%E9%BE%99%E8%88%9F%E8%B5%9B%E6%9C%80%E5%BC%BA%E9%98%BF%E5%A9%86%E5%95%A6%E5%95%A6%E9%98%9F"
+    },
+    {
+      "title": "第一次见心眼这么多的AI",
+      "hot_value": "1210.6万",
+      "url": "https://www.douyin.com/search/%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%A7%81%E5%BF%83%E7%9C%BC%E8%BF%99%E4%B9%88%E5%A4%9A%E7%9A%84AI"
+    },
+    {
+      "title": "大渡河金川水电站全容量投产发电",
+      "hot_value": "1206.6万",
+      "url": "https://www.douyin.com/search/%E5%A4%A7%E6%B8%A1%E6%B2%B3%E9%87%91%E5%B7%9D%E6%B0%B4%E7%94%B5%E7%AB%99%E5%85%A8%E5%AE%B9%E9%87%8F%E6%8A%95%E4%BA%A7%E5%8F%91%E7%94%B5"
+    },
+    {
+      "title": "非遗人在过一种很新的端午",
+      "hot_value": "1183.8万",
+      "url": "https://www.douyin.com/search/%E9%9D%9E%E9%81%97%E4%BA%BA%E5%9C%A8%E8%BF%87%E4%B8%80%E7%A7%8D%E5%BE%88%E6%96%B0%E7%9A%84%E7%AB%AF%E5%8D%88"
+    },
+    {
+      "title": "广东龙舟赛民俗新玩法夯爆了",
+      "hot_value": "1112万",
+      "url": "https://www.douyin.com/search/%E5%B9%BF%E4%B8%9C%E9%BE%99%E8%88%9F%E8%B5%9B%E6%B0%91%E4%BF%97%E6%96%B0%E7%8E%A9%E6%B3%95%E5%A4%AF%E7%88%86%E4%BA%86"
+    },
+    {
+      "title": "超轻粘土也能仿大卫石膏像",
+      "hot_value": "1071.1万",
+      "url": "https://www.douyin.com/search/%E8%B6%85%E8%BD%BB%E7%B2%98%E5%9C%9F%E4%B9%9F%E8%83%BD%E4%BB%BF%E5%A4%A7%E5%8D%AB%E7%9F%B3%E8%86%8F%E5%83%8F"
+    },
+    {
+      "title": "台风“米克拉”生成",
+      "hot_value": "927.3万",
+      "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E2%80%9C%E7%B1%B3%E5%85%8B%E6%8B%89%E2%80%9D%E7%94%9F%E6%88%90"
+    },
+    {
+      "title": "当孙权即将有新皮肤",
+      "hot_value": "918.8万",
+      "url": "https://www.douyin.com/search/%E5%BD%93%E5%AD%99%E6%9D%83%E5%8D%B3%E5%B0%86%E6%9C%89%E6%96%B0%E7%9A%AE%E8%82%A4"
+    },
+    {
+      "title": "跟着乌啦啦打卡商丘麻辣鱼头",
+      "hot_value": "917.4万",
+      "url": "https://www.douyin.com/search/%E8%B7%9F%E7%9D%80%E4%B9%8C%E5%95%A6%E5%95%A6%E6%89%93%E5%8D%A1%E5%95%86%E4%B8%98%E9%BA%BB%E8%BE%A3%E9%B1%BC%E5%A4%B4"
+    },
+    {
+      "title": "来佛山沉浸式观赏叠滘龙舟漂移",
+      "hot_value": "916万",
+      "url": "https://www.douyin.com/search/%E6%9D%A5%E4%BD%9B%E5%B1%B1%E6%B2%89%E6%B5%B8%E5%BC%8F%E8%A7%82%E8%B5%8F%E5%8F%A0%E6%BB%98%E9%BE%99%E8%88%9F%E6%BC%82%E7%A7%BB"
+    }
+  ]
 }
