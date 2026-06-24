@@ -1,56 +1,6 @@
 {
-  "update_time": "2026-06-24T16:24:44.193756+00:00",
+  "update_time": "2026-06-24T18:22:08.938521+00:00",
   "source": "抖音热榜",
-  "hotspots": [
-    {
-      "title": "河南高考分数线公布",
-      "hot_value": "1195.5万",
-      "url": "https://www.douyin.com/search/%E6%B2%B3%E5%8D%97%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83"
-    },
-    {
-      "title": "河北2026高考分数线公布",
-      "hot_value": "1132.7万",
-      "url": "https://www.douyin.com/search/%E6%B2%B3%E5%8C%972026%E9%AB%98%E8%80%83%E5%88%86%E6%95%B0%E7%BA%BF%E5%85%AC%E5%B8%83"
-    },
-    {
-      "title": "全国收购夏粮已超过3000万吨",
-      "hot_value": "1132.7万",
-      "url": "https://www.douyin.com/search/%E5%85%A8%E5%9B%BD%E6%94%B6%E8%B4%AD%E5%A4%8F%E7%B2%AE%E5%B7%B2%E8%B6%85%E8%BF%873000%E4%B8%87%E5%90%A8"
-    },
-    {
-      "title": "我的高考出分时刻",
-      "hot_value": "1108万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86%E6%97%B6%E5%88%BB"
-    },
-    {
-      "title": "晒晒我的高考成绩",
-      "hot_value": "1035.9万",
-      "url": "https://www.douyin.com/search/%E6%99%92%E6%99%92%E6%88%91%E7%9A%84%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9"
-    },
-    {
-      "title": "现货黄金价格跌破4000美元大关",
-      "hot_value": "1031.3万",
-      "url": "https://www.douyin.com/search/%E7%8E%B0%E8%B4%A7%E9%BB%84%E9%87%91%E4%BB%B7%E6%A0%BC%E8%B7%8C%E7%A0%B44000%E7%BE%8E%E5%85%83%E5%A4%A7%E5%85%B3"
-    },
-    {
-      "title": "王者荣耀6.25正式服更新",
-      "hot_value": "916.6万",
-      "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%806.25%E6%AD%A3%E5%BC%8F%E6%9C%8D%E6%9B%B4%E6%96%B0"
-    },
-    {
-      "title": "祝各位考生成功上岸",
-      "hot_value": "904万",
-      "url": "https://www.douyin.com/search/%E7%A5%9D%E5%90%84%E4%BD%8D%E8%80%83%E7%94%9F%E6%88%90%E5%8A%9F%E4%B8%8A%E5%B2%B8"
-    },
-    {
-      "title": "一人一句专业志愿真心话",
-      "hot_value": "899.2万",
-      "url": "https://www.douyin.com/search/%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E4%B8%93%E4%B8%9A%E5%BF%97%E6%84%BF%E7%9C%9F%E5%BF%83%E8%AF%9D"
-    },
-    {
-      "title": "中考后的第一条抖音",
-      "hot_value": "874.3万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E8%80%83%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%A1%E6%8A%96%E9%9F%B3"
-    }
-  ]
+  "hotspots": [],
+  "error": "数据获取失败，请稍后重试"
 }
