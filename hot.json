@@ -1,6 +1,56 @@
 {
-  "update_time": "2026-06-24T18:22:08.938521+00:00",
+  "update_time": "2026-06-24T20:22:01.801010+00:00",
   "source": "抖音热榜",
-  "hotspots": [],
-  "error": "数据获取失败，请稍后重试"
+  "hotspots": [
+    {
+      "title": "我的高考出分时刻",
+      "hot_value": "1199.8万",
+      "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E9%AB%98%E8%80%83%E5%87%BA%E5%88%86%E6%97%B6%E5%88%BB"
+    },
+    {
+      "title": "晒晒我的高考成绩",
+      "hot_value": "1183.8万",
+      "url": "https://www.douyin.com/search/%E6%99%92%E6%99%92%E6%88%91%E7%9A%84%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9"
+    },
+    {
+      "title": "全国收购夏粮已超过3000万吨",
+      "hot_value": "1153.8万",
+      "url": "https://www.douyin.com/search/%E5%85%A8%E5%9B%BD%E6%94%B6%E8%B4%AD%E5%A4%8F%E7%B2%AE%E5%B7%B2%E8%B6%85%E8%BF%873000%E4%B8%87%E5%90%A8"
+    },
+    {
+      "title": "一人一句专业志愿真心话",
+      "hot_value": "1105.2万",
+      "url": "https://www.douyin.com/search/%E4%B8%80%E4%BA%BA%E4%B8%80%E5%8F%A5%E4%B8%93%E4%B8%9A%E5%BF%97%E6%84%BF%E7%9C%9F%E5%BF%83%E8%AF%9D"
+    },
+    {
+      "title": "祝各位考生成功上岸",
+      "hot_value": "1049.7万",
+      "url": "https://www.douyin.com/search/%E7%A5%9D%E5%90%84%E4%BD%8D%E8%80%83%E7%94%9F%E6%88%90%E5%8A%9F%E4%B8%8A%E5%B2%B8"
+    },
+    {
+      "title": "Seedance2.0直出4K",
+      "hot_value": "1048.6万",
+      "url": "https://www.douyin.com/search/Seedance2.0%E7%9B%B4%E5%87%BA4K"
+    },
+    {
+      "title": "王者荣耀6.25正式服更新",
+      "hot_value": "931.9万",
+      "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%806.25%E6%AD%A3%E5%BC%8F%E6%9C%8D%E6%9B%B4%E6%96%B0"
+    },
+    {
+      "title": "中考后的第一条抖音",
+      "hot_value": "900.8万",
+      "url": "https://www.douyin.com/search/%E4%B8%AD%E8%80%83%E5%90%8E%E7%9A%84%E7%AC%AC%E4%B8%80%E6%9D%A1%E6%8A%96%E9%9F%B3"
+    },
+    {
+      "title": "当我把旅行做成票根",
+      "hot_value": "893万",
+      "url": "https://www.douyin.com/search/%E5%BD%93%E6%88%91%E6%8A%8A%E6%97%85%E8%A1%8C%E5%81%9A%E6%88%90%E7%A5%A8%E6%A0%B9"
+    },
+    {
+      "title": "如果我来写各省中考作文",
+      "hot_value": "838.7万",
+      "url": "https://www.douyin.com/search/%E5%A6%82%E6%9E%9C%E6%88%91%E6%9D%A5%E5%86%99%E5%90%84%E7%9C%81%E4%B8%AD%E8%80%83%E4%BD%9C%E6%96%87"
+    }
+  ]
 }
