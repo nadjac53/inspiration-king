@@ -1,56 +1,6 @@
 {
-  "update_time": "2026-06-28T01:53:10.385262+00:00",
+  "update_time": "2026-06-28T06:23:20.282966+00:00",
   "source": "抖音热榜",
-  "hotspots": [
-    {
-      "title": "拍到了李白笔下的疑是银河落九天",
-      "hot_value": "1214.2万",
-      "url": "https://www.douyin.com/search/%E6%8B%8D%E5%88%B0%E4%BA%86%E6%9D%8E%E7%99%BD%E7%AC%94%E4%B8%8B%E7%9A%84%E7%96%91%E6%98%AF%E9%93%B6%E6%B2%B3%E8%90%BD%E4%B9%9D%E5%A4%A9"
-    },
-    {
-      "title": "在抖音的三国文学里出不来了",
-      "hot_value": "1209.8万",
-      "url": "https://www.douyin.com/search/%E5%9C%A8%E6%8A%96%E9%9F%B3%E7%9A%84%E4%B8%89%E5%9B%BD%E6%96%87%E5%AD%A6%E9%87%8C%E5%87%BA%E4%B8%8D%E6%9D%A5%E4%BA%86"
-    },
-    {
-      "title": "前5月规模以上工业企业利润增长",
-      "hot_value": "1193.7万",
-      "url": "https://www.douyin.com/search/%E5%89%8D5%E6%9C%88%E8%A7%84%E6%A8%A1%E4%BB%A5%E4%B8%8A%E5%B7%A5%E4%B8%9A%E4%BC%81%E4%B8%9A%E5%88%A9%E6%B6%A6%E5%A2%9E%E9%95%BF"
-    },
-    {
-      "title": "给准大学生的报志愿建议",
-      "hot_value": "1191.2万",
-      "url": "https://www.douyin.com/search/%E7%BB%99%E5%87%86%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%9A%84%E6%8A%A5%E5%BF%97%E6%84%BF%E5%BB%BA%E8%AE%AE"
-    },
-    {
-      "title": "西十高铁即将开通",
-      "hot_value": "1109.2万",
-      "url": "https://www.douyin.com/search/%E8%A5%BF%E5%8D%81%E9%AB%98%E9%93%81%E5%8D%B3%E5%B0%86%E5%BC%80%E9%80%9A"
-    },
-    {
-      "title": "苏超本轮赛果出炉",
-      "hot_value": "1062.3万",
-      "url": "https://www.douyin.com/search/%E8%8B%8F%E8%B6%85%E6%9C%AC%E8%BD%AE%E8%B5%9B%E6%9E%9C%E5%87%BA%E7%82%89"
-    },
-    {
-      "title": "中超上海海港客场逆转河南队",
-      "hot_value": "935.3万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E8%B6%85%E4%B8%8A%E6%B5%B7%E6%B5%B7%E6%B8%AF%E5%AE%A2%E5%9C%BA%E9%80%86%E8%BD%AC%E6%B2%B3%E5%8D%97%E9%98%9F"
-    },
-    {
-      "title": "苏超有自己的哈兰德",
-      "hot_value": "921.2万",
-      "url": "https://www.douyin.com/search/%E8%8B%8F%E8%B6%85%E6%9C%89%E8%87%AA%E5%B7%B1%E7%9A%84%E5%93%88%E5%85%B0%E5%BE%B7"
-    },
-    {
-      "title": "今夏在萍乡吃农家菜看烟花",
-      "hot_value": "918.1万",
-      "url": "https://www.douyin.com/search/%E4%BB%8A%E5%A4%8F%E5%9C%A8%E8%90%8D%E4%B9%A1%E5%90%83%E5%86%9C%E5%AE%B6%E8%8F%9C%E7%9C%8B%E7%83%9F%E8%8A%B1"
-    },
-    {
-      "title": "吴艳妮女子100米栏夺冠",
-      "hot_value": "911.5万",
-      "url": "https://www.douyin.com/search/%E5%90%B4%E8%89%B3%E5%A6%AE%E5%A5%B3%E5%AD%90100%E7%B1%B3%E6%A0%8F%E5%A4%BA%E5%86%A0"
-    }
-  ]
+  "hotspots": [],
+  "error": "数据获取失败，请稍后重试"
 }
