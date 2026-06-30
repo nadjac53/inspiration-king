@@ -1,56 +1,6 @@
 {
-  "update_time": "2026-06-30T17:07:56.487155+00:00",
+  "update_time": "2026-06-30T19:11:30.345463+00:00",
   "source": "抖音热榜",
-  "hotspots": [
-    {
-      "title": "抖瓦杯S4四强开赛",
-      "hot_value": "1250.9万",
-      "url": "https://www.douyin.com/search/%E6%8A%96%E7%93%A6%E6%9D%AFS4%E5%9B%9B%E5%BC%BA%E5%BC%80%E8%B5%9B"
-    },
-    {
-      "title": "用捡来的水瓶给妈妈做了一束花",
-      "hot_value": "1201.1万",
-      "url": "https://www.douyin.com/search/%E7%94%A8%E6%8D%A1%E6%9D%A5%E7%9A%84%E6%B0%B4%E7%93%B6%E7%BB%99%E5%A6%88%E5%A6%88%E5%81%9A%E4%BA%86%E4%B8%80%E6%9D%9F%E8%8A%B1"
-    },
-    {
-      "title": "80岁奶奶的照相馆",
-      "hot_value": "1192.9万",
-      "url": "https://www.douyin.com/search/80%E5%B2%81%E5%A5%B6%E5%A5%B6%E7%9A%84%E7%85%A7%E7%9B%B8%E9%A6%86"
-    },
-    {
-      "title": "欢迎来到我的专业",
-      "hot_value": "1188.5万",
-      "url": "https://www.douyin.com/search/%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E4%B8%93%E4%B8%9A"
-    },
-    {
-      "title": "我的青春回忆录",
-      "hot_value": "1047.5万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E5%9B%9E%E5%BF%86%E5%BD%95"
-    },
-    {
-      "title": "高考志愿怎么填才能避免滑档",
-      "hot_value": "1045.7万",
-      "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%BF%97%E6%84%BF%E6%80%8E%E4%B9%88%E5%A1%AB%E6%89%8D%E8%83%BD%E9%81%BF%E5%85%8D%E6%BB%91%E6%A1%A3"
-    },
-    {
-      "title": "王者荣耀主播联赛主播集结",
-      "hot_value": "930.8万",
-      "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E4%B8%BB%E6%92%AD%E8%81%94%E8%B5%9B%E4%B8%BB%E6%92%AD%E9%9B%86%E7%BB%93"
-    },
-    {
-      "title": "拜见各地美食大王",
-      "hot_value": "930.1万",
-      "url": "https://www.douyin.com/search/%E6%8B%9C%E8%A7%81%E5%90%84%E5%9C%B0%E7%BE%8E%E9%A3%9F%E5%A4%A7%E7%8E%8B"
-    },
-    {
-      "title": "iPhone18 Pro机密文件遭泄露",
-      "hot_value": "920.8万",
-      "url": "https://www.douyin.com/search/iPhone18+Pro%E6%9C%BA%E5%AF%86%E6%96%87%E4%BB%B6%E9%81%AD%E6%B3%84%E9%9C%B2"
-    },
-    {
-      "title": "中国共产党党员总数达10128.6万名",
-      "hot_value": "914.1万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E5%85%9A%E5%91%98%E6%80%BB%E6%95%B0%E8%BE%BE10128.6%E4%B8%87%E5%90%8D"
-    }
-  ]
+  "hotspots": [],
+  "error": "数据获取失败，请稍后重试"
 }
