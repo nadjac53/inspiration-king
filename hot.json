@@ -1,56 +1,6 @@
 {
-  "update_time": "2026-06-30T21:09:13.403818+00:00",
+  "update_time": "2026-06-30T22:44:16.888266+00:00",
   "source": "抖音热榜",
-  "hotspots": [
-    {
-      "title": "抖瓦杯S4四强开赛",
-      "hot_value": "1210.8万",
-      "url": "https://www.douyin.com/search/%E6%8A%96%E7%93%A6%E6%9D%AFS4%E5%9B%9B%E5%BC%BA%E5%BC%80%E8%B5%9B"
-    },
-    {
-      "title": "法国vs瑞典",
-      "hot_value": "1198.6万",
-      "url": "https://www.douyin.com/search/%E6%B3%95%E5%9B%BDvs%E7%91%9E%E5%85%B8"
-    },
-    {
-      "title": "用捡来的水瓶给妈妈做了一束花",
-      "hot_value": "1186.9万",
-      "url": "https://www.douyin.com/search/%E7%94%A8%E6%8D%A1%E6%9D%A5%E7%9A%84%E6%B0%B4%E7%93%B6%E7%BB%99%E5%A6%88%E5%A6%88%E5%81%9A%E4%BA%86%E4%B8%80%E6%9D%9F%E8%8A%B1"
-    },
-    {
-      "title": "挪威2:1科特迪瓦",
-      "hot_value": "1167万",
-      "url": "https://www.douyin.com/search/%E6%8C%AA%E5%A8%812%3A1%E7%A7%91%E7%89%B9%E8%BF%AA%E7%93%A6"
-    },
-    {
-      "title": "80岁奶奶的照相馆",
-      "hot_value": "1071.2万",
-      "url": "https://www.douyin.com/search/80%E5%B2%81%E5%A5%B6%E5%A5%B6%E7%9A%84%E7%85%A7%E7%9B%B8%E9%A6%86"
-    },
-    {
-      "title": "我的青春回忆录",
-      "hot_value": "1049.9万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E9%9D%92%E6%98%A5%E5%9B%9E%E5%BF%86%E5%BD%95"
-    },
-    {
-      "title": "王者荣耀主播联赛主播集结",
-      "hot_value": "939万",
-      "url": "https://www.douyin.com/search/%E7%8E%8B%E8%80%85%E8%8D%A3%E8%80%80%E4%B8%BB%E6%92%AD%E8%81%94%E8%B5%9B%E4%B8%BB%E6%92%AD%E9%9B%86%E7%BB%93"
-    },
-    {
-      "title": "高考志愿怎么填才能避免滑档",
-      "hot_value": "938.4万",
-      "url": "https://www.douyin.com/search/%E9%AB%98%E8%80%83%E5%BF%97%E6%84%BF%E6%80%8E%E4%B9%88%E5%A1%AB%E6%89%8D%E8%83%BD%E9%81%BF%E5%85%8D%E6%BB%91%E6%A1%A3"
-    },
-    {
-      "title": "拜见各地美食大王",
-      "hot_value": "927.8万",
-      "url": "https://www.douyin.com/search/%E6%8B%9C%E8%A7%81%E5%90%84%E5%9C%B0%E7%BE%8E%E9%A3%9F%E5%A4%A7%E7%8E%8B"
-    },
-    {
-      "title": "广东清远炒鸡太权威了",
-      "hot_value": "918.6万",
-      "url": "https://www.douyin.com/search/%E5%B9%BF%E4%B8%9C%E6%B8%85%E8%BF%9C%E7%82%92%E9%B8%A1%E5%A4%AA%E6%9D%83%E5%A8%81%E4%BA%86"
-    }
-  ]
+  "hotspots": [],
+  "error": "数据获取失败，请稍后重试"
 }
