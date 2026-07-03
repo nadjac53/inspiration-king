@@ -1,55 +1,55 @@
 {
-  "update_time": "2026-07-03T18:41:22.249859+00:00",
+  "update_time": "2026-07-03T20:17:08.025999+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "把童年搬进森林深处",
-      "hot_value": "1211.5万",
+      "hot_value": "1210.7万",
       "url": "https://www.douyin.com/search/%E6%8A%8A%E7%AB%A5%E5%B9%B4%E6%90%AC%E8%BF%9B%E6%A3%AE%E6%9E%97%E6%B7%B1%E5%A4%84"
     },
     {
       "title": "各地压箱底桃子大公开",
-      "hot_value": "1207万",
+      "hot_value": "1207.3万",
       "url": "https://www.douyin.com/search/%E5%90%84%E5%9C%B0%E5%8E%8B%E7%AE%B1%E5%BA%95%E6%A1%83%E5%AD%90%E5%A4%A7%E5%85%AC%E5%BC%80"
     },
     {
       "title": "四部门出台稳岗扩岗政策",
-      "hot_value": "1190.3万",
+      "hot_value": "1192.4万",
       "url": "https://www.douyin.com/search/%E5%9B%9B%E9%83%A8%E9%97%A8%E5%87%BA%E5%8F%B0%E7%A8%B3%E5%B2%97%E6%89%A9%E5%B2%97%E6%94%BF%E7%AD%96"
     },
     {
-      "title": "中国男篮73:92不敌日本男篮",
-      "hot_value": "1180.5万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE73%3A92%E4%B8%8D%E6%95%8C%E6%97%A5%E6%9C%AC%E7%94%B7%E7%AF%AE"
-    },
-    {
       "title": "油价创下年内最大单次降幅",
-      "hot_value": "1105.6万",
+      "hot_value": "1184.9万",
       "url": "https://www.douyin.com/search/%E6%B2%B9%E4%BB%B7%E5%88%9B%E4%B8%8B%E5%B9%B4%E5%86%85%E6%9C%80%E5%A4%A7%E5%8D%95%E6%AC%A1%E9%99%8D%E5%B9%85"
     },
     {
-      "title": "澳大利亚vs埃及",
-      "hot_value": "1092.6万",
-      "url": "https://www.douyin.com/search/%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9Avs%E5%9F%83%E5%8F%8A"
-    },
-    {
       "title": "台风美莎克登陆海南陵水",
-      "hot_value": "969.3万",
+      "hot_value": "1087.6万",
       "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E7%BE%8E%E8%8E%8E%E5%85%8B%E7%99%BB%E9%99%86%E6%B5%B7%E5%8D%97%E9%99%B5%E6%B0%B4"
     },
     {
+      "title": "澳大利亚vs埃及",
+      "hot_value": "1075.2万",
+      "url": "https://www.douyin.com/search/%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9Avs%E5%9F%83%E5%8F%8A"
+    },
+    {
+      "title": "中国男篮73:92不敌日本男篮",
+      "hot_value": "942万",
+      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE73%3A92%E4%B8%8D%E6%95%8C%E6%97%A5%E6%9C%AC%E7%94%B7%E7%AF%AE"
+    },
+    {
       "title": "依兰爱情故事拉丁版跳出高级感",
-      "hot_value": "958.9万",
+      "hot_value": "940万",
       "url": "https://www.douyin.com/search/%E4%BE%9D%E5%85%B0%E7%88%B1%E6%83%85%E6%95%85%E4%BA%8B%E6%8B%89%E4%B8%81%E7%89%88%E8%B7%B3%E5%87%BA%E9%AB%98%E7%BA%A7%E6%84%9F"
     },
     {
       "title": "张曙光王刚晋升上将军衔",
-      "hot_value": "945.7万",
+      "hot_value": "938.6万",
       "url": "https://www.douyin.com/search/%E5%BC%A0%E6%9B%99%E5%85%89%E7%8E%8B%E5%88%9A%E6%99%8B%E5%8D%87%E4%B8%8A%E5%B0%86%E5%86%9B%E8%A1%94"
     },
     {
       "title": "海军上校方明执行任务时牺牲",
-      "hot_value": "940.1万",
+      "hot_value": "933.1万",
       "url": "https://www.douyin.com/search/%E6%B5%B7%E5%86%9B%E4%B8%8A%E6%A0%A1%E6%96%B9%E6%98%8E%E6%89%A7%E8%A1%8C%E4%BB%BB%E5%8A%A1%E6%97%B6%E7%89%BA%E7%89%B2"
     }
   ]
