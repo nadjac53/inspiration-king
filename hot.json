@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-07-18T16:03:32.189715+00:00",
+  "update_time": "2026-07-18T17:25:41.888445+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "旅游那达慕开幕了",
-      "hot_value": "1210.7万",
+      "hot_value": "1204.3万",
       "url": "https://www.douyin.com/search/%E6%97%85%E6%B8%B8%E9%82%A3%E8%BE%BE%E6%85%95%E5%BC%80%E5%B9%95%E4%BA%86"
     },
     {
       "title": "足协通报申思祁宏参与青训",
-      "hot_value": "1195.1万",
+      "hot_value": "1197.4万",
       "url": "https://www.douyin.com/search/%E8%B6%B3%E5%8D%8F%E9%80%9A%E6%8A%A5%E7%94%B3%E6%80%9D%E7%A5%81%E5%AE%8F%E5%8F%82%E4%B8%8E%E9%9D%92%E8%AE%AD"
     },
     {
       "title": "全国首张脑机接口处方开出",
-      "hot_value": "1130.4万",
+      "hot_value": "1166.8万",
       "url": "https://www.douyin.com/search/%E5%85%A8%E5%9B%BD%E9%A6%96%E5%BC%A0%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E5%A4%84%E6%96%B9%E5%BC%80%E5%87%BA"
     },
     {
-      "title": "孙颖莎王楚钦无缘混双决赛",
-      "hot_value": "1129.8万",
-      "url": "https://www.douyin.com/search/%E5%AD%99%E9%A2%96%E8%8E%8E%E7%8E%8B%E6%A5%9A%E9%92%A6%E6%97%A0%E7%BC%98%E6%B7%B7%E5%8F%8C%E5%86%B3%E8%B5%9B"
-    },
-    {
-      "title": "重庆彭水山体崩塌搜救进展",
-      "hot_value": "1072.2万",
-      "url": "https://www.douyin.com/search/%E9%87%8D%E5%BA%86%E5%BD%AD%E6%B0%B4%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E6%90%9C%E6%95%91%E8%BF%9B%E5%B1%95"
-    },
-    {
-      "title": "捷克众议长冈村富夫将访华",
-      "hot_value": "1057.6万",
-      "url": "https://www.douyin.com/search/%E6%8D%B7%E5%85%8B%E4%BC%97%E8%AE%AE%E9%95%BF%E5%86%88%E6%9D%91%E5%AF%8C%E5%A4%AB%E5%B0%86%E8%AE%BF%E5%8D%8E"
-    },
-    {
       "title": "峨眉山会惩罚每一个嘴硬的人",
-      "hot_value": "944.7万",
+      "hot_value": "1132.6万",
       "url": "https://www.douyin.com/search/%E5%B3%A8%E7%9C%89%E5%B1%B1%E4%BC%9A%E6%83%A9%E7%BD%9A%E6%AF%8F%E4%B8%80%E4%B8%AA%E5%98%B4%E7%A1%AC%E7%9A%84%E4%BA%BA"
     },
     {
+      "title": "重庆彭水山体崩塌搜救进展",
+      "hot_value": "1075.9万",
+      "url": "https://www.douyin.com/search/%E9%87%8D%E5%BA%86%E5%BD%AD%E6%B0%B4%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E6%90%9C%E6%95%91%E8%BF%9B%E5%B1%95"
+    },
+    {
+      "title": "孙颖莎王楚钦无缘混双决赛",
+      "hot_value": "1064.6万",
+      "url": "https://www.douyin.com/search/%E5%AD%99%E9%A2%96%E8%8E%8E%E7%8E%8B%E6%A5%9A%E9%92%A6%E6%97%A0%E7%BC%98%E6%B7%B7%E5%8F%8C%E5%86%B3%E8%B5%9B"
+    },
+    {
+      "title": "捷克众议长冈村富夫将访华",
+      "hot_value": "937.4万",
+      "url": "https://www.douyin.com/search/%E6%8D%B7%E5%85%8B%E4%BC%97%E8%AE%AE%E9%95%BF%E5%86%88%E6%9D%91%E5%AF%8C%E5%A4%AB%E5%B0%86%E8%AE%BF%E5%8D%8E"
+    },
+    {
       "title": "老爸评测实测拼豆安全性",
-      "hot_value": "935.4万",
+      "hot_value": "921.7万",
       "url": "https://www.douyin.com/search/%E8%80%81%E7%88%B8%E8%AF%84%E6%B5%8B%E5%AE%9E%E6%B5%8B%E6%8B%BC%E8%B1%86%E5%AE%89%E5%85%A8%E6%80%A7"
     },
     {
-      "title": "FIFA实力榜姆巴佩进攻第一",
-      "hot_value": "923.3万",
-      "url": "https://www.douyin.com/search/FIFA%E5%AE%9E%E5%8A%9B%E6%A6%9C%E5%A7%86%E5%B7%B4%E4%BD%A9%E8%BF%9B%E6%94%BB%E7%AC%AC%E4%B8%80"
+      "title": "泰国总理阿努廷抵达成都",
+      "hot_value": "919.3万",
+      "url": "https://www.douyin.com/search/%E6%B3%B0%E5%9B%BD%E6%80%BB%E7%90%86%E9%98%BF%E5%8A%AA%E5%BB%B7%E6%8A%B5%E8%BE%BE%E6%88%90%E9%83%BD"
     },
     {
-      "title": "马龙许昕全锦赛晋级四强",
-      "hot_value": "919万",
-      "url": "https://www.douyin.com/search/%E9%A9%AC%E9%BE%99%E8%AE%B8%E6%98%95%E5%85%A8%E9%94%A6%E8%B5%9B%E6%99%8B%E7%BA%A7%E5%9B%9B%E5%BC%BA"
+      "title": "FIFA实力榜姆巴佩进攻第一",
+      "hot_value": "915.2万",
+      "url": "https://www.douyin.com/search/FIFA%E5%AE%9E%E5%8A%9B%E6%A6%9C%E5%A7%86%E5%B7%B4%E4%BD%A9%E8%BF%9B%E6%94%BB%E7%AC%AC%E4%B8%80"
     }
   ]
 }
