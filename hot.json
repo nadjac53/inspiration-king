@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-07-19T16:32:46.194237+00:00",
+  "update_time": "2026-07-19T17:39:40.449038+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "世界杯决赛：西班牙vs阿根廷",
-      "hot_value": "1211.1万",
+      "hot_value": "1211.2万",
       "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E6%9D%AF%E5%86%B3%E8%B5%9B%EF%BC%9A%E8%A5%BF%E7%8F%AD%E7%89%99vs%E9%98%BF%E6%A0%B9%E5%BB%B7"
     },
     {
       "title": "凯尔登孙铭徽vs赖益烨郭洋",
-      "hot_value": "1209.9万",
+      "hot_value": "1210.2万",
       "url": "https://www.douyin.com/search/%E5%87%AF%E5%B0%94%E7%99%BB%E5%AD%99%E9%93%AD%E5%BE%BDvs%E8%B5%96%E7%9B%8A%E7%83%A8%E9%83%AD%E6%B4%8B"
     },
     {
       "title": "中国大模型首次登顶全球代码榜",
-      "hot_value": "1188.2万",
+      "hot_value": "1209.6万",
       "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B%E9%A6%96%E6%AC%A1%E7%99%BB%E9%A1%B6%E5%85%A8%E7%90%83%E4%BB%A3%E7%A0%81%E6%A6%9C"
     },
     {
       "title": "全国吃辣天花板",
-      "hot_value": "1116.1万",
+      "hot_value": "1192.2万",
       "url": "https://www.douyin.com/search/%E5%85%A8%E5%9B%BD%E5%90%83%E8%BE%A3%E5%A4%A9%E8%8A%B1%E6%9D%BF"
     },
     {
+      "title": "林诗栋蒯曼获全锦赛混双冠军",
+      "hot_value": "1047.6万",
+      "url": "https://www.douyin.com/search/%E6%9E%97%E8%AF%97%E6%A0%8B%E8%92%AF%E6%9B%BC%E8%8E%B7%E5%85%A8%E9%94%A6%E8%B5%9B%E6%B7%B7%E5%8F%8C%E5%86%A0%E5%86%9B"
+    },
+    {
       "title": "上海暴雨部分街道积水",
-      "hot_value": "1023.3万",
+      "hot_value": "1025.2万",
       "url": "https://www.douyin.com/search/%E4%B8%8A%E6%B5%B7%E6%9A%B4%E9%9B%A8%E9%83%A8%E5%88%86%E8%A1%97%E9%81%93%E7%A7%AF%E6%B0%B4"
     },
     {
       "title": "马龙许昕男双冠军",
-      "hot_value": "1022.2万",
+      "hot_value": "916.6万",
       "url": "https://www.douyin.com/search/%E9%A9%AC%E9%BE%99%E8%AE%B8%E6%98%95%E7%94%B7%E5%8F%8C%E5%86%A0%E5%86%9B"
     },
     {
       "title": "孟博龙陈畅不敌许涛谷玥灼",
-      "hot_value": "913.4万",
+      "hot_value": "916.4万",
       "url": "https://www.douyin.com/search/%E5%AD%9F%E5%8D%9A%E9%BE%99%E9%99%88%E7%95%85%E4%B8%8D%E6%95%8C%E8%AE%B8%E6%B6%9B%E8%B0%B7%E7%8E%A5%E7%81%BC"
     },
     {
-      "title": "所有人感受这一口肉酱薯条",
-      "hot_value": "906.6万",
-      "url": "https://www.douyin.com/search/%E6%89%80%E6%9C%89%E4%BA%BA%E6%84%9F%E5%8F%97%E8%BF%99%E4%B8%80%E5%8F%A3%E8%82%89%E9%85%B1%E8%96%AF%E6%9D%A1"
-    },
-    {
-      "title": "林诗栋蒯曼获全锦赛混双冠军",
-      "hot_value": "892.7万",
-      "url": "https://www.douyin.com/search/%E6%9E%97%E8%AF%97%E6%A0%8B%E8%92%AF%E6%9B%BC%E8%8E%B7%E5%85%A8%E9%94%A6%E8%B5%9B%E6%B7%B7%E5%8F%8C%E5%86%A0%E5%86%9B"
-    },
-    {
       "title": "那达慕射箭场高燃瞬间来了",
-      "hot_value": "890万",
+      "hot_value": "903.4万",
       "url": "https://www.douyin.com/search/%E9%82%A3%E8%BE%BE%E6%85%95%E5%B0%84%E7%AE%AD%E5%9C%BA%E9%AB%98%E7%87%83%E7%9E%AC%E9%97%B4%E6%9D%A5%E4%BA%86"
+    },
+    {
+      "title": "舞法天女十周年",
+      "hot_value": "891.5万",
+      "url": "https://www.douyin.com/search/%E8%88%9E%E6%B3%95%E5%A4%A9%E5%A5%B3%E5%8D%81%E5%91%A8%E5%B9%B4"
     }
   ]
 }
