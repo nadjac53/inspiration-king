@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-07-24T11:14:10.578975+00:00",
+  "update_time": "2026-07-24T12:49:05.888889+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "台风“红霞”或于明晚登陆我国",
-      "hot_value": "1158.2万",
+      "hot_value": "1110.3万",
       "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E2%80%9C%E7%BA%A2%E9%9C%9E%E2%80%9D%E6%88%96%E4%BA%8E%E6%98%8E%E6%99%9A%E7%99%BB%E9%99%86%E6%88%91%E5%9B%BD"
     },
     {
       "title": "中国男篮vs喀麦隆男篮",
-      "hot_value": "1138万",
+      "hot_value": "1103.7万",
       "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AEvs%E5%96%80%E9%BA%A6%E9%9A%86%E7%94%B7%E7%AF%AE"
     },
     {
       "title": "上半年我国汽车出口超6000亿元",
-      "hot_value": "1111万",
+      "hot_value": "1086.6万",
       "url": "https://www.douyin.com/search/%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%88%91%E5%9B%BD%E6%B1%BD%E8%BD%A6%E5%87%BA%E5%8F%A3%E8%B6%856000%E4%BA%BF%E5%85%83"
     },
     {
-      "title": "这个夏天要被水果冰浆硬控了",
-      "hot_value": "1110.2万",
-      "url": "https://www.douyin.com/search/%E8%BF%99%E4%B8%AA%E5%A4%8F%E5%A4%A9%E8%A6%81%E8%A2%AB%E6%B0%B4%E6%9E%9C%E5%86%B0%E6%B5%86%E7%A1%AC%E6%8E%A7%E4%BA%86"
-    },
-    {
-      "title": "新闻联播",
-      "hot_value": "1030.2万",
-      "url": "https://www.douyin.com/search/%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD"
+      "title": "消暑这件事交给周五",
+      "hot_value": "1083.3万",
+      "url": "https://www.douyin.com/search/%E6%B6%88%E6%9A%91%E8%BF%99%E4%BB%B6%E4%BA%8B%E4%BA%A4%E7%BB%99%E5%91%A8%E4%BA%94"
     },
     {
       "title": "重庆举行反诈工作新闻发布会",
-      "hot_value": "1026.8万",
+      "hot_value": "988.4万",
       "url": "https://www.douyin.com/search/%E9%87%8D%E5%BA%86%E4%B8%BE%E8%A1%8C%E5%8F%8D%E8%AF%88%E5%B7%A5%E4%BD%9C%E6%96%B0%E9%97%BB%E5%8F%91%E5%B8%83%E4%BC%9A"
     },
     {
-      "title": "A股",
-      "hot_value": "918.5万",
-      "url": "https://www.douyin.com/search/A%E8%82%A1"
-    },
-    {
       "title": "跟知识博主看懂挂谷猜想",
-      "hot_value": "884.6万",
+      "hot_value": "944.3万",
       "url": "https://www.douyin.com/search/%E8%B7%9F%E7%9F%A5%E8%AF%86%E5%8D%9A%E4%B8%BB%E7%9C%8B%E6%87%82%E6%8C%82%E8%B0%B7%E7%8C%9C%E6%83%B3"
     },
     {
+      "title": "夏天从玩水的那一刻开始",
+      "hot_value": "792.5万",
+      "url": "https://www.douyin.com/search/%E5%A4%8F%E5%A4%A9%E4%BB%8E%E7%8E%A9%E6%B0%B4%E7%9A%84%E9%82%A3%E4%B8%80%E5%88%BB%E5%BC%80%E5%A7%8B"
+    },
+    {
+      "title": "这个夏天要被水果冰浆硬控了",
+      "hot_value": "786.2万",
+      "url": "https://www.douyin.com/search/%E8%BF%99%E4%B8%AA%E5%A4%8F%E5%A4%A9%E8%A6%81%E8%A2%AB%E6%B0%B4%E6%9E%9C%E5%86%B0%E6%B5%86%E7%A1%AC%E6%8E%A7%E4%BA%86"
+    },
+    {
       "title": "豆包帮我拍广告大片",
-      "hot_value": "879万",
+      "hot_value": "784.1万",
       "url": "https://www.douyin.com/search/%E8%B1%86%E5%8C%85%E5%B8%AE%E6%88%91%E6%8B%8D%E5%B9%BF%E5%91%8A%E5%A4%A7%E7%89%87"
     },
     {
-      "title": "国务院成立六蓝水库溃坝调查组",
-      "hot_value": "874.7万",
-      "url": "https://www.douyin.com/search/%E5%9B%BD%E5%8A%A1%E9%99%A2%E6%88%90%E7%AB%8B%E5%85%AD%E8%93%9D%E6%B0%B4%E5%BA%93%E6%BA%83%E5%9D%9D%E8%B0%83%E6%9F%A5%E7%BB%84"
+      "title": "当我学会用颜色搭配时",
+      "hot_value": "783万",
+      "url": "https://www.douyin.com/search/%E5%BD%93%E6%88%91%E5%AD%A6%E4%BC%9A%E7%94%A8%E9%A2%9C%E8%89%B2%E6%90%AD%E9%85%8D%E6%97%B6"
     }
   ]
 }
