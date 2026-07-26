@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-07-26T21:36:10.945742+00:00",
+  "update_time": "2026-07-26T22:39:45.721227+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "古早森系穿搭是氛围感的神",
-      "hot_value": "1210.2万",
+      "hot_value": "1210.5万",
       "url": "https://www.douyin.com/search/%E5%8F%A4%E6%97%A9%E6%A3%AE%E7%B3%BB%E7%A9%BF%E6%90%AD%E6%98%AF%E6%B0%9B%E5%9B%B4%E6%84%9F%E7%9A%84%E7%A5%9E"
     },
     {
       "title": "复盘一周穿搭思路",
-      "hot_value": "1192.7万",
+      "hot_value": "1210.3万",
       "url": "https://www.douyin.com/search/%E5%A4%8D%E7%9B%98%E4%B8%80%E5%91%A8%E7%A9%BF%E6%90%AD%E6%80%9D%E8%B7%AF"
     },
     {
       "title": "红树林保护获亮眼成绩",
-      "hot_value": "1166.3万",
+      "hot_value": "1190.6万",
       "url": "https://www.douyin.com/search/%E7%BA%A2%E6%A0%91%E6%9E%97%E4%BF%9D%E6%8A%A4%E8%8E%B7%E4%BA%AE%E7%9C%BC%E6%88%90%E7%BB%A9"
     },
     {
       "title": "成都蓉城2:2绝平北京国安",
-      "hot_value": "1155.3万",
+      "hot_value": "1157.9万",
       "url": "https://www.douyin.com/search/%E6%88%90%E9%83%BD%E8%93%89%E5%9F%8E2%3A2%E7%BB%9D%E5%B9%B3%E5%8C%97%E4%BA%AC%E5%9B%BD%E5%AE%89"
     },
     {
-      "title": "佩德里西班牙小伙体验中国文化",
-      "hot_value": "1093.1万",
-      "url": "https://www.douyin.com/search/%E4%BD%A9%E5%BE%B7%E9%87%8C%E8%A5%BF%E7%8F%AD%E7%89%99%E5%B0%8F%E4%BC%99%E4%BD%93%E9%AA%8C%E4%B8%AD%E5%9B%BD%E6%96%87%E5%8C%96"
-    },
-    {
       "title": "詹姆斯加盟76人真能拿冠军吗",
-      "hot_value": "1057.6万",
+      "hot_value": "1066.5万",
       "url": "https://www.douyin.com/search/%E8%A9%B9%E5%A7%86%E6%96%AF%E5%8A%A0%E7%9B%9F76%E4%BA%BA%E7%9C%9F%E8%83%BD%E6%8B%BF%E5%86%A0%E5%86%9B%E5%90%97"
     },
     {
+      "title": "佩德里西班牙小伙体验中国文化",
+      "hot_value": "1063.7万",
+      "url": "https://www.douyin.com/search/%E4%BD%A9%E5%BE%B7%E9%87%8C%E8%A5%BF%E7%8F%AD%E7%89%99%E5%B0%8F%E4%BC%99%E4%BD%93%E9%AA%8C%E4%B8%AD%E5%9B%BD%E6%96%87%E5%8C%96"
+    },
+    {
+      "title": "业主因3块瓷砖问题索赔两万引争议",
+      "hot_value": "940.4万",
+      "url": "https://www.douyin.com/search/%E4%B8%9A%E4%B8%BB%E5%9B%A03%E5%9D%97%E7%93%B7%E7%A0%96%E9%97%AE%E9%A2%98%E7%B4%A2%E8%B5%94%E4%B8%A4%E4%B8%87%E5%BC%95%E4%BA%89%E8%AE%AE"
+    },
+    {
       "title": "初中生也能看懂的挂谷猜想解析",
-      "hot_value": "935.9万",
+      "hot_value": "940万",
       "url": "https://www.douyin.com/search/%E5%88%9D%E4%B8%AD%E7%94%9F%E4%B9%9F%E8%83%BD%E7%9C%8B%E6%87%82%E7%9A%84%E6%8C%82%E8%B0%B7%E7%8C%9C%E6%83%B3%E8%A7%A3%E6%9E%90"
     },
     {
       "title": "台网红馆长反对毒油事件",
-      "hot_value": "935.3万",
+      "hot_value": "922.8万",
       "url": "https://www.douyin.com/search/%E5%8F%B0%E7%BD%91%E7%BA%A2%E9%A6%86%E9%95%BF%E5%8F%8D%E5%AF%B9%E6%AF%92%E6%B2%B9%E4%BA%8B%E4%BB%B6"
     },
     {
-      "title": "中超云南玉昆4:3深圳新鹏城",
-      "hot_value": "925.1万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E8%B6%85%E4%BA%91%E5%8D%97%E7%8E%89%E6%98%864%3A3%E6%B7%B1%E5%9C%B3%E6%96%B0%E9%B9%8F%E5%9F%8E"
-    },
-    {
-      "title": "永州队“争议世界波”申诉成功",
-      "hot_value": "918万",
-      "url": "https://www.douyin.com/search/%E6%B0%B8%E5%B7%9E%E9%98%9F%E2%80%9C%E4%BA%89%E8%AE%AE%E4%B8%96%E7%95%8C%E6%B3%A2%E2%80%9D%E7%94%B3%E8%AF%89%E6%88%90%E5%8A%9F"
+      "title": "台风红霞登陆广东",
+      "hot_value": "915万",
+      "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E7%BA%A2%E9%9C%9E%E7%99%BB%E9%99%86%E5%B9%BF%E4%B8%9C"
     }
   ]
 }
