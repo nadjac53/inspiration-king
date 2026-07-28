@@ -1,55 +1,55 @@
 {
-  "update_time": "2026-07-28T11:21:32.862819+00:00",
+  "update_time": "2026-07-28T13:17:37.651307+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "抖音乒乓百分大战第二站打响",
-      "hot_value": "1210.3万",
+      "hot_value": "1178.3万",
       "url": "https://www.douyin.com/search/%E6%8A%96%E9%9F%B3%E4%B9%92%E4%B9%93%E7%99%BE%E5%88%86%E5%A4%A7%E6%88%98%E7%AC%AC%E4%BA%8C%E7%AB%99%E6%89%93%E5%93%8D"
     },
     {
-      "title": "2026CBA选秀大会",
-      "hot_value": "1188.6万",
-      "url": "https://www.douyin.com/search/2026CBA%E9%80%89%E7%A7%80%E5%A4%A7%E4%BC%9A"
-    },
-    {
-      "title": "我国外贸增势强劲走势稳健",
-      "hot_value": "1155万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E5%9B%BD%E5%A4%96%E8%B4%B8%E5%A2%9E%E5%8A%BF%E5%BC%BA%E5%8A%B2%E8%B5%B0%E5%8A%BF%E7%A8%B3%E5%81%A5"
-    },
-    {
-      "title": "抖火杯AI番外大电影",
-      "hot_value": "1136.4万",
-      "url": "https://www.douyin.com/search/%E6%8A%96%E7%81%AB%E6%9D%AFAI%E7%95%AA%E5%A4%96%E5%A4%A7%E7%94%B5%E5%BD%B1"
-    },
-    {
-      "title": "新闻联播",
-      "hot_value": "1065.8万",
-      "url": "https://www.douyin.com/search/%E6%96%B0%E9%97%BB%E8%81%94%E6%92%AD"
-    },
-    {
-      "title": "青海海南州地震",
-      "hot_value": "1059.4万",
-      "url": "https://www.douyin.com/search/%E9%9D%92%E6%B5%B7%E6%B5%B7%E5%8D%97%E5%B7%9E%E5%9C%B0%E9%9C%87"
-    },
-    {
       "title": "把旅行做成一本zine",
-      "hot_value": "945.8万",
+      "hot_value": "1141.3万",
       "url": "https://www.douyin.com/search/%E6%8A%8A%E6%97%85%E8%A1%8C%E5%81%9A%E6%88%90%E4%B8%80%E6%9C%ACzine"
     },
     {
+      "title": "上半年我国工业生产稳中有进",
+      "hot_value": "1137.2万",
+      "url": "https://www.douyin.com/search/%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%88%91%E5%9B%BD%E5%B7%A5%E4%B8%9A%E7%94%9F%E4%BA%A7%E7%A8%B3%E4%B8%AD%E6%9C%89%E8%BF%9B"
+    },
+    {
+      "title": "佩德里也来打卡落地沪签",
+      "hot_value": "1111.5万",
+      "url": "https://www.douyin.com/search/%E4%BD%A9%E5%BE%B7%E9%87%8C%E4%B9%9F%E6%9D%A5%E6%89%93%E5%8D%A1%E8%90%BD%E5%9C%B0%E6%B2%AA%E7%AD%BE"
+    },
+    {
+      "title": "万千气象看青海",
+      "hot_value": "1033.9万",
+      "url": "https://www.douyin.com/search/%E4%B8%87%E5%8D%83%E6%B0%94%E8%B1%A1%E7%9C%8B%E9%9D%92%E6%B5%B7"
+    },
+    {
+      "title": "齐达内出任法国队主教练",
+      "hot_value": "1032.9万",
+      "url": "https://www.douyin.com/search/%E9%BD%90%E8%BE%BE%E5%86%85%E5%87%BA%E4%BB%BB%E6%B3%95%E5%9B%BD%E9%98%9F%E4%B8%BB%E6%95%99%E7%BB%83"
+    },
+    {
+      "title": "上半年个税收入达9000亿元",
+      "hot_value": "922.7万",
+      "url": "https://www.douyin.com/search/%E4%B8%8A%E5%8D%8A%E5%B9%B4%E4%B8%AA%E7%A8%8E%E6%94%B6%E5%85%A5%E8%BE%BE9000%E4%BA%BF%E5%85%83"
+    },
+    {
+      "title": "对话董路和他的足球小将",
+      "hot_value": "919.6万",
+      "url": "https://www.douyin.com/search/%E5%AF%B9%E8%AF%9D%E8%91%A3%E8%B7%AF%E5%92%8C%E4%BB%96%E7%9A%84%E8%B6%B3%E7%90%83%E5%B0%8F%E5%B0%86"
+    },
+    {
       "title": "一斩苍穹动画开播",
-      "hot_value": "945.4万",
+      "hot_value": "917.6万",
       "url": "https://www.douyin.com/search/%E4%B8%80%E6%96%A9%E8%8B%8D%E7%A9%B9%E5%8A%A8%E7%94%BB%E5%BC%80%E6%92%AD"
     },
     {
-      "title": "还原甘肃渭源山洪瞬间",
-      "hot_value": "944万",
-      "url": "https://www.douyin.com/search/%E8%BF%98%E5%8E%9F%E7%94%98%E8%82%83%E6%B8%AD%E6%BA%90%E5%B1%B1%E6%B4%AA%E7%9E%AC%E9%97%B4"
-    },
-    {
       "title": "日本熊本7.1级地震",
-      "hot_value": "934.4万",
+      "hot_value": "916.9万",
       "url": "https://www.douyin.com/search/%E6%97%A5%E6%9C%AC%E7%86%8A%E6%9C%AC7.1%E7%BA%A7%E5%9C%B0%E9%9C%87"
     }
   ]
