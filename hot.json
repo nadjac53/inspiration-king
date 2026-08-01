@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-08-01T03:56:23.587298+00:00",
+  "update_time": "2026-08-01T06:36:01.874004+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
-      "title": "在八一广场共同见证升旗仪式",
-      "hot_value": "1180.4万",
-      "url": "https://www.douyin.com/search/%E5%9C%A8%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%85%B1%E5%90%8C%E8%A7%81%E8%AF%81%E5%8D%87%E6%97%97%E4%BB%AA%E5%BC%8F"
-    },
-    {
       "title": "把盛夏交给火把节",
-      "hot_value": "1157.1万",
+      "hot_value": "1161.7万",
       "url": "https://www.douyin.com/search/%E6%8A%8A%E7%9B%9B%E5%A4%8F%E4%BA%A4%E7%BB%99%E7%81%AB%E6%8A%8A%E8%8A%82"
     },
     {
-      "title": "庆祝中国人民解放军建军99周年",
-      "hot_value": "1147.4万",
-      "url": "https://www.douyin.com/search/%E5%BA%86%E7%A5%9D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E8%A7%A3%E6%94%BE%E5%86%9B%E5%BB%BA%E5%86%9B99%E5%91%A8%E5%B9%B4"
-    },
-    {
-      "title": "吴宜泽无缘上海大师赛决赛",
-      "hot_value": "1134.8万",
-      "url": "https://www.douyin.com/search/%E5%90%B4%E5%AE%9C%E6%B3%BD%E6%97%A0%E7%BC%98%E4%B8%8A%E6%B5%B7%E5%A4%A7%E5%B8%88%E8%B5%9B%E5%86%B3%E8%B5%9B"
-    },
-    {
-      "title": "八一建军节之际致敬中国军人",
-      "hot_value": "1063.2万",
-      "url": "https://www.douyin.com/search/%E5%85%AB%E4%B8%80%E5%BB%BA%E5%86%9B%E8%8A%82%E4%B9%8B%E9%99%85%E8%87%B4%E6%95%AC%E4%B8%AD%E5%9B%BD%E5%86%9B%E4%BA%BA"
-    },
-    {
-      "title": "八月第一天接好运莲莲",
-      "hot_value": "1043.1万",
-      "url": "https://www.douyin.com/search/%E5%85%AB%E6%9C%88%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%8E%A5%E5%A5%BD%E8%BF%90%E8%8E%B2%E8%8E%B2"
-    },
-    {
       "title": "别不开心送你一片大球球",
-      "hot_value": "924.8万",
+      "hot_value": "1126.4万",
       "url": "https://www.douyin.com/search/%E5%88%AB%E4%B8%8D%E5%BC%80%E5%BF%83%E9%80%81%E4%BD%A0%E4%B8%80%E7%89%87%E5%A4%A7%E7%90%83%E7%90%83"
     },
     {
+      "title": "庆祝中国人民解放军建军99周年",
+      "hot_value": "1125.4万",
+      "url": "https://www.douyin.com/search/%E5%BA%86%E7%A5%9D%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E8%A7%A3%E6%94%BE%E5%86%9B%E5%BB%BA%E5%86%9B99%E5%91%A8%E5%B9%B4"
+    },
+    {
+      "title": "在八一广场共同见证升旗仪式",
+      "hot_value": "1119.5万",
+      "url": "https://www.douyin.com/search/%E5%9C%A8%E5%85%AB%E4%B8%80%E5%B9%BF%E5%9C%BA%E5%85%B1%E5%90%8C%E8%A7%81%E8%AF%81%E5%8D%87%E6%97%97%E4%BB%AA%E5%BC%8F"
+    },
+    {
+      "title": "莫得闲剧好看今日开播",
+      "hot_value": "1062.7万",
+      "url": "https://www.douyin.com/search/%E8%8E%AB%E5%BE%97%E9%97%B2%E5%89%A7%E5%A5%BD%E7%9C%8B%E4%BB%8A%E6%97%A5%E5%BC%80%E6%92%AD"
+    },
+    {
+      "title": "八一建军节之际致敬中国军人",
+      "hot_value": "1061.9万",
+      "url": "https://www.douyin.com/search/%E5%85%AB%E4%B8%80%E5%BB%BA%E5%86%9B%E8%8A%82%E4%B9%8B%E9%99%85%E8%87%B4%E6%95%AC%E4%B8%AD%E5%9B%BD%E5%86%9B%E4%BA%BA"
+    },
+    {
+      "title": "人民军队生日快乐",
+      "hot_value": "917.5万",
+      "url": "https://www.douyin.com/search/%E4%BA%BA%E6%B0%91%E5%86%9B%E9%98%9F%E7%94%9F%E6%97%A5%E5%BF%AB%E4%B9%90"
+    },
+    {
+      "title": "江海潮生",
+      "hot_value": "915.4万",
+      "url": "https://www.douyin.com/search/%E6%B1%9F%E6%B5%B7%E6%BD%AE%E7%94%9F"
+    },
+    {
       "title": "国家电网原董事长辛保安被查",
-      "hot_value": "923万",
+      "hot_value": "911.6万",
       "url": "https://www.douyin.com/search/%E5%9B%BD%E5%AE%B6%E7%94%B5%E7%BD%91%E5%8E%9F%E8%91%A3%E4%BA%8B%E9%95%BF%E8%BE%9B%E4%BF%9D%E5%AE%89%E8%A2%AB%E6%9F%A5"
     },
     {
-      "title": "我的暑期限定solotrip",
-      "hot_value": "918.9万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84%E6%9A%91%E6%9C%9F%E9%99%90%E5%AE%9Asolotrip"
-    },
-    {
-      "title": "AI生成的作品算艺术吗",
-      "hot_value": "915.5万",
-      "url": "https://www.douyin.com/search/AI%E7%94%9F%E6%88%90%E7%9A%84%E4%BD%9C%E5%93%81%E7%AE%97%E8%89%BA%E6%9C%AF%E5%90%97"
+      "title": "八月第一天接好运莲莲",
+      "hot_value": "877.4万",
+      "url": "https://www.douyin.com/search/%E5%85%AB%E6%9C%88%E7%AC%AC%E4%B8%80%E5%A4%A9%E6%8E%A5%E5%A5%BD%E8%BF%90%E8%8E%B2%E8%8E%B2"
     }
   ]
 }
