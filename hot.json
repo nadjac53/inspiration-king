@@ -1,56 +1,6 @@
 {
-  "update_time": "2026-08-04T01:04:29.205665+00:00",
+  "update_time": "2026-08-04T04:33:35.956405+00:00",
   "source": "抖音热榜",
-  "hotspots": [
-    {
-      "title": "美国制裁洽洽瓜子等中国品牌",
-      "hot_value": "1151.1万",
-      "url": "https://www.douyin.com/search/%E7%BE%8E%E5%9B%BD%E5%88%B6%E8%A3%81%E6%B4%BD%E6%B4%BD%E7%93%9C%E5%AD%90%E7%AD%89%E4%B8%AD%E5%9B%BD%E5%93%81%E7%89%8C"
-    },
-    {
-      "title": "U17国足3:2绝杀阿森纳U17",
-      "hot_value": "1137.7万",
-      "url": "https://www.douyin.com/search/U17%E5%9B%BD%E8%B6%B33%3A2%E7%BB%9D%E6%9D%80%E9%98%BF%E6%A3%AE%E7%BA%B3U17"
-    },
-    {
-      "title": "上半年海洋生产总值5.5万亿",
-      "hot_value": "1135.7万",
-      "url": "https://www.douyin.com/search/%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%B5%B7%E6%B4%8B%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC5.5%E4%B8%87%E4%BA%BF"
-    },
-    {
-      "title": "“速成车”正在被叫停",
-      "hot_value": "1132.5万",
-      "url": "https://www.douyin.com/search/%E2%80%9C%E9%80%9F%E6%88%90%E8%BD%A6%E2%80%9D%E6%AD%A3%E5%9C%A8%E8%A2%AB%E5%8F%AB%E5%81%9C"
-    },
-    {
-      "title": "台风“白海豚”两种路径公布",
-      "hot_value": "1062万",
-      "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E2%80%9C%E7%99%BD%E6%B5%B7%E8%B1%9A%E2%80%9D%E4%B8%A4%E7%A7%8D%E8%B7%AF%E5%BE%84%E5%85%AC%E5%B8%83"
-    },
-    {
-      "title": "四川10家农商行获批解散",
-      "hot_value": "1054.3万",
-      "url": "https://www.douyin.com/search/%E5%9B%9B%E5%B7%9D10%E5%AE%B6%E5%86%9C%E5%95%86%E8%A1%8C%E8%8E%B7%E6%89%B9%E8%A7%A3%E6%95%A3"
-    },
-    {
-      "title": "SpaceX将发布上市后首份财报",
-      "hot_value": "943.2万",
-      "url": "https://www.douyin.com/search/SpaceX%E5%B0%86%E5%8F%91%E5%B8%83%E4%B8%8A%E5%B8%82%E5%90%8E%E9%A6%96%E4%BB%BD%E8%B4%A2%E6%8A%A5"
-    },
-    {
-      "title": "韩国应对股市暴跌加强汉江巡逻",
-      "hot_value": "942.5万",
-      "url": "https://www.douyin.com/search/%E9%9F%A9%E5%9B%BD%E5%BA%94%E5%AF%B9%E8%82%A1%E5%B8%82%E6%9A%B4%E8%B7%8C%E5%8A%A0%E5%BC%BA%E6%B1%89%E6%B1%9F%E5%B7%A1%E9%80%BB"
-    },
-    {
-      "title": "专家谈美日共同干预日元汇率",
-      "hot_value": "934.8万",
-      "url": "https://www.douyin.com/search/%E4%B8%93%E5%AE%B6%E8%B0%88%E7%BE%8E%E6%97%A5%E5%85%B1%E5%90%8C%E5%B9%B2%E9%A2%84%E6%97%A5%E5%85%83%E6%B1%87%E7%8E%87"
-    },
-    {
-      "title": "“河南西平五人灭门惨案”系谣言",
-      "hot_value": "915.2万",
-      "url": "https://www.douyin.com/search/%E2%80%9C%E6%B2%B3%E5%8D%97%E8%A5%BF%E5%B9%B3%E4%BA%94%E4%BA%BA%E7%81%AD%E9%97%A8%E6%83%A8%E6%A1%88%E2%80%9D%E7%B3%BB%E8%B0%A3%E8%A8%80"
-    }
-  ]
+  "hotspots": [],
+  "error": "数据获取失败，请稍后重试"
 }
