@@ -1,56 +1,6 @@
 {
-  "update_time": "2026-08-06T04:32:42.369067+00:00",
+  "update_time": "2026-08-06T07:23:36.925429+00:00",
   "source": "抖音热榜",
-  "hotspots": [
-    {
-      "title": "DeepSeek拟上调API服务定价",
-      "hot_value": "1210.4万",
-      "url": "https://www.douyin.com/search/DeepSeek%E6%8B%9F%E4%B8%8A%E8%B0%83API%E6%9C%8D%E5%8A%A1%E5%AE%9A%E4%BB%B7"
-    },
-    {
-      "title": "2026年的夏天要结束了",
-      "hot_value": "1163.7万",
-      "url": "https://www.douyin.com/search/2026%E5%B9%B4%E7%9A%84%E5%A4%8F%E5%A4%A9%E8%A6%81%E7%BB%93%E6%9D%9F%E4%BA%86"
-    },
-    {
-      "title": "数字技术赋能全民健身再升级",
-      "hot_value": "1131.7万",
-      "url": "https://www.douyin.com/search/%E6%95%B0%E5%AD%97%E6%8A%80%E6%9C%AF%E8%B5%8B%E8%83%BD%E5%85%A8%E6%B0%91%E5%81%A5%E8%BA%AB%E5%86%8D%E5%8D%87%E7%BA%A7"
-    },
-    {
-      "title": "人贩子“梅姨”真实姓名曝光",
-      "hot_value": "1114.1万",
-      "url": "https://www.douyin.com/search/%E4%BA%BA%E8%B4%A9%E5%AD%90%E2%80%9C%E6%A2%85%E5%A7%A8%E2%80%9D%E7%9C%9F%E5%AE%9E%E5%A7%93%E5%90%8D%E6%9B%9D%E5%85%89"
-    },
-    {
-      "title": "难忘童年经典场景",
-      "hot_value": "1054.6万",
-      "url": "https://www.douyin.com/search/%E9%9A%BE%E5%BF%98%E7%AB%A5%E5%B9%B4%E7%BB%8F%E5%85%B8%E5%9C%BA%E6%99%AF"
-    },
-    {
-      "title": "挑战100个小时举办一场婚礼",
-      "hot_value": "1053.4万",
-      "url": "https://www.douyin.com/search/%E6%8C%91%E6%88%98100%E4%B8%AA%E5%B0%8F%E6%97%B6%E4%B8%BE%E5%8A%9E%E4%B8%80%E5%9C%BA%E5%A9%9A%E7%A4%BC"
-    },
-    {
-      "title": "2026抖音创作者大会来了",
-      "hot_value": "936.1万",
-      "url": "https://www.douyin.com/search/2026%E6%8A%96%E9%9F%B3%E5%88%9B%E4%BD%9C%E8%80%85%E5%A4%A7%E4%BC%9A%E6%9D%A5%E4%BA%86"
-    },
-    {
-      "title": "和平剑修集结清明上河园",
-      "hot_value": "928.7万",
-      "url": "https://www.douyin.com/search/%E5%92%8C%E5%B9%B3%E5%89%91%E4%BF%AE%E9%9B%86%E7%BB%93%E6%B8%85%E6%98%8E%E4%B8%8A%E6%B2%B3%E5%9B%AD"
-    },
-    {
-      "title": "中方对6家美国实体采取反制措施",
-      "hot_value": "923.5万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E6%96%B9%E5%AF%B96%E5%AE%B6%E7%BE%8E%E5%9B%BD%E5%AE%9E%E4%BD%93%E9%87%87%E5%8F%96%E5%8F%8D%E5%88%B6%E6%8E%AA%E6%96%BD"
-    },
-    {
-      "title": "现货黄金突破4300美元关口",
-      "hot_value": "909.9万",
-      "url": "https://www.douyin.com/search/%E7%8E%B0%E8%B4%A7%E9%BB%84%E9%87%91%E7%AA%81%E7%A0%B44300%E7%BE%8E%E5%85%83%E5%85%B3%E5%8F%A3"
-    }
-  ]
+  "hotspots": [],
+  "error": "数据获取失败，请稍后重试"
 }
