@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-08-23T17:54:12.116949+00:00",
+  "update_time": "2026-08-23T18:34:28.197245+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "TYL获2026年度总冠军",
-      "hot_value": "1174.6万",
+      "hot_value": "1174.1万",
       "url": "https://www.douyin.com/search/TYL%E8%8E%B72026%E5%B9%B4%E5%BA%A6%E6%80%BB%E5%86%A0%E5%86%9B"
     },
     {
       "title": "台风沙德尔路径可能有变",
-      "hot_value": "1157.3万",
+      "hot_value": "1143.9万",
       "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E8%B7%AF%E5%BE%84%E5%8F%AF%E8%83%BD%E6%9C%89%E5%8F%98"
     },
     {
       "title": "一组数据看中国经济双向链接全球",
-      "hot_value": "1091.4万",
+      "hot_value": "1100.9万",
       "url": "https://www.douyin.com/search/%E4%B8%80%E7%BB%84%E6%95%B0%E6%8D%AE%E7%9C%8B%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E5%8F%8C%E5%90%91%E9%93%BE%E6%8E%A5%E5%85%A8%E7%90%83"
     },
     {
       "title": "中国U18男篮不敌澳大利亚获亚军",
-      "hot_value": "1084.3万",
+      "hot_value": "1092.4万",
       "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BDU18%E7%94%B7%E7%AF%AE%E4%B8%8D%E6%95%8C%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A%E8%8E%B7%E4%BA%9A%E5%86%9B"
     },
     {
-      "title": "梁伟铿王昶获世锦赛男双冠军",
-      "hot_value": "1014.2万",
-      "url": "https://www.douyin.com/search/%E6%A2%81%E4%BC%9F%E9%93%BF%E7%8E%8B%E6%98%B6%E8%8E%B7%E4%B8%96%E9%94%A6%E8%B5%9B%E7%94%B7%E5%8F%8C%E5%86%A0%E5%86%9B"
-    },
-    {
       "title": "BLG 2:1战胜AL",
-      "hot_value": "1011万",
+      "hot_value": "1037.2万",
       "url": "https://www.douyin.com/search/BLG+2%3A1%E6%88%98%E8%83%9CAL"
     },
     {
+      "title": "梁伟铿王昶获世锦赛男双冠军",
+      "hot_value": "1030.2万",
+      "url": "https://www.douyin.com/search/%E6%A2%81%E4%BC%9F%E9%93%BF%E7%8E%8B%E6%98%B6%E8%8E%B7%E4%B8%96%E9%94%A6%E8%B5%9B%E7%94%B7%E5%8F%8C%E5%86%A0%E5%86%9B"
+    },
+    {
       "title": "羊村一直在等我们回家",
-      "hot_value": "902.3万",
+      "hot_value": "877.3万",
       "url": "https://www.douyin.com/search/%E7%BE%8A%E6%9D%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E7%AD%89%E6%88%91%E4%BB%AC%E5%9B%9E%E5%AE%B6"
     },
     {
       "title": "VCT CN出征上海全球冠军赛",
-      "hot_value": "895.3万",
+      "hot_value": "871.8万",
       "url": "https://www.douyin.com/search/VCT+CN%E5%87%BA%E5%BE%81%E4%B8%8A%E6%B5%B7%E5%85%A8%E7%90%83%E5%86%A0%E5%86%9B%E8%B5%9B"
     },
     {
       "title": "记录我的开学第一天",
-      "hot_value": "889.6万",
+      "hot_value": "853.5万",
       "url": "https://www.douyin.com/search/%E8%AE%B0%E5%BD%95%E6%88%91%E7%9A%84%E5%BC%80%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%A4%A9"
     },
     {
-      "title": "中超第24轮最新积分榜出炉",
-      "hot_value": "855.6万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E8%B6%85%E7%AC%AC24%E8%BD%AE%E6%9C%80%E6%96%B0%E7%A7%AF%E5%88%86%E6%A6%9C%E5%87%BA%E7%82%89"
+      "title": "我用健身重启人生",
+      "hot_value": "839.6万",
+      "url": "https://www.douyin.com/search/%E6%88%91%E7%94%A8%E5%81%A5%E8%BA%AB%E9%87%8D%E5%90%AF%E4%BA%BA%E7%94%9F"
     }
   ]
 }
