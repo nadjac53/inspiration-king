@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-08-23T06:55:39.890657+00:00",
+  "update_time": "2026-08-23T07:37:30.539239+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "台风沙德尔路径可能有变",
-      "hot_value": "1198.4万",
+      "hot_value": "1189.3万",
       "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E8%B7%AF%E5%BE%84%E5%8F%AF%E8%83%BD%E6%9C%89%E5%8F%98"
     },
     {
-      "title": "这口广安麻哥面太香了",
-      "hot_value": "1161.2万",
-      "url": "https://www.douyin.com/search/%E8%BF%99%E5%8F%A3%E5%B9%BF%E5%AE%89%E9%BA%BB%E5%93%A5%E9%9D%A2%E5%A4%AA%E9%A6%99%E4%BA%86"
+      "title": "TYL总决赛迎战JDG",
+      "hot_value": "1163.9万",
+      "url": "https://www.douyin.com/search/TYL%E6%80%BB%E5%86%B3%E8%B5%9B%E8%BF%8E%E6%88%98JDG"
     },
     {
-      "title": "以文塑旅丰富大众旅途体验",
-      "hot_value": "1111.1万",
-      "url": "https://www.douyin.com/search/%E4%BB%A5%E6%96%87%E5%A1%91%E6%97%85%E4%B8%B0%E5%AF%8C%E5%A4%A7%E4%BC%97%E6%97%85%E9%80%94%E4%BD%93%E9%AA%8C"
-    },
-    {
-      "title": "今日处暑",
-      "hot_value": "1110.6万",
-      "url": "https://www.douyin.com/search/%E4%BB%8A%E6%97%A5%E5%A4%84%E6%9A%91"
+      "title": "暑去秋来 万物可爱",
+      "hot_value": "1111.2万",
+      "url": "https://www.douyin.com/search/%E6%9A%91%E5%8E%BB%E7%A7%8B%E6%9D%A5+%E4%B8%87%E7%89%A9%E5%8F%AF%E7%88%B1"
     },
     {
       "title": "中国U18男篮进亚洲杯决赛",
-      "hot_value": "1054.8万",
+      "hot_value": "1110.6万",
       "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BDU18%E7%94%B7%E7%AF%AE%E8%BF%9B%E4%BA%9A%E6%B4%B2%E6%9D%AF%E5%86%B3%E8%B5%9B"
     },
     {
+      "title": "新的故事会在秋风中慢慢开始",
+      "hot_value": "1054.7万",
+      "url": "https://www.douyin.com/search/%E6%96%B0%E7%9A%84%E6%95%85%E4%BA%8B%E4%BC%9A%E5%9C%A8%E7%A7%8B%E9%A3%8E%E4%B8%AD%E6%85%A2%E6%85%A2%E5%BC%80%E5%A7%8B"
+    },
+    {
       "title": "世界人形机器人运动会开幕",
-      "hot_value": "1053.4万",
+      "hot_value": "1052.9万",
       "url": "https://www.douyin.com/search/%E4%B8%96%E7%95%8C%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E5%8A%A8%E4%BC%9A%E5%BC%80%E5%B9%95"
     },
     {
       "title": "羊村一直在等我们回家",
-      "hot_value": "940.9万",
+      "hot_value": "941.2万",
       "url": "https://www.douyin.com/search/%E7%BE%8A%E6%9D%91%E4%B8%80%E7%9B%B4%E5%9C%A8%E7%AD%89%E6%88%91%E4%BB%AC%E5%9B%9E%E5%AE%B6"
     },
     {
-      "title": "新的故事会在秋风中慢慢开始",
-      "hot_value": "940.6万",
-      "url": "https://www.douyin.com/search/%E6%96%B0%E7%9A%84%E6%95%85%E4%BA%8B%E4%BC%9A%E5%9C%A8%E7%A7%8B%E9%A3%8E%E4%B8%AD%E6%85%A2%E6%85%A2%E5%BC%80%E5%A7%8B"
+      "title": "HangHang挑战赛即将来袭",
+      "hot_value": "938.5万",
+      "url": "https://www.douyin.com/search/HangHang%E6%8C%91%E6%88%98%E8%B5%9B%E5%8D%B3%E5%B0%86%E6%9D%A5%E8%A2%AD"
     },
     {
       "title": "巫哲亮相晋江作者大会",
-      "hot_value": "931.5万",
+      "hot_value": "927.4万",
       "url": "https://www.douyin.com/search/%E5%B7%AB%E5%93%B2%E4%BA%AE%E7%9B%B8%E6%99%8B%E6%B1%9F%E4%BD%9C%E8%80%85%E5%A4%A7%E4%BC%9A"
     },
     {
-      "title": "胡麟鹏宣布退役",
-      "hot_value": "928.9万",
-      "url": "https://www.douyin.com/search/%E8%83%A1%E9%BA%9F%E9%B9%8F%E5%AE%A3%E5%B8%83%E9%80%80%E5%BD%B9"
+      "title": "这口广安麻哥面太香了",
+      "hot_value": "927.2万",
+      "url": "https://www.douyin.com/search/%E8%BF%99%E5%8F%A3%E5%B9%BF%E5%AE%89%E9%BA%BB%E5%93%A5%E9%9D%A2%E5%A4%AA%E9%A6%99%E4%BA%86"
     }
   ]
 }
