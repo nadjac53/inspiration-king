@@ -1,56 +1,6 @@
 {
-  "update_time": "2026-08-30T12:12:41.359183+00:00",
+  "update_time": "2026-08-30T16:47:56.143880+00:00",
   "source": "抖音热榜",
-  "hotspots": [
-    {
-      "title": "西藏泥石流已致16死546失联",
-      "hot_value": "1109万",
-      "url": "https://www.douyin.com/search/%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E5%B7%B2%E8%87%B416%E6%AD%BB546%E5%A4%B1%E8%81%94"
-    },
-    {
-      "title": "中国女排vs泰国女排",
-      "hot_value": "1101.3万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92vs%E6%B3%B0%E5%9B%BD%E5%A5%B3%E6%8E%92"
-    },
-    {
-      "title": "直击吉隆口岸抢险救援一线",
-      "hot_value": "1088.9万",
-      "url": "https://www.douyin.com/search/%E7%9B%B4%E5%87%BB%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E6%8A%A2%E9%99%A9%E6%95%91%E6%8F%B4%E4%B8%80%E7%BA%BF"
-    },
-    {
-      "title": "军训结束回家的我belike",
-      "hot_value": "1084.1万",
-      "url": "https://www.douyin.com/search/%E5%86%9B%E8%AE%AD%E7%BB%93%E6%9D%9F%E5%9B%9E%E5%AE%B6%E7%9A%84%E6%88%91belike"
-    },
-    {
-      "title": "幸福和快乐是结局",
-      "hot_value": "1025.8万",
-      "url": "https://www.douyin.com/search/%E5%B9%B8%E7%A6%8F%E5%92%8C%E5%BF%AB%E4%B9%90%E6%98%AF%E7%BB%93%E5%B1%80"
-    },
-    {
-      "title": "当我执意报考省外大学",
-      "hot_value": "1018.3万",
-      "url": "https://www.douyin.com/search/%E5%BD%93%E6%88%91%E6%89%A7%E6%84%8F%E6%8A%A5%E8%80%83%E7%9C%81%E5%A4%96%E5%A4%A7%E5%AD%A6"
-    },
-    {
-      "title": "金铲铲全明星周末表演赛",
-      "hot_value": "900.6万",
-      "url": "https://www.douyin.com/search/%E9%87%91%E9%93%B2%E9%93%B2%E5%85%A8%E6%98%8E%E6%98%9F%E5%91%A8%E6%9C%AB%E8%A1%A8%E6%BC%94%E8%B5%9B"
-    },
-    {
-      "title": "西藏泥石流灾害原因查明",
-      "hot_value": "890.5万",
-      "url": "https://www.douyin.com/search/%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%8E%9F%E5%9B%A0%E6%9F%A5%E6%98%8E"
-    },
-    {
-      "title": "三只松鼠终止在港交所上市",
-      "hot_value": "803.4万",
-      "url": "https://www.douyin.com/search/%E4%B8%89%E5%8F%AA%E6%9D%BE%E9%BC%A0%E7%BB%88%E6%AD%A2%E5%9C%A8%E6%B8%AF%E4%BA%A4%E6%89%80%E4%B8%8A%E5%B8%82"
-    },
-    {
-      "title": "直击钱塘江“鬼王潮”",
-      "hot_value": "801万",
-      "url": "https://www.douyin.com/search/%E7%9B%B4%E5%87%BB%E9%92%B1%E5%A1%98%E6%B1%9F%E2%80%9C%E9%AC%BC%E7%8E%8B%E6%BD%AE%E2%80%9D"
-    }
-  ]
+  "hotspots": [],
+  "error": "数据获取失败，请稍后重试"
 }
