@@ -1,6 +1,56 @@
 {
-  "update_time": "2026-08-30T16:47:56.143880+00:00",
+  "update_time": "2026-08-30T19:40:12.642675+00:00",
   "source": "抖音热榜",
-  "hotspots": [],
-  "error": "数据获取失败，请稍后重试"
+  "hotspots": [
+    {
+      "title": "官方回应“取消ETC”",
+      "hot_value": "1182万",
+      "url": "https://www.douyin.com/search/%E5%AE%98%E6%96%B9%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%96%E6%B6%88ETC%E2%80%9D"
+    },
+    {
+      "title": "西藏泥石流已致16死546失联",
+      "hot_value": "1114.5万",
+      "url": "https://www.douyin.com/search/%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E5%B7%B2%E8%87%B416%E6%AD%BB546%E5%A4%B1%E8%81%94"
+    },
+    {
+      "title": "直击吉隆口岸抢险救援一线",
+      "hot_value": "1112.7万",
+      "url": "https://www.douyin.com/search/%E7%9B%B4%E5%87%BB%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E6%8A%A2%E9%99%A9%E6%95%91%E6%8F%B4%E4%B8%80%E7%BA%BF"
+    },
+    {
+      "title": "中国女排2:3泰国女排",
+      "hot_value": "1109.5万",
+      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%922%3A3%E6%B3%B0%E5%9B%BD%E5%A5%B3%E6%8E%92"
+    },
+    {
+      "title": "军训结束回家的我belike",
+      "hot_value": "1046.9万",
+      "url": "https://www.douyin.com/search/%E5%86%9B%E8%AE%AD%E7%BB%93%E6%9D%9F%E5%9B%9E%E5%AE%B6%E7%9A%84%E6%88%91belike"
+    },
+    {
+      "title": "吉隆口岸工作的小邬警官确认平安",
+      "hot_value": "1046.5万",
+      "url": "https://www.douyin.com/search/%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%B7%A5%E4%BD%9C%E7%9A%84%E5%B0%8F%E9%82%AC%E8%AD%A6%E5%AE%98%E7%A1%AE%E8%AE%A4%E5%B9%B3%E5%AE%89"
+    },
+    {
+      "title": "当我执意报考省外大学",
+      "hot_value": "932.3万",
+      "url": "https://www.douyin.com/search/%E5%BD%93%E6%88%91%E6%89%A7%E6%84%8F%E6%8A%A5%E8%80%83%E7%9C%81%E5%A4%96%E5%A4%A7%E5%AD%A6"
+    },
+    {
+      "title": "凉薄的秋天自带疏离感",
+      "hot_value": "929.5万",
+      "url": "https://www.douyin.com/search/%E5%87%89%E8%96%84%E7%9A%84%E7%A7%8B%E5%A4%A9%E8%87%AA%E5%B8%A6%E7%96%8F%E7%A6%BB%E6%84%9F"
+    },
+    {
+      "title": "西藏泥石流灾害原因查明",
+      "hot_value": "922.1万",
+      "url": "https://www.douyin.com/search/%E8%A5%BF%E8%97%8F%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%81%BE%E5%AE%B3%E5%8E%9F%E5%9B%A0%E6%9F%A5%E6%98%8E"
+    },
+    {
+      "title": "切尔西官宣签下马丁内斯",
+      "hot_value": "921.4万",
+      "url": "https://www.douyin.com/search/%E5%88%87%E5%B0%94%E8%A5%BF%E5%AE%98%E5%AE%A3%E7%AD%BE%E4%B8%8B%E9%A9%AC%E4%B8%81%E5%86%85%E6%96%AF"
+    }
+  ]
 }
