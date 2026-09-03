@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-09-03T13:51:15.032551+00:00",
+  "update_time": "2026-09-03T17:40:49.139051+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
-      "title": "中国人民抗战胜利81周年",
-      "hot_value": "1168.2万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%B0%91%E6%8A%97%E6%88%98%E8%83%9C%E5%88%A981%E5%91%A8%E5%B9%B4"
-    },
-    {
-      "title": "BLG 3:1 WE",
-      "hot_value": "1145.4万",
-      "url": "https://www.douyin.com/search/BLG+3%3A1+WE"
-    },
-    {
-      "title": "促进中小企业发展十五五规划来了",
-      "hot_value": "1096.7万",
-      "url": "https://www.douyin.com/search/%E4%BF%83%E8%BF%9B%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E5%8F%91%E5%B1%95%E5%8D%81%E4%BA%94%E4%BA%94%E8%A7%84%E5%88%92%E6%9D%A5%E4%BA%86"
-    },
-    {
-      "title": "台风科罗旺今夜进入东海",
-      "hot_value": "1092.6万",
-      "url": "https://www.douyin.com/search/%E5%8F%B0%E9%A3%8E%E7%A7%91%E7%BD%97%E6%97%BA%E4%BB%8A%E5%A4%9C%E8%BF%9B%E5%85%A5%E4%B8%9C%E6%B5%B7"
-    },
-    {
       "title": "外交部正告日本右翼势力",
-      "hot_value": "1037.8万",
+      "hot_value": "1183万",
       "url": "https://www.douyin.com/search/%E5%A4%96%E4%BA%A4%E9%83%A8%E6%AD%A3%E5%91%8A%E6%97%A5%E6%9C%AC%E5%8F%B3%E7%BF%BC%E5%8A%BF%E5%8A%9B"
     },
     {
+      "title": "等到了秋天我们再去散步好不好",
+      "hot_value": "1130.4万",
+      "url": "https://www.douyin.com/search/%E7%AD%89%E5%88%B0%E4%BA%86%E7%A7%8B%E5%A4%A9%E6%88%91%E4%BB%AC%E5%86%8D%E5%8E%BB%E6%95%A3%E6%AD%A5%E5%A5%BD%E4%B8%8D%E5%A5%BD"
+    },
+    {
+      "title": "促进中小企业发展十五五规划来了",
+      "hot_value": "1096.1万",
+      "url": "https://www.douyin.com/search/%E4%BF%83%E8%BF%9B%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E5%8F%91%E5%B1%95%E5%8D%81%E4%BA%94%E4%BA%94%E8%A7%84%E5%88%92%E6%9D%A5%E4%BA%86"
+    },
+    {
       "title": "看看你的暑期社会实践",
-      "hot_value": "1030.7万",
+      "hot_value": "1080.9万",
       "url": "https://www.douyin.com/search/%E7%9C%8B%E7%9C%8B%E4%BD%A0%E7%9A%84%E6%9A%91%E6%9C%9F%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5"
     },
     {
       "title": "在宿舍的第一个晚上",
-      "hot_value": "916.1万",
+      "hot_value": "1024.5万",
       "url": "https://www.douyin.com/search/%E5%9C%A8%E5%AE%BF%E8%88%8D%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%99%9A%E4%B8%8A"
     },
     {
       "title": "厄尔尼诺将发展为超强级别",
-      "hot_value": "913.3万",
+      "hot_value": "1023.7万",
       "url": "https://www.douyin.com/search/%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E5%B0%86%E5%8F%91%E5%B1%95%E4%B8%BA%E8%B6%85%E5%BC%BA%E7%BA%A7%E5%88%AB"
     },
     {
-      "title": "等到了秋天我们再去散步好不好",
-      "hot_value": "913.1万",
-      "url": "https://www.douyin.com/search/%E7%AD%89%E5%88%B0%E4%BA%86%E7%A7%8B%E5%A4%A9%E6%88%91%E4%BB%AC%E5%86%8D%E5%8E%BB%E6%95%A3%E6%AD%A5%E5%A5%BD%E4%B8%8D%E5%A5%BD"
+      "title": "BLG 3:1 WE",
+      "hot_value": "913.2万",
+      "url": "https://www.douyin.com/search/BLG+3%3A1+WE"
     },
     {
       "title": "中国全额缴纳2026年联合国会费",
-      "hot_value": "903万",
+      "hot_value": "888.5万",
       "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%85%A8%E9%A2%9D%E7%BC%B4%E7%BA%B32026%E5%B9%B4%E8%81%94%E5%90%88%E5%9B%BD%E4%BC%9A%E8%B4%B9"
+    },
+    {
+      "title": "外交部驳斥越南西沙群岛主权主张",
+      "hot_value": "883.2万",
+      "url": "https://www.douyin.com/search/%E5%A4%96%E4%BA%A4%E9%83%A8%E9%A9%B3%E6%96%A5%E8%B6%8A%E5%8D%97%E8%A5%BF%E6%B2%99%E7%BE%A4%E5%B2%9B%E4%B8%BB%E6%9D%83%E4%B8%BB%E5%BC%A0"
+    },
+    {
+      "title": "微信回应何时推出单删提示",
+      "hot_value": "880.6万",
+      "url": "https://www.douyin.com/search/%E5%BE%AE%E4%BF%A1%E5%9B%9E%E5%BA%94%E4%BD%95%E6%97%B6%E6%8E%A8%E5%87%BA%E5%8D%95%E5%88%A0%E6%8F%90%E7%A4%BA"
     }
   ]
 }
