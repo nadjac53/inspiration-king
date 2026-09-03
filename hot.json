@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-09-03T20:45:38.821159+00:00",
+  "update_time": "2026-09-03T23:06:54.417617+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "外交部正告日本右翼势力",
-      "hot_value": "1163.2万",
+      "hot_value": "1170.3万",
       "url": "https://www.douyin.com/search/%E5%A4%96%E4%BA%A4%E9%83%A8%E6%AD%A3%E5%91%8A%E6%97%A5%E6%9C%AC%E5%8F%B3%E7%BF%BC%E5%8A%BF%E5%8A%9B"
     },
     {
-      "title": "看看你的暑期社会实践",
-      "hot_value": "1101万",
-      "url": "https://www.douyin.com/search/%E7%9C%8B%E7%9C%8B%E4%BD%A0%E7%9A%84%E6%9A%91%E6%9C%9F%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5"
+      "title": "厄尔尼诺将发展为超强级别",
+      "hot_value": "1150.7万",
+      "url": "https://www.douyin.com/search/%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E5%B0%86%E5%8F%91%E5%B1%95%E4%B8%BA%E8%B6%85%E5%BC%BA%E7%BA%A7%E5%88%AB"
     },
     {
       "title": "促进中小企业发展十五五规划来了",
-      "hot_value": "1093.9万",
+      "hot_value": "1149.3万",
       "url": "https://www.douyin.com/search/%E4%BF%83%E8%BF%9B%E4%B8%AD%E5%B0%8F%E4%BC%81%E4%B8%9A%E5%8F%91%E5%B1%95%E5%8D%81%E4%BA%94%E4%BA%94%E8%A7%84%E5%88%92%E6%9D%A5%E4%BA%86"
     },
     {
+      "title": "看看你的暑期社会实践",
+      "hot_value": "1088.7万",
+      "url": "https://www.douyin.com/search/%E7%9C%8B%E7%9C%8B%E4%BD%A0%E7%9A%84%E6%9A%91%E6%9C%9F%E7%A4%BE%E4%BC%9A%E5%AE%9E%E8%B7%B5"
+    },
+    {
       "title": "AI圈来了位天才",
-      "hot_value": "1078万",
+      "hot_value": "1027.9万",
       "url": "https://www.douyin.com/search/AI%E5%9C%88%E6%9D%A5%E4%BA%86%E4%BD%8D%E5%A4%A9%E6%89%8D"
     },
     {
       "title": "等到了秋天我们再去散步好不好",
-      "hot_value": "1022.4万",
+      "hot_value": "1022.3万",
       "url": "https://www.douyin.com/search/%E7%AD%89%E5%88%B0%E4%BA%86%E7%A7%8B%E5%A4%A9%E6%88%91%E4%BB%AC%E5%86%8D%E5%8E%BB%E6%95%A3%E6%AD%A5%E5%A5%BD%E4%B8%8D%E5%A5%BD"
     },
     {
       "title": "在宿舍的第一个晚上",
-      "hot_value": "1020.4万",
+      "hot_value": "912.3万",
       "url": "https://www.douyin.com/search/%E5%9C%A8%E5%AE%BF%E8%88%8D%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%99%9A%E4%B8%8A"
     },
     {
-      "title": "厄尔尼诺将发展为超强级别",
-      "hot_value": "912.8万",
-      "url": "https://www.douyin.com/search/%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E5%B0%86%E5%8F%91%E5%B1%95%E4%B8%BA%E8%B6%85%E5%BC%BA%E7%BA%A7%E5%88%AB"
-    },
-    {
-      "title": "中国全额缴纳2026年联合国会费",
-      "hot_value": "910.5万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%85%A8%E9%A2%9D%E7%BC%B4%E7%BA%B32026%E5%B9%B4%E8%81%94%E5%90%88%E5%9B%BD%E4%BC%9A%E8%B4%B9"
-    },
-    {
       "title": "外交部驳斥越南西沙群岛主权主张",
-      "hot_value": "909.7万",
+      "hot_value": "911.1万",
       "url": "https://www.douyin.com/search/%E5%A4%96%E4%BA%A4%E9%83%A8%E9%A9%B3%E6%96%A5%E8%B6%8A%E5%8D%97%E8%A5%BF%E6%B2%99%E7%BE%A4%E5%B2%9B%E4%B8%BB%E6%9D%83%E4%B8%BB%E5%BC%A0"
     },
     {
-      "title": "微信回应何时推出单删提示",
-      "hot_value": "891.6万",
-      "url": "https://www.douyin.com/search/%E5%BE%AE%E4%BF%A1%E5%9B%9E%E5%BA%94%E4%BD%95%E6%97%B6%E6%8E%A8%E5%87%BA%E5%8D%95%E5%88%A0%E6%8F%90%E7%A4%BA"
+      "title": "中国全额缴纳2026年联合国会费",
+      "hot_value": "907万",
+      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%85%A8%E9%A2%9D%E7%BC%B4%E7%BA%B32026%E5%B9%B4%E8%81%94%E5%90%88%E5%9B%BD%E4%BC%9A%E8%B4%B9"
+    },
+    {
+      "title": "omg叠中叠穿搭潮到犯规",
+      "hot_value": "903万",
+      "url": "https://www.douyin.com/search/omg%E5%8F%A0%E4%B8%AD%E5%8F%A0%E7%A9%BF%E6%90%AD%E6%BD%AE%E5%88%B0%E7%8A%AF%E8%A7%84"
     }
   ]
 }
