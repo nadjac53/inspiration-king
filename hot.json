@@ -1,26 +1,31 @@
 {
-  "update_time": "2026-09-22T18:09:10.357986+00:00",
+  "update_time": "2026-09-22T21:27:19.322285+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
+      "title": "台湾民众怒吼赖清德下台",
+      "hot_value": "1202.6万",
+      "url": "https://www.douyin.com/search/%E5%8F%B0%E6%B9%BE%E6%B0%91%E4%BC%97%E6%80%92%E5%90%BC%E8%B5%96%E6%B8%85%E5%BE%B7%E4%B8%8B%E5%8F%B0"
+    },
+    {
       "title": "我国首批航天员已全部停航停训",
-      "hot_value": "1209.9万",
+      "hot_value": "1179.2万",
       "url": "https://www.douyin.com/search/%E6%88%91%E5%9B%BD%E9%A6%96%E6%89%B9%E8%88%AA%E5%A4%A9%E5%91%98%E5%B7%B2%E5%85%A8%E9%83%A8%E5%81%9C%E8%88%AA%E5%81%9C%E8%AE%AD"
     },
     {
-      "title": "用条纹打开韩系穿搭",
-      "hot_value": "1207.6万",
-      "url": "https://www.douyin.com/search/%E7%94%A8%E6%9D%A1%E7%BA%B9%E6%89%93%E5%BC%80%E9%9F%A9%E7%B3%BB%E7%A9%BF%E6%90%AD"
-    },
-    {
       "title": "前8月工业经济稳中有进",
-      "hot_value": "1161.1万",
+      "hot_value": "1162.7万",
       "url": "https://www.douyin.com/search/%E5%89%8D8%E6%9C%88%E5%B7%A5%E4%B8%9A%E7%BB%8F%E6%B5%8E%E7%A8%B3%E4%B8%AD%E6%9C%89%E8%BF%9B"
     },
     {
-      "title": "和好友一起打开川西慢旅行",
-      "hot_value": "1140万",
-      "url": "https://www.douyin.com/search/%E5%92%8C%E5%A5%BD%E5%8F%8B%E4%B8%80%E8%B5%B7%E6%89%93%E5%BC%80%E5%B7%9D%E8%A5%BF%E6%85%A2%E6%97%85%E8%A1%8C"
+      "title": "中国女排亚运会三连冠",
+      "hot_value": "1139.8万",
+      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92%E4%BA%9A%E8%BF%90%E4%BC%9A%E4%B8%89%E8%BF%9E%E5%86%A0"
+    },
+    {
+      "title": "用条纹打开韩系穿搭",
+      "hot_value": "1082.7万",
+      "url": "https://www.douyin.com/search/%E7%94%A8%E6%9D%A1%E7%BA%B9%E6%89%93%E5%BC%80%E9%9F%A9%E7%B3%BB%E7%A9%BF%E6%90%AD"
     },
     {
       "title": "普京所属政党大获全胜",
@@ -29,27 +34,22 @@
     },
     {
       "title": "张展硕1500米自由泳夺冠",
-      "hot_value": "1078.5万",
+      "hot_value": "961.9万",
       "url": "https://www.douyin.com/search/%E5%BC%A0%E5%B1%95%E7%A1%951500%E7%B1%B3%E8%87%AA%E7%94%B1%E6%B3%B3%E5%A4%BA%E5%86%A0"
     },
     {
-      "title": "中国女排亚运会三连冠",
-      "hot_value": "943.7万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E5%A5%B3%E6%8E%92%E4%BA%9A%E8%BF%90%E4%BC%9A%E4%B8%89%E8%BF%9E%E5%86%A0"
-    },
-    {
       "title": "超长蛋挞爆火出圈",
-      "hot_value": "943.5万",
+      "hot_value": "961.6万",
       "url": "https://www.douyin.com/search/%E8%B6%85%E9%95%BF%E8%9B%8B%E6%8C%9E%E7%88%86%E7%81%AB%E5%87%BA%E5%9C%88"
     },
     {
-      "title": "中国队男子4×100米混接夺金",
-      "hot_value": "942.8万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E5%9B%BD%E9%98%9F%E7%94%B7%E5%AD%904%C3%97100%E7%B1%B3%E6%B7%B7%E6%8E%A5%E5%A4%BA%E9%87%91"
+      "title": "李冰洁女子400米自由泳夺金",
+      "hot_value": "958.6万",
+      "url": "https://www.douyin.com/search/%E6%9D%8E%E5%86%B0%E6%B4%81%E5%A5%B3%E5%AD%90400%E7%B1%B3%E8%87%AA%E7%94%B1%E6%B3%B3%E5%A4%BA%E9%87%91"
     },
     {
       "title": "盛李豪王子菲破世界纪录夺冠",
-      "hot_value": "940.6万",
+      "hot_value": "957.6万",
       "url": "https://www.douyin.com/search/%E7%9B%9B%E6%9D%8E%E8%B1%AA%E7%8E%8B%E5%AD%90%E8%8F%B2%E7%A0%B4%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95%E5%A4%BA%E5%86%A0"
     }
   ]
