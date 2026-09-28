@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-09-27T23:07:50.345101+00:00",
+  "update_time": "2026-09-28T01:45:12.396165+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "严子怡破纪录夺金",
-      "hot_value": "1211.2万",
+      "hot_value": "1175.4万",
       "url": "https://www.douyin.com/search/%E4%B8%A5%E5%AD%90%E6%80%A1%E7%A0%B4%E7%BA%AA%E5%BD%95%E5%A4%BA%E9%87%91"
     },
     {
-      "title": "国乒男双战胜日本夺冠",
-      "hot_value": "1193.2万",
-      "url": "https://www.douyin.com/search/%E5%9B%BD%E4%B9%92%E7%94%B7%E5%8F%8C%E6%88%98%E8%83%9C%E6%97%A5%E6%9C%AC%E5%A4%BA%E5%86%A0"
+      "title": "吴艳妮田径女子100米栏铜牌",
+      "hot_value": "1133.2万",
+      "url": "https://www.douyin.com/search/%E5%90%B4%E8%89%B3%E5%A6%AE%E7%94%B0%E5%BE%84%E5%A5%B3%E5%AD%90100%E7%B1%B3%E6%A0%8F%E9%93%9C%E7%89%8C"
     },
     {
       "title": "大熊猫 “平平”“福双”抵达美国",
-      "hot_value": "1172.1万",
+      "hot_value": "1123万",
       "url": "https://www.douyin.com/search/%E5%A4%A7%E7%86%8A%E7%8C%AB+%E2%80%9C%E5%B9%B3%E5%B9%B3%E2%80%9D%E2%80%9C%E7%A6%8F%E5%8F%8C%E2%80%9D%E6%8A%B5%E8%BE%BE%E7%BE%8E%E5%9B%BD"
     },
     {
       "title": "9月30号国庆前最后一天belike",
-      "hot_value": "1157.4万",
+      "hot_value": "1121.1万",
       "url": "https://www.douyin.com/search/9%E6%9C%8830%E5%8F%B7%E5%9B%BD%E5%BA%86%E5%89%8D%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9belike"
     },
     {
+      "title": "国乒男双战胜日本夺冠",
+      "hot_value": "1063.7万",
+      "url": "https://www.douyin.com/search/%E5%9B%BD%E4%B9%92%E7%94%B7%E5%8F%8C%E6%88%98%E8%83%9C%E6%97%A5%E6%9C%AC%E5%A4%BA%E5%86%A0"
+    },
+    {
       "title": "陈妤颉22秒93夺亚运200米银牌",
-      "hot_value": "1096.4万",
+      "hot_value": "1062.6万",
       "url": "https://www.douyin.com/search/%E9%99%88%E5%A6%A4%E9%A2%8922%E7%A7%9293%E5%A4%BA%E4%BA%9A%E8%BF%90200%E7%B1%B3%E9%93%B6%E7%89%8C"
     },
     {
-      "title": "吴艳妮田径女子100米栏铜牌",
-      "hot_value": "1094.8万",
-      "url": "https://www.douyin.com/search/%E5%90%B4%E8%89%B3%E5%A6%AE%E7%94%B0%E5%BE%84%E5%A5%B3%E5%AD%90100%E7%B1%B3%E6%A0%8F%E9%93%9C%E7%89%8C"
-    },
-    {
       "title": "陈圆将男子110米栏夺冠",
-      "hot_value": "942.6万",
+      "hot_value": "921.7万",
       "url": "https://www.douyin.com/search/%E9%99%88%E5%9C%86%E5%B0%86%E7%94%B7%E5%AD%90110%E7%B1%B3%E6%A0%8F%E5%A4%BA%E5%86%A0"
     },
     {
-      "title": "中秋兔子舞创意太绝了",
-      "hot_value": "930.2万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E7%A7%8B%E5%85%94%E5%AD%90%E8%88%9E%E5%88%9B%E6%84%8F%E5%A4%AA%E7%BB%9D%E4%BA%86"
+      "title": "小长假超自然路书",
+      "hot_value": "919.1万",
+      "url": "https://www.douyin.com/search/%E5%B0%8F%E9%95%BF%E5%81%87%E8%B6%85%E8%87%AA%E7%84%B6%E8%B7%AF%E4%B9%A6"
     },
     {
       "title": "国足0:3不敌新西兰",
-      "hot_value": "927.3万",
+      "hot_value": "917.5万",
       "url": "https://www.douyin.com/search/%E5%9B%BD%E8%B6%B30%3A3%E4%B8%8D%E6%95%8C%E6%96%B0%E8%A5%BF%E5%85%B0"
     },
     {
-      "title": "我都说我假期真有安排了",
-      "hot_value": "919.7万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E9%83%BD%E8%AF%B4%E6%88%91%E5%81%87%E6%9C%9F%E7%9C%9F%E6%9C%89%E5%AE%89%E6%8E%92%E4%BA%86"
+      "title": "商务部解读第八轮中美经贸磋商成果",
+      "hot_value": "916.9万",
+      "url": "https://www.douyin.com/search/%E5%95%86%E5%8A%A1%E9%83%A8%E8%A7%A3%E8%AF%BB%E7%AC%AC%E5%85%AB%E8%BD%AE%E4%B8%AD%E7%BE%8E%E7%BB%8F%E8%B4%B8%E7%A3%8B%E5%95%86%E6%88%90%E6%9E%9C"
     }
   ]
 }
