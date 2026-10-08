@@ -1,56 +1,6 @@
 {
-  "update_time": "2026-10-07T21:35:52.173822+00:00",
+  "update_time": "2026-10-08T01:18:56.141628+00:00",
   "source": "抖音热榜",
-  "hotspots": [
-    {
-      "title": "LOUD2:0战胜PRX",
-      "hot_value": "1220.2万",
-      "url": "https://www.douyin.com/search/LOUD2%3A0%E6%88%98%E8%83%9CPRX"
-    },
-    {
-      "title": "我终于看清了测视力的红房子",
-      "hot_value": "1210.1万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E7%BB%88%E4%BA%8E%E7%9C%8B%E6%B8%85%E4%BA%86%E6%B5%8B%E8%A7%86%E5%8A%9B%E7%9A%84%E7%BA%A2%E6%88%BF%E5%AD%90"
-    },
-    {
-      "title": "三个问题看懂国家水网",
-      "hot_value": "1109.9万",
-      "url": "https://www.douyin.com/search/%E4%B8%89%E4%B8%AA%E9%97%AE%E9%A2%98%E7%9C%8B%E6%87%82%E5%9B%BD%E5%AE%B6%E6%B0%B4%E7%BD%91"
-    },
-    {
-      "title": "茶花开了该回家了翻唱",
-      "hot_value": "1109.9万",
-      "url": "https://www.douyin.com/search/%E8%8C%B6%E8%8A%B1%E5%BC%80%E4%BA%86%E8%AF%A5%E5%9B%9E%E5%AE%B6%E4%BA%86%E7%BF%BB%E5%94%B1"
-    },
-    {
-      "title": "郑钦文战胜查拉耶娃",
-      "hot_value": "1048.2万",
-      "url": "https://www.douyin.com/search/%E9%83%91%E9%92%A6%E6%96%87%E6%88%98%E8%83%9C%E6%9F%A5%E6%8B%89%E8%80%B6%E5%A8%83"
-    },
-    {
-      "title": "我爱看的肖像拍摄belike",
-      "hot_value": "1045.8万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E7%88%B1%E7%9C%8B%E7%9A%84%E8%82%96%E5%83%8F%E6%8B%8D%E6%91%84belike"
-    },
-    {
-      "title": "欢迎收看抖音精选版诺奖简史",
-      "hot_value": "935.7万",
-      "url": "https://www.douyin.com/search/%E6%AC%A2%E8%BF%8E%E6%94%B6%E7%9C%8B%E6%8A%96%E9%9F%B3%E7%B2%BE%E9%80%89%E7%89%88%E8%AF%BA%E5%A5%96%E7%AE%80%E5%8F%B2"
-    },
-    {
-      "title": "长假我们后会有期",
-      "hot_value": "934.4万",
-      "url": "https://www.douyin.com/search/%E9%95%BF%E5%81%87%E6%88%91%E4%BB%AC%E5%90%8E%E4%BC%9A%E6%9C%89%E6%9C%9F"
-    },
-    {
-      "title": "国庆假期最后一天的我",
-      "hot_value": "926.2万",
-      "url": "https://www.douyin.com/search/%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E6%9C%80%E5%90%8E%E4%B8%80%E5%A4%A9%E7%9A%84%E6%88%91"
-    },
-    {
-      "title": "国庆假期就这样结束了",
-      "hot_value": "922.9万",
-      "url": "https://www.douyin.com/search/%E5%9B%BD%E5%BA%86%E5%81%87%E6%9C%9F%E5%B0%B1%E8%BF%99%E6%A0%B7%E7%BB%93%E6%9D%9F%E4%BA%86"
-    }
-  ]
+  "hotspots": [],
+  "error": "数据获取失败，请稍后重试"
 }
