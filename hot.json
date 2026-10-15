@@ -1,56 +1,6 @@
 {
-  "update_time": "2026-10-15T09:04:20.264280+00:00",
+  "update_time": "2026-10-15T14:13:13.868679+00:00",
   "source": "抖音热榜",
-  "hotspots": [
-    {
-      "title": "抖音商城双11超级补贴来啦",
-      "hot_value": "1211.2万",
-      "url": "https://www.douyin.com/search/%E6%8A%96%E9%9F%B3%E5%95%86%E5%9F%8E%E5%8F%8C11%E8%B6%85%E7%BA%A7%E8%A1%A5%E8%B4%B4%E6%9D%A5%E5%95%A6"
-    },
-    {
-      "title": "中朝新鸭绿江大桥今日开通",
-      "hot_value": "1135.8万",
-      "url": "https://www.douyin.com/search/%E4%B8%AD%E6%9C%9D%E6%96%B0%E9%B8%AD%E7%BB%BF%E6%B1%9F%E5%A4%A7%E6%A1%A5%E4%BB%8A%E6%97%A5%E5%BC%80%E9%80%9A"
-    },
-    {
-      "title": "我国出口动能持续向新向优",
-      "hot_value": "1110.6万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E5%9B%BD%E5%87%BA%E5%8F%A3%E5%8A%A8%E8%83%BD%E6%8C%81%E7%BB%AD%E5%90%91%E6%96%B0%E5%90%91%E4%BC%98"
-    },
-    {
-      "title": "官方通报纸尿裤问题核查情况",
-      "hot_value": "1105.4万",
-      "url": "https://www.douyin.com/search/%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E7%BA%B8%E5%B0%BF%E8%A3%A4%E9%97%AE%E9%A2%98%E6%A0%B8%E6%9F%A5%E6%83%85%E5%86%B5"
-    },
-    {
-      "title": "国内成品油价格不作调整",
-      "hot_value": "1022.5万",
-      "url": "https://www.douyin.com/search/%E5%9B%BD%E5%86%85%E6%88%90%E5%93%81%E6%B2%B9%E4%BB%B7%E6%A0%BC%E4%B8%8D%E4%BD%9C%E8%B0%83%E6%95%B4"
-    },
-    {
-      "title": "火遍外网的ChinaHaul是什么",
-      "hot_value": "952.9万",
-      "url": "https://www.douyin.com/search/%E7%81%AB%E9%81%8D%E5%A4%96%E7%BD%91%E7%9A%84ChinaHaul%E6%98%AF%E4%BB%80%E4%B9%88"
-    },
-    {
-      "title": "皇马4:3逆转罗马",
-      "hot_value": "821.5万",
-      "url": "https://www.douyin.com/search/%E7%9A%87%E9%A9%AC4%3A3%E9%80%86%E8%BD%AC%E7%BD%97%E9%A9%AC"
-    },
-    {
-      "title": "考研报名今天正式开始",
-      "hot_value": "797万",
-      "url": "https://www.douyin.com/search/%E8%80%83%E7%A0%94%E6%8A%A5%E5%90%8D%E4%BB%8A%E5%A4%A9%E6%AD%A3%E5%BC%8F%E5%BC%80%E5%A7%8B"
-    },
-    {
-      "title": "李嘉诚去世为假消息",
-      "hot_value": "782.8万",
-      "url": "https://www.douyin.com/search/%E6%9D%8E%E5%98%89%E8%AF%9A%E5%8E%BB%E4%B8%96%E4%B8%BA%E5%81%87%E6%B6%88%E6%81%AF"
-    },
-    {
-      "title": "亚洲股市迎来黑色星期四",
-      "hot_value": "781万",
-      "url": "https://www.douyin.com/search/%E4%BA%9A%E6%B4%B2%E8%82%A1%E5%B8%82%E8%BF%8E%E6%9D%A5%E9%BB%91%E8%89%B2%E6%98%9F%E6%9C%9F%E5%9B%9B"
-    }
-  ]
+  "hotspots": [],
+  "error": "数据获取失败，请稍后重试"
 }
