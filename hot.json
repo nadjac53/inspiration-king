@@ -1,55 +1,55 @@
 {
-  "update_time": "2026-10-27T19:39:49.718337+00:00",
+  "update_time": "2026-10-27T23:13:39.845735+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
       "title": "外交部回应姆巴佩发表不当言论",
-      "hot_value": "1204.2万",
+      "hot_value": "1209.7万",
       "url": "https://www.douyin.com/search/%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%A7%86%E5%B7%B4%E4%BD%A9%E5%8F%91%E8%A1%A8%E4%B8%8D%E5%BD%93%E8%A8%80%E8%AE%BA"
     },
     {
-      "title": "在稻城亚丁看一场秋日童话",
-      "hot_value": "1124.8万",
-      "url": "https://www.douyin.com/search/%E5%9C%A8%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81%E7%9C%8B%E4%B8%80%E5%9C%BA%E7%A7%8B%E6%97%A5%E7%AB%A5%E8%AF%9D"
-    },
-    {
-      "title": "祖国大地一片丰收景象",
-      "hot_value": "1110万",
-      "url": "https://www.douyin.com/search/%E7%A5%96%E5%9B%BD%E5%A4%A7%E5%9C%B0%E4%B8%80%E7%89%87%E4%B8%B0%E6%94%B6%E6%99%AF%E8%B1%A1"
-    },
-    {
-      "title": "想要秋天不烧心就去山里野",
-      "hot_value": "1108.2万",
-      "url": "https://www.douyin.com/search/%E6%83%B3%E8%A6%81%E7%A7%8B%E5%A4%A9%E4%B8%8D%E7%83%A7%E5%BF%83%E5%B0%B1%E5%8E%BB%E5%B1%B1%E9%87%8C%E9%87%8E"
-    },
-    {
       "title": "德国总统抵达安徽开启访华行程",
-      "hot_value": "1044.4万",
+      "hot_value": "1192.2万",
       "url": "https://www.douyin.com/search/%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E6%8A%B5%E8%BE%BE%E5%AE%89%E5%BE%BD%E5%BC%80%E5%90%AF%E8%AE%BF%E5%8D%8E%E8%A1%8C%E7%A8%8B"
     },
     {
+      "title": "祖国大地一片丰收景象",
+      "hot_value": "1187.1万",
+      "url": "https://www.douyin.com/search/%E7%A5%96%E5%9B%BD%E5%A4%A7%E5%9C%B0%E4%B8%80%E7%89%87%E4%B8%B0%E6%94%B6%E6%99%AF%E8%B1%A1"
+    },
+    {
+      "title": "在稻城亚丁看一场秋日童话",
+      "hot_value": "1173.7万",
+      "url": "https://www.douyin.com/search/%E5%9C%A8%E7%A8%BB%E5%9F%8E%E4%BA%9A%E4%B8%81%E7%9C%8B%E4%B8%80%E5%9C%BA%E7%A7%8B%E6%97%A5%E7%AB%A5%E8%AF%9D"
+    },
+    {
+      "title": "想要秋天不烧心就去山里野",
+      "hot_value": "1054.7万",
+      "url": "https://www.douyin.com/search/%E6%83%B3%E8%A6%81%E7%A7%8B%E5%A4%A9%E4%B8%8D%E7%83%A7%E5%BF%83%E5%B0%B1%E5%8E%BB%E5%B1%B1%E9%87%8C%E9%87%8E"
+    },
+    {
       "title": "抖音娃改时装周",
-      "hot_value": "1042.5万",
+      "hot_value": "1054.5万",
       "url": "https://www.douyin.com/search/%E6%8A%96%E9%9F%B3%E5%A8%83%E6%94%B9%E6%97%B6%E8%A3%85%E5%91%A8"
     },
     {
-      "title": "10月29日晚国内油价将调整",
-      "hot_value": "931.6万",
-      "url": "https://www.douyin.com/search/10%E6%9C%8829%E6%97%A5%E6%99%9A%E5%9B%BD%E5%86%85%E6%B2%B9%E4%BB%B7%E5%B0%86%E8%B0%83%E6%95%B4"
-    },
-    {
       "title": "今人重走玉门关",
-      "hot_value": "913.2万",
+      "hot_value": "942.9万",
       "url": "https://www.douyin.com/search/%E4%BB%8A%E4%BA%BA%E9%87%8D%E8%B5%B0%E7%8E%89%E9%97%A8%E5%85%B3"
     },
     {
+      "title": "树枝版齐天大圣太震撼了",
+      "hot_value": "921.3万",
+      "url": "https://www.douyin.com/search/%E6%A0%91%E6%9E%9D%E7%89%88%E9%BD%90%E5%A4%A9%E5%A4%A7%E5%9C%A3%E5%A4%AA%E9%9C%87%E6%92%BC%E4%BA%86"
+    },
+    {
       "title": "“蛟龙”号迭代升级",
-      "hot_value": "872万",
+      "hot_value": "917.6万",
       "url": "https://www.douyin.com/search/%E2%80%9C%E8%9B%9F%E9%BE%99%E2%80%9D%E5%8F%B7%E8%BF%AD%E4%BB%A3%E5%8D%87%E7%BA%A7"
     },
     {
       "title": "河头老街NPC唱歌太牛了",
-      "hot_value": "834.1万",
+      "hot_value": "913.4万",
       "url": "https://www.douyin.com/search/%E6%B2%B3%E5%A4%B4%E8%80%81%E8%A1%97NPC%E5%94%B1%E6%AD%8C%E5%A4%AA%E7%89%9B%E4%BA%86"
     }
   ]
