@@ -1,56 +1,56 @@
 {
-  "update_time": "2026-11-14T23:58:47.229465+00:00",
+  "update_time": "2026-11-15T06:11:38.286185+00:00",
   "source": "抖音热榜",
   "hotspots": [
     {
-      "title": "BLG对阵GEN",
-      "hot_value": "1216.3万",
-      "url": "https://www.douyin.com/search/BLG%E5%AF%B9%E9%98%B5GEN"
+      "title": "BLG夺冠",
+      "hot_value": "1095.7万",
+      "url": "https://www.douyin.com/search/BLG%E5%A4%BA%E5%86%A0"
     },
     {
-      "title": "把光借给BLG",
-      "hot_value": "1086.1万",
-      "url": "https://www.douyin.com/search/%E6%8A%8A%E5%85%89%E5%80%9F%E7%BB%99BLG"
+      "title": "BLG 3:1 GEN",
+      "hot_value": "1094万",
+      "url": "https://www.douyin.com/search/BLG+3%3A1+GEN"
     },
     {
-      "title": "我国新增3处世界地质遗产地",
-      "hot_value": "1074万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E5%9B%BD%E6%96%B0%E5%A2%9E3%E5%A4%84%E4%B8%96%E7%95%8C%E5%9C%B0%E8%B4%A8%E9%81%97%E4%BA%A7%E5%9C%B0"
+      "title": "一组先行指标看中国经济活力",
+      "hot_value": "1082.6万",
+      "url": "https://www.douyin.com/search/%E4%B8%80%E7%BB%84%E5%85%88%E8%A1%8C%E6%8C%87%E6%A0%87%E7%9C%8B%E4%B8%AD%E5%9B%BD%E7%BB%8F%E6%B5%8E%E6%B4%BB%E5%8A%9B"
+    },
+    {
+      "title": "Knight夺得FMVP",
+      "hot_value": "1080.3万",
+      "url": "https://www.douyin.com/search/Knight%E5%A4%BA%E5%BE%97FMVP"
     },
     {
       "title": "北京WB夺得KPL年总冠军",
-      "hot_value": "980.4万",
+      "hot_value": "1009.5万",
       "url": "https://www.douyin.com/search/%E5%8C%97%E4%BA%ACWB%E5%A4%BA%E5%BE%97KPL%E5%B9%B4%E6%80%BB%E5%86%A0%E5%86%9B"
     },
     {
-      "title": "我的S16决赛观赛日记",
-      "hot_value": "877.9万",
-      "url": "https://www.douyin.com/search/%E6%88%91%E7%9A%84S16%E5%86%B3%E8%B5%9B%E8%A7%82%E8%B5%9B%E6%97%A5%E8%AE%B0"
+      "title": "BLG夺冠了你们知道吗",
+      "hot_value": "1004万",
+      "url": "https://www.douyin.com/search/BLG%E5%A4%BA%E5%86%A0%E4%BA%86%E4%BD%A0%E4%BB%AC%E7%9F%A5%E9%81%93%E5%90%97"
     },
     {
-      "title": "司空震FMVP新皮肤",
-      "hot_value": "876.7万",
-      "url": "https://www.douyin.com/search/%E5%8F%B8%E7%A9%BA%E9%9C%87FMVP%E6%96%B0%E7%9A%AE%E8%82%A4"
+      "title": "葡萄牙不敌丹麦终结四连胜",
+      "hot_value": "880.4万",
+      "url": "https://www.douyin.com/search/%E8%91%A1%E8%90%84%E7%89%99%E4%B8%8D%E6%95%8C%E4%B8%B9%E9%BA%A6%E7%BB%88%E7%BB%93%E5%9B%9B%E8%BF%9E%E8%83%9C"
     },
     {
-      "title": "宝宝接爸爸下班名场面",
+      "title": "Bin夺冠后晒与奖杯合影",
+      "hot_value": "865.4万",
+      "url": "https://www.douyin.com/search/Bin%E5%A4%BA%E5%86%A0%E5%90%8E%E6%99%92%E4%B8%8E%E5%A5%96%E6%9D%AF%E5%90%88%E5%BD%B1"
+    },
+    {
+      "title": "罗圈村千年银杏树进入最佳观赏期",
+      "hot_value": "842.9万",
+      "url": "https://www.douyin.com/search/%E7%BD%97%E5%9C%88%E6%9D%91%E5%8D%83%E5%B9%B4%E9%93%B6%E6%9D%8F%E6%A0%91%E8%BF%9B%E5%85%A5%E6%9C%80%E4%BD%B3%E8%A7%82%E8%B5%8F%E6%9C%9F"
+    },
+    {
+      "title": "灵山审美已经next level了",
       "hot_value": "780.6万",
-      "url": "https://www.douyin.com/search/%E5%AE%9D%E5%AE%9D%E6%8E%A5%E7%88%B8%E7%88%B8%E4%B8%8B%E7%8F%AD%E5%90%8D%E5%9C%BA%E9%9D%A2"
-    },
-    {
-      "title": "请选择你的秋假遛娃地",
-      "hot_value": "780.2万",
-      "url": "https://www.douyin.com/search/%E8%AF%B7%E9%80%89%E6%8B%A9%E4%BD%A0%E7%9A%84%E7%A7%8B%E5%81%87%E9%81%9B%E5%A8%83%E5%9C%B0"
-    },
-    {
-      "title": "把这份庆祝留给BLG",
-      "hot_value": "780万",
-      "url": "https://www.douyin.com/search/%E6%8A%8A%E8%BF%99%E4%BB%BD%E5%BA%86%E7%A5%9D%E7%95%99%E7%BB%99BLG"
-    },
-    {
-      "title": "最有安全感的覆面系出现了",
-      "hot_value": "777.7万",
-      "url": "https://www.douyin.com/search/%E6%9C%80%E6%9C%89%E5%AE%89%E5%85%A8%E6%84%9F%E7%9A%84%E8%A6%86%E9%9D%A2%E7%B3%BB%E5%87%BA%E7%8E%B0%E4%BA%86"
+      "url": "https://www.douyin.com/search/%E7%81%B5%E5%B1%B1%E5%AE%A1%E7%BE%8E%E5%B7%B2%E7%BB%8Fnext+level%E4%BA%86"
     }
   ]
 }
